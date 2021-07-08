@@ -1,0 +1,8 @@
+# VSCode settings
+settings.json
+.vscode/
+
+# python
+__pycache__/
+.pytest_cache/
+luacov*
