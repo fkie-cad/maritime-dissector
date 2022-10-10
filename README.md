@@ -1,25 +1,32 @@
 # Wireshark Dissector for Maritime Protocols
 
-This is a lua plugin for Wireshark which contains dissectors for the following maritime protocols:
-- IEC 61162-450 (Lightweight Ethernet)
-- NMEA over IP (with sentences defined in NMEA 0183) sent over UDP
+This project contains lua plugins for Wireshark with dissectors for maritime network protocols:
 
-The plugin was primarily developed by Merlin von Rechenberg while working at Fraunhofer FKIE.
+- `maritime-dissector` for:
+    - IEC 61162-450 (Lightweight Ethernet)
+    - NMEA over IP (with sentences defined in NMEA 0183) sent over UDP
+- `br24-dissector` for the Navico BR24 RADAR protocol
+
+The `maritime-dissector` plugin was primarily developed by Merlin von Rechenberg while working at Fraunhofer FKIE.
 
 ## Screenshot
 
-![screenshot](docs/450-dissector-screenshot.png)
+The IEC 61161-450 dissector in action:
+![screenshot of the NMEA dissector](docs/images/450-screenshot.png)
+
+The Navico BR24 dissector:
+![screenshot of the BR24 dissector](docs/images/br24-screenshot.png)
 
 ## Dependencies
 
-The plugin is written in lua and uses lua5.2 or higher, which is by default shipped with Wireshark.
+The plugins are written in lua and use lua5.2 or higher, which is by default shipped with Wireshark.
 No dependencies other than Wireshark are needed to use this plugin.
 It can also be used with TShark instead of Wireshark.
 For this lua5.2 (or higher) has to be installed manually because TShark does not include a lua interpreter.
 
 ## Quick Start
 
-*Note*: The automated installation script only works for Unix-like systems.
+*Note*: The automated installation script only works for Unix-like systems and installs both plugins.
 For other systems please follow the instructions of [Manual installation](#manual-installation)
 
 Download or clone the repository, open a terminal, and navigate into the downloaded directory that includes the `install.sh` file.
@@ -42,13 +49,16 @@ The dissectors will be used by Wireshark for all packets that match one of the i
 
 ### Manual Installation
 
-Copy all lua files of the dissector to the plugin directory of your wireshark installation.
+Copy all lua files of the plugins you wish to use to the plugin directory of your wireshark installation.
 For wireshark standard installations on Unix-like systems this is:
 *~/.local/lib/wireshark/plugins*:
 
 ```shell
-cp ./path-to-downloaded/maritime-dissector.lua ~/.local/lib/wireshark/plugins/
-cp -r ./path-to-downloaded/maritime-modules/ ~/.local/lib/wireshark/plugins/
+cp ./maritime-dissector.lua ~/.local/lib/wireshark/plugins/
+cp -r ./maritime-modules/ ~/.local/lib/wireshark/plugins/
+
+cp ./br24-dissector.lua ~/.local/lib/wireshark/plugins/
+cp -r ./br24-modules/ ~/.local/lib/wireshark/plugins/
 ```
 
 For other systems please use the plugin directories listed in the [official wireshark documentation](https://www.wireshark.org/docs/wsug_html_chunked/ChPluginFolders.html).
@@ -57,14 +67,16 @@ To load the plugin, restart Wireshark or reload lua plugins in Wireshark with (u
 
 ## Usage
 
-There are three dissectors included in the plugin.
+There are three dissectors included in the maritime dissector plugin, one in the BR24 dissector plugin.
+
+### Maritime Dissector
 The first dissector is for plain NMEA sentences as defined in NMEA-0183 contained in UDP packets (NMEA over IP).
 The other two dissectors are both for IEC-61162-450 (Lightweight Ethernet) since there are two different types of IEC 61162-450 that are handled as separate protocols by this plugin.
 
 The first of the IEC-61162-450 dissectors is for packets containing NMEA sentences nested inside IEC-61162-450.
 The second of the IEC-61162-450 dissectors is for packets containing binary files or binary file fragments.
 
-### NMEA-0183
+#### NMEA-0183
 
 The dissector for NMEA sentences that are contained in UDP packets as the payload dissects the following fields:
 
@@ -77,7 +89,7 @@ The dissector for NMEA sentences that are contained in UDP packets as the payloa
 
 This dissector shows an expert info if that the checksum is corrupt or if the sentence is too long.
 
-### IEC-61162-450-NMEA
+#### IEC-61162-450-NMEA
 
 This dissector dissects the following fields of the IEC-61162-450 with header token `UdPbC` containing NMEA sentences:
 
@@ -90,7 +102,7 @@ This dissector dissects the following fields of the IEC-61162-450 with header to
 
 This dissector shows an expert info if any checksums are corrupt or if the length of any tags exceed the length defined in IEC 61162-450.
 
-### IEC-61162-450-Binary
+#### IEC-61162-450-Binary
 
 This dissector dissects the following fields of the IEC-61162-450 with header token `RrUdP`, `RaUdP` or `RpUdP` containing binary file fragments:
 
@@ -128,6 +140,9 @@ If those conditions are fulfilled, the binary file descriptor will always be dis
 | Data type | binary-file-descriptor.data_type | String describing data type and encoding |
 | Status and information text | binary-file-descriptor.stat_and_info | String(s) for additional information, null-terminated each |
 
+### BR24 Dissector
+
+This plugin dissects UDP messages on port 6678, 6679 and 6680 for BR24 image, report and register messages respectively. Fields should match the description provided in [./docs/protocols.md](./docs/protocols.md).
 
 ## Tests
 
@@ -184,4 +199,4 @@ chmod +x ./tests/test.sh
 
 ## License
 
-This Wireshark plugin is licensed under a [supplemented MIT License](./LICENSE).
+The Wireshark plugins are licensed under a [supplemented MIT License](./LICENSE).
