@@ -9,22 +9,26 @@ local proto_iec61162450_binary = require "proto.iec61162450binary"
 local function nmea_0183_heuristic_checker(buffer, pinfo, tree)
     local length = buffer:len()
     if length < 12 then return false end
-
-    local pattern = "^[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
-    local nmea_sentence = string.find(buffer():string(), pattern)
-    if nmea_sentence == nil then
-        return false
-    else
-        local matches, matches_order = parser_nmea:find_nmea_0183(buffer, pinfo)
-        for _, beg_idx in pairs(matches_order) do
-            match = matches[beg_idx]
-            local sub_buff_beg = beg_idx - 1
-            local sub_buff_len = match:len()
-            local sub_buffer = buffer(sub_buff_beg, sub_buff_len):tvb()
-            proto_nmea0183.dissector(sub_buffer, pinfo, tree)
-        end
-        return true
-    end
+	
+	local cnt = -1
+	repeat
+		cnt = cnt + 1
+	
+		local pattern = "^[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
+		local nmea_sentence = string.find(buffer:raw(cnt), pattern)
+		if nmea_sentence ~= nil then
+			local matches, matches_order = parser_nmea:find_nmea_0183(buffer, pinfo)
+			for _, beg_idx in pairs(matches_order) do
+				match = matches[beg_idx]
+				local sub_buff_beg = beg_idx - 1
+				local sub_buff_len = match:len()
+				local sub_buffer = buffer(sub_buff_beg, sub_buff_len):tvb()
+				proto_nmea0183.dissector(sub_buffer, pinfo, tree)
+			end
+			return true
+		end
+	until(cnt >= length or cnt > 32)
+	return false
 end
 
 local function iec_61162_450_nmea_heuristic_checker(buffer, pinfo, tree)
