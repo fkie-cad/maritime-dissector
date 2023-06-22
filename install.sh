@@ -22,17 +22,32 @@ echo "Run initial checks before installation..."
 echo
 
 # Check if wireshark is installed and exit if not.
-has_wireshark=$(command -v wireshark)
 echo "Check if wireshark is installed..."
-if [ ! $has_wireshark ]; then
-    echo "FAILED: Wireshark could not be found."
-    echo "Please install wireshark first."
+if [ ! $(command -v wireshark) ] && [ ! $(command -v tshark) ]; then
+    echo "WARNING: Both wireshark and tshark command could not be found."
+    echo "         Probably neither wireshark nor tshark is installed."
+    echo "         To use this plugin either wireshark or tshark are required."
     echo
-    echo "Exiting installation"
-    exit 1
+    echo -n "Continue anyways (y/n)? "
+    old_stty_cfg=$(stty -g)
+    stty raw -echo ; answer=$(head -c 1) ; stty $old_stty_cfg
+    if echo "$answer" | grep -iq "^y" ;then
+        echo Yes
+        echo
+    else
+        echo No
+        echo
+        echo "Exiting installation."
+        exit 1
+    fi
 else
-    echo "Success: Wireshark found. Continuing..."
-    echo
+    if [ $(command -v wireshark) ]; then
+        echo "Success: Wireshark found. Continuing..."
+        echo
+    else
+        echo "Success: Tshark found. Continuing..."
+        echo
+    fi
 fi
 
 # Check if the users private wireshark plugin directory exists

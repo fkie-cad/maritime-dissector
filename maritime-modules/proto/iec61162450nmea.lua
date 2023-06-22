@@ -4,10 +4,11 @@ if not _G['maritimedissector'] then return end
 local proto_nmea0183 = require "proto.nmea0183"
 local parser_iec450 = require "parser.iec450"
 
--- Dissector for IEC 61162-450 Packets
+-- Dissector for IEC 61162-450 packets containing single sentences
 -- Using the NMEA 0183 dissector
 IEC_61162_450_NMEA = Proto("iec-61162-450-nmea", "IEC 61162-450 NMEA")
 
+local type = ProtoField.string("iec-61162-450-nmea.token", "Type")
 local token = ProtoField.string("iec-61162-450-nmea.token", "Token")
 local tags = ProtoField.string("iec-61162-450-nmea.tags", "Tags")
 local sentence = ProtoField.string("iec-61162-450-nmea.sentence", "Sentence")
@@ -22,12 +23,16 @@ function IEC_61162_450_NMEA.dissector(buffer, pinfo, tree)
     if length == 0 then return end
 
     local subtree = tree:add(IEC_61162_450_NMEA, buffer(), "IEC 61162-450 NMEA")
+    if buffer(0,5):string() == "UdPbC" then
+        subtree:add(type, "Single sentence")
+        subtree:add(token, buffer(0,6))
+    end
+
     local tags_offset, tags_len = parser_iec450:find_tags(buffer)
     local sent_offset, sent_len = parser_iec450:find_sentence_iec(buffer)
     local tag_blocks_exceeded = parser_iec450:find_tag_blocks_exceeded(buffer, tags_offset, tags_len)
     local tag_blocks_chcksm_corrupt = parser_iec450:find_tag_blocks_chcksm_corrupt(buffer, tags_offset, tags_len, subtree)
-
-    subtree:add(token, buffer(0,6))
+    
     subtree:add(tags, buffer(tags_offset, tags_len))
     subtree:add(sentence, buffer(sent_offset, sent_len))
     for k, v in pairs(tag_blocks_exceeded) do
@@ -40,8 +45,6 @@ function IEC_61162_450_NMEA.dissector(buffer, pinfo, tree)
     end
 
     local sub_buffer = buffer(-sent_len):tvb()
-    local subtree_len = buffer():len() - sent_len
-    subtree:set_len(subtree_len)
 
     proto_nmea0183.dissector(sub_buffer, pinfo, subtree)
     pinfo.cols.protocol = IEC_61162_450_NMEA.name

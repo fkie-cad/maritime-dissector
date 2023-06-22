@@ -4,6 +4,8 @@ import subprocess
 import json
 import re
 
+from utils import duplicate_keys_to_array
+
 FRAME_PROTOCOLS = ['eth:ethertype:ip:udp:iec-61162-450-binary:iec-61162-450-binary', 'eth:ethertype:ip:udp:iec-61162-450-binary:iec-61162-450-binary:binary-file-descriptor']
 LAYERS = ['iec-61162-450-binary', 'binary-file-descriptor']
 
@@ -11,7 +13,7 @@ LAYERS = ['iec-61162-450-binary', 'binary-file-descriptor']
 @pytest.fixture
 def packets_iec_450_binary_type1():
     process = subprocess.run(['tshark', '-T', 'json', '-X', 'lua_script:../maritime-dissector.lua', '-r', 'iec-61162-450-binary-type1.pcap', '-2'], stdout=subprocess.PIPE)
-    packets = json.loads(process.stdout)
+    packets = json.loads(process.stdout, object_pairs_hook=duplicate_keys_to_array)
     return packets
 
 
@@ -28,7 +30,7 @@ def packet_iec_450_binary_type1_2(packets_iec_450_binary_type1):
 @pytest.fixture
 def packet_iec_450_binary_type2():
     process = subprocess.run(['tshark', '-T', 'json', '-X', 'lua_script:../maritime-dissector.lua', '-r', 'iec-61162-450-binary-type2.pcap'], stdout=subprocess.PIPE)
-    packet = json.loads(process.stdout)
+    packet = json.loads(process.stdout, object_pairs_hook=duplicate_keys_to_array)
     return packet[0]
 
 

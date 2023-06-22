@@ -8,9 +8,9 @@ local parser_iec450 = {}
 
 function parser_iec450:find_tags(buffer)
     local msg = buffer():string()
-    local pattern = "^UdPbC\0(\\%w%p.-%*[%d%u][%d%u]\\)[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
+    local pattern = "(\\%w%p.-%*[%d%u][%d%u]\\)[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
     local tags = string.match(msg, pattern)
-    local tags_beg, tags_end = string.find(msg, utilities:pgsub(tags))
+    local tags_beg, tags_end = string.find(msg, tags, 1, true)
     return utilities:offset_length(tags_beg, tags_end)
 end
 
@@ -48,9 +48,9 @@ end
 
 function parser_iec450:find_sentence_iec(buffer)
     local msg = buffer():string()
-    local pattern = "^UdPbC\0\\%w%p.-%*[%d%u][%d%u]\\([!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n)"
+    local pattern = "\\%w%p.-%*[%d%u][%d%u]\\([!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n)"
     local sentence = string.match(msg, pattern)
-    local sentence_beg, sentence_end = string.find(msg, utilities:pgsub(sentence))
+    local sentence_beg, sentence_end = string.find(msg, sentence, 1, true)
     return utilities:offset_length(sentence_beg, sentence_end)
 end
 
