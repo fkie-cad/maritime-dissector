@@ -36,7 +36,7 @@ end
 _G['maritimedissector'] = {}
 
 -- help wireshark find modules
-package.prepend_path("maritime-modules")
+package.path = "./maritime-modules/*/?.lua;" .. package.path
 
 -- load modules
 local proto_nmea0183 = require "proto.nmea0183"

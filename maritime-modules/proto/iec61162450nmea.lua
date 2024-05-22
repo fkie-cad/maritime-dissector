@@ -23,13 +23,25 @@ function IEC_61162_450_NMEA.dissector(buffer, pinfo, tree)
     if length == 0 then return end
 
     local subtree = tree:add(IEC_61162_450_NMEA, buffer(), "IEC 61162-450 NMEA")
+    local offset_shift = 0
     if buffer(0,5):string() == "UdPbC" then
+        -- remove token from buffer. Necessary since :string() stops at \0 bytes
+        sub_buffer = buffer(6,-1)
+        offset_shift = 6
+
         subtree:add(type, "Single sentence")
         subtree:add(token, buffer(0,6))
+    else
+        sub_buffer = buffer
     end
 
-    local tags_offset, tags_len = parser_iec450:find_tags(buffer)
-    local sent_offset, sent_len = parser_iec450:find_sentence_iec(buffer)
+    local tags_offset, tags_len = parser_iec450:find_tags(sub_buffer)
+    local sent_offset, sent_len = parser_iec450:find_sentence_iec(sub_buffer)
+
+    -- shift by 6 for removed token characters, if it was removed
+    tags_offset = tags_offset + offset_shift
+    sent_offset = sent_offset + offset_shift
+
     local tag_blocks_exceeded = parser_iec450:find_tag_blocks_exceeded(buffer, tags_offset, tags_len)
     local tag_blocks_chcksm_corrupt = parser_iec450:find_tag_blocks_chcksm_corrupt(buffer, tags_offset, tags_len, subtree)
     

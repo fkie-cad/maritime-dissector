@@ -35,8 +35,8 @@ local function iec_61162_450_nmea_heuristic_checker(buffer, pinfo, tree)
     local potential_proto_token = buffer(0,5):string()
     if potential_proto_token ~= "UdPbC" then return false end
 
-    local msg = buffer():string()
-    local msg_pattern = "^UdPbC\0\\%w%p.-%*[%d%u][%d%u]\\[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n$"
+    local msg = buffer(6,-1):string()
+    local msg_pattern = "^\\%w%p.-%*[%d%u][%d%u]\\[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n$"
     if string.find(msg, msg_pattern) then
         local tag_sentence_pattern = "\\%w%p.-%*[%d%u][%d%u]\\[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
         local sentence_count = select(2, string.gsub(msg, tag_sentence_pattern, ""))

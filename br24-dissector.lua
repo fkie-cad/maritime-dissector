@@ -24,7 +24,7 @@ end
 _G['br24-dissector'] = {}
 
 -- help wireshark find modules
-package.prepend_path("b24-modules")
+package.path = "./br24-modules/?.lua;" .. package.path
 
 -- load modules
 require "parsers"

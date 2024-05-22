@@ -25,16 +25,23 @@ function IEC_61162_450_NMEA_MULTI.dissector(buffer, pinfo, tree)
     if length == 0 then return end
 
     local subtree = tree:add(IEC_61162_450_NMEA_MULTI, buffer(), "IEC 61162-450 NMEA Multi")
-    subtree:add(type, "Multiple sentences")
-    subtree:add(token, buffer(0,6))
+    if buffer(0,5):string() == "UdPbC" then
+        -- remove token from buffer. Necessary since :string() stops at \0 bytes
+        buffer_no_token = buffer(6,-1)
+
+        subtree:add(type, "Multiple sentences")
+        subtree:add(token, buffer(0,6))
+    else
+        buffer_no_token = buffer
+    end 
 
     local pattern = "\\%w%p.-%*[%d%u][%d%u]\\[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
     local idx_counter = 1
-    for sentence in string.gmatch(buffer():string(), pattern) do
-        local sentence_beg, sentence_end = string.find(buffer():string(), sentence, idx_counter, true)
+    for sentence in string.gmatch(buffer_no_token:string(), pattern) do
+        local sentence_beg, sentence_end = string.find(buffer_no_token:string(), sentence, idx_counter, true)
         if sentence_beg == nil then break end
         local sentence_offset, sentence_len = utilities:offset_length(sentence_beg, sentence_end)
-        local sub_buffer = buffer(sentence_offset, sentence_len):tvb()
+        local sub_buffer = buffer_no_token(sentence_offset, sentence_len):tvb()
         proto_iec450.dissector(sub_buffer, pinfo, subtree)
         idx_counter = sentence_end + 1
     end
