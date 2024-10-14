@@ -35,14 +35,11 @@ end
 -- enable loading of modules
 _G['maritimedissector'] = {}
 
--- help wireshark find modules
-package.path = "./maritime-modules/*/?.lua;" .. package.path
-
 -- load modules
-local proto_nmea0183 = require "proto.nmea0183"
-local proto_iec61162450_nmea = require "proto.iec61162450nmea"
-local proto_iec61162450_binary = require "proto.iec61162450binary"
-local heuristic = require "heuristic"
+local proto_nmea0183 = require "maritime-modules.proto.nmea0183"
+local proto_iec61162450_nmea = require "maritime-modules.proto.iec61162450nmea"
+local proto_iec61162450_binary = require "maritime-modules.proto.iec61162450binary"
+local heuristic = require "maritime-modules.heuristic"
 
 -- register heuristic checkers
 proto_nmea0183:register_heuristic("udp", heuristic.nmea_0183_heuristic_checker)

@@ -1,9 +1,9 @@
 -- prevent wireshark loading this file as plugin
 if not _G['maritimedissector'] then return end
 
-local parser_nmea = require "parser.nmea"
-local idtranslator = require "idtranslator"
-local checksum_calculator = require "checksumcalculator"
+local parser_nmea = require "maritime-modules.parser.nmea"
+local idtranslator = require "maritime-modules.idtranslator"
+local checksum_calculator = require "maritime-modules.checksumcalculator"
 
 -- Dissector for NMEA 0183 sentences
 NMEA_0183 = Proto("nmea-0183", "NMEA 0183")

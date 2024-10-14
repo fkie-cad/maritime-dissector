@@ -1,8 +1,8 @@
 -- prevent wireshark loading this file as plugin
 if not _G['maritimedissector'] then return end
 
-local known_talkers = require "knownids.talkers"
-local known_sentences = require "knownids.sentences"
+local known_talkers = require "maritime-modules.knownids.talkers"
+local known_sentences = require "maritime-modules.knownids.sentences"
 
 local idtranslator = {}
 

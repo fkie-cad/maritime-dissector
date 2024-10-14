@@ -1,10 +1,10 @@
 -- prevent wireshark loading this file as plugin
 if not _G['maritimedissector'] then return end
 
-local utilities = require "utilities"
-local proto_nmea0183 = require "proto.nmea0183"
-local proto_iec450 = require "proto.iec61162450nmea"
-local parser_iec450 = require "parser.iec450"
+local utilities = require "maritime-modules.utilities"
+local proto_nmea0183 = require "maritime-modules.proto.nmea0183"
+local proto_iec450 = require "maritime-modules.proto.iec61162450nmea"
+local parser_iec450 = require "maritime-modules.parser.iec450"
 
 -- Dissector for IEC 61162-450 packets containing multiple sentences
 -- Using the IEC 61162-450 dissector for packets containing single sentences

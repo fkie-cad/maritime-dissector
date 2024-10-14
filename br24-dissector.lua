@@ -23,14 +23,11 @@ end
 -- enable loading of modules
 _G['br24-dissector'] = {}
 
--- help wireshark find modules
-package.path = "./br24-modules/?.lua;" .. package.path
-
 -- load modules
 require "parsers"
-local proto_img = require "br24-img"
-local proto_report = require "br24-report"
-local proto_register = require "br24-register"
+local proto_img = require "br24-modules.br24-img"
+local proto_report = require "br24-modules.br24-report"
+local proto_register = require "br24-modules.br24-register"
 
 -- register the protos
 local udp_port = DissectorTable.get("udp.port")

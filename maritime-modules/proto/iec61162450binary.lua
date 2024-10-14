@@ -2,7 +2,7 @@
 if not _G['maritimedissector'] then return end
 
 -- load modules
-local binarystream = require "binarystream"
+local binarystream = require "maritime-modules.binarystream"
 
 -- Dissector for the binary file descriptor
 BINARY_FILE_DESCRIPTOR = Proto("binary-file-descriptor", "Binary File Descriptor")

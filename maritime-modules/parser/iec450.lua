@@ -1,13 +1,13 @@
 -- prevent wireshark loading this file as plugin
 if not _G['maritimedissector'] then return end
 
-local utilities = require "utilities"
-local checksum_calculator = require "checksumcalculator"
+local utilities = require "maritime-modules.utilities"
+local checksum_calculator = require "maritime-modules.checksumcalculator"
 
 local parser_iec450 = {}
 
 function parser_iec450:find_tags(buffer)
-    local msg = buffer():string()
+    local msg = buffer():raw()
     local pattern = "(\\%w%p.-%*[%d%u][%d%u]\\)[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
     local tags = string.match(msg, pattern)
     local tags_beg, tags_end = string.find(msg, tags, 1, true)
@@ -47,7 +47,7 @@ function parser_iec450:find_tag_blocks_chcksm_corrupt(buffer, tags_offset, tags_
 end
 
 function parser_iec450:find_sentence_iec(buffer)
-    local msg = buffer():string()
+    local msg = buffer():raw()
     local pattern = "\\%w%p.-%*[%d%u][%d%u]\\([!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n)"
     local sentence = string.match(msg, pattern)
     local sentence_beg, sentence_end = string.find(msg, sentence, 1, true)
