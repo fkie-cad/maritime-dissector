@@ -24,7 +24,7 @@ end
 _G['br24-dissector'] = {}
 
 -- load modules
-require "parsers"
+require "br24-modules.parsers"
 local proto_img = require "br24-modules.br24-img"
 local proto_report = require "br24-modules.br24-report"
 local proto_register = require "br24-modules.br24-register"
