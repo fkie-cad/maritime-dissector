@@ -97,12 +97,12 @@ echo
 
 # Do the installtion by copying the files to the plugin
 echo "Copy files to plugin directory..."
-( set -x; cp -r ./maritime-modules/ $WIRESHARK_PLUGIN_PATH )
-( set -x; cp -r ./br24-modules/ $WIRESHARK_PLUGIN_PATH )
 ( set -x; cp -r ./maritime-modules $WIRESHARK_PLUGIN_PATH )
 ( set -x; cp -r ./br24-modules $WIRESHARK_PLUGIN_PATH )
+( set -x; cp -r ./furuno-modules $WIRESHARK_PLUGIN_PATH )
 ( set -x; cp ./maritime-dissector.lua $WIRESHARK_PLUGIN_PATH )
 ( set -x; cp ./br24-dissector.lua $WIRESHARK_PLUGIN_PATH )
+( set -x; cp ./furuno-dissector.lua $WIRESHARK_PLUGIN_PATH )
 echo
 echo "Installation successfull. Exiting."
 exit 0
