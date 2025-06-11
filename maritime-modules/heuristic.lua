@@ -1,7 +1,7 @@
 -- prevent wireshark loading this file as plugin
 if not _G['maritimedissector'] then return end
 
-local parser_nmea = require "maritime-modules.parser.nmea"
+local parser_nmea0183 = require "maritime-modules.parser.nmea0183"
 local proto_nmea0183 = require "maritime-modules.proto.nmea0183"
 local proto_iec61162450_nmea = require "maritime-modules.proto.iec61162450nmea"
 local proto_iec61162450_nmea_multisentence = require "maritime-modules.proto.iec61162450nmea-multisentence"
@@ -14,7 +14,7 @@ local function nmea_0183_heuristic_checker(buffer, pinfo, tree)
     local msg = buffer():raw()
     local pattern = "^[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
     if string.find(msg, pattern) then
-        local matches, matches_order = parser_nmea:find_nmea_0183(buffer, pinfo)
+        local matches, matches_order = parser_nmea0183:find_nmea_0183(buffer, pinfo)
         for _, beg_idx in pairs(matches_order) do
             match = matches[beg_idx]
             local sub_buff_beg = beg_idx - 1

@@ -99,6 +99,8 @@ echo
 echo "Copy files to plugin directory..."
 ( set -x; cp -r ./maritime-modules/ $WIRESHARK_PLUGIN_PATH )
 ( set -x; cp -r ./br24-modules/ $WIRESHARK_PLUGIN_PATH )
+( set -x; cp -r ./maritime-modules $WIRESHARK_PLUGIN_PATH )
+( set -x; cp -r ./br24-modules $WIRESHARK_PLUGIN_PATH )
 ( set -x; cp ./maritime-dissector.lua $WIRESHARK_PLUGIN_PATH )
 ( set -x; cp ./br24-dissector.lua $WIRESHARK_PLUGIN_PATH )
 echo

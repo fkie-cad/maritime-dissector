@@ -3,40 +3,40 @@ if not _G["br24-dissector"] then return end
 BR24_REPORT = Proto("NavicoBR24-REP", "Navico BR24 RADAR report protocol")
 
 -- STATUS report fields
-st = ProtoField.bytes("br24-report.st", "status", base.SPACE)
+local st = ProtoField.bytes("br24-report.st", "status", base.SPACE)
 
 -- SETTINGS report fields
-range         = ProtoField.uint16("br24-report.range", "range", base.DEC)
-gain_auto     = ProtoField.bytes("br24-report.gain_auto", "gain auto", base.SPACE)
-gain          = ProtoField.uint8("br24-report.gain", "gain", base.DEC)
-sea_auto      = ProtoField.bytes("br24-report.sea_auto", "sea-auto", base.SPACE)
-sea_state     = ProtoField.uint8("br24-report.sea_state", "sea-state (sea clutter)", base.DEC)
-rain          = ProtoField.uint8("br24-report.rain", "rain clutter", base.DEC)
-if_rej        = ProtoField.bytes("br24-report.if_rej", "interference rejection", base.SPACE)
-target_exp    = ProtoField.bytes("br24-report.target_exp", "target expansion", base.SPACE)
-target_boost  = ProtoField.bytes("br24-report.target_boost", "target boost", base.SPACE)
+local range = ProtoField.uint16("br24-report.range", "range", base.DEC)
+local gain_auto     = ProtoField.bytes("br24-report.gain_auto", "gain auto", base.SPACE)
+local gain          = ProtoField.uint8("br24-report.gain", "gain", base.DEC)
+local sea_auto      = ProtoField.bytes("br24-report.sea_auto", "sea-auto", base.SPACE)
+local sea_state     = ProtoField.uint8("br24-report.sea_state", "sea-state (sea clutter)", base.DEC)
+local rain          = ProtoField.uint8("br24-report.rain", "rain clutter", base.DEC)
+local if_rej        = ProtoField.bytes("br24-report.if_rej", "interference rejection", base.SPACE)
+local target_exp    = ProtoField.bytes("br24-report.target_exp", "target expansion", base.SPACE)
+local target_boost = ProtoField.bytes("br24-report.target_boost", "target boost", base.SPACE)
 
 -- FIRMWARE report fields
-radar_type    = ProtoField.bytes("br24-report.radar_type", "radar type", base.SPACE)
-firmware_date = ProtoField.bytes("br24-report.firmware_date", "firmware date", base.SPACE)
-firmware_time = ProtoField.bytes("br24-report.firmware_time", "firmware time", base.SPACE)
+local radar_type    = ProtoField.bytes("br24-report.radar_type", "radar type", base.SPACE)
+local firmware_date = ProtoField.bytes("br24-report.firmware_date", "firmware date", base.SPACE)
+local firmware_time = ProtoField.bytes("br24-report.firmware_time", "firmware time", base.SPACE)
 
 -- BEARING report fields
-bearing_alignment = ProtoField.bytes("br24-report.bearing_alignment", "bearing alignment", base.SPACE)
-antenna = ProtoField.uint32("br24-report.antenna", "antenna height", base.DEC)
+local bearing_alignment = ProtoField.bytes("br24-report.bearing_alignment", "bearing alignment", base.SPACE)
+local antenna = ProtoField.uint32("br24-report.antenna", "antenna height", base.DEC)
 
 -- SCAN report fields
-local_ifrej = ProtoField.bytes("br24-report.local_ifrej", "local interference rejection", base.SPACE)
-scan_speed = ProtoField.bytes("br24-report.scan_speed", "scan speed", base.SPACE)
-sls_auto = ProtoField.bytes("br24-report.sls_auto", "side lobe supression auto", base.SPACE)
-sls = ProtoField.bytes("br24-report.sls", "side lobe supression value")
-noise_rej = ProtoField.bytes("br24-report.noise_rej", "noise rejection", base.SPACE)
-target_sep = ProtoField.bytes("br24-report.target_sep", "target separation", base.SPACE)
+local local_ifrej = ProtoField.bytes("br24-report.local_ifrej", "local interference rejection", base.SPACE)
+local scan_speed = ProtoField.bytes("br24-report.scan_speed", "scan speed", base.SPACE)
+local sls_auto = ProtoField.bytes("br24-report.sls_auto", "side lobe supression auto", base.SPACE)
+local sls = ProtoField.bytes("br24-report.sls", "side lobe supression value")
+local noise_rej = ProtoField.bytes("br24-report.noise_rej", "noise rejection", base.SPACE)
+local target_sep = ProtoField.bytes("br24-report.target_sep", "target separation", base.SPACE)
 
 
 BR24_REPORT.fields = {st, range, gain, sea_auto, sea_state, rain, radar_type, firmware_date, firmware_time,
-                               bearing_alignment, local_ifrej, scan_speed, sls_auto, sls, noise_rej, target_sep,
-                               antenna, gain_auto, if_rej, target_exp, target_boost}
+                       bearing_alignment, local_ifrej, scan_speed, sls_auto, sls, noise_rej, target_sep,
+                       antenna, gain_auto, if_rej, target_exp, target_boost}
 
 -- according to radarpi, the types seen on a BR24 are:
 --

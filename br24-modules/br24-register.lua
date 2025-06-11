@@ -3,36 +3,36 @@ if not _G["br24-dissector"] then return end
 BR24_REGISTER = Proto("NavicoBR24-REG", "NAVICO BR24 RADAR register control protocol")
 
 -- shared fields
-register = ProtoField.bytes("br24-register.register", "register", base.SPACE)
-command  = ProtoField.bytes("br24-register.command", "command", base.SPACE)
+local register = ProtoField.bytes("br24-register.register", "register", base.SPACE)
+local command  = ProtoField.bytes("br24-register.command", "command", base.SPACE)
 
 -- radar ops payload
-startstop = ProtoField.bytes("br24-register.startstop", "start/stop", base.SPACE)
+local startstop = ProtoField.bytes("br24-register.startstop", "start/stop", base.SPACE)
 -- zoom level payload
-range = ProtoField.uint32("br24-register.range", "range", base.DEC)
+local range = ProtoField.uint32("br24-register.range", "range", base.DEC)
 
 -- bearing payload
-bearing = ProtoField.uint16("br24-register.bearing", "bearing alignment angle", base.DEC)
+local bearing = ProtoField.uint16("br24-register.bearing", "bearing alignment angle", base.DEC)
 
 -- filters payload
-selector = ProtoField.bytes("br24-register.selector", "selector", base.SPACE)
-autoflag = ProtoField.bool("br24-register.filterauto", "auto flag")
-filter_value = ProtoField.bytes("br24-register.filtervalue", "value", base.SPACE)
+local selector = ProtoField.bytes("br24-register.selector", "selector", base.SPACE)
+local autoflag = ProtoField.bool("br24-register.filterauto", "auto flag")
+local filter_value = ProtoField.bytes("br24-register.filtervalue", "value", base.SPACE)
 
 -- interference rejection payload
-ifrej = ProtoField.bytes("br24-register.ifrej", "interference rejection", base.SPACE)
+local ifrej = ProtoField.bytes("br24-register.ifrej", "interference rejection", base.SPACE)
 
 -- target boost payload
-target_boost = ProtoField.bytes("br24-register.targetboost", "target boost", base.SPACE)
+local target_boost = ProtoField.bytes("br24-register.targetboost", "target boost", base.SPACE)
 
 -- local interference filter payload
-local_ifrej = ProtoField.bytes("br24-register.localifrej", "local interference filter")
+local local_ifrej = ProtoField.bytes("br24-register.localifrej", "local interference filter")
 
 -- scan speed payload
-scan_speed = ProtoField.bytes("br24-register.scanspeed", "scan speed", base.SPACE)
+local scan_speed = ProtoField.bytes("br24-register.scanspeed", "scan speed", base.SPACE)
 
 -- antenna height payload
-antenna = ProtoField.uint32("br24-register.antenna", "antenna height", base.DEC)
+local antenna = ProtoField.uint32("br24-register.antenna", "antenna height", base.DEC)
 
 BR24_REGISTER.fields = {register, command, range, startstop, bearing, selector, autoflag, filter_value, ifrej,
                                  target_boost, local_ifrej, scan_speed, antenna}

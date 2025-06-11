@@ -4,9 +4,9 @@ if not _G['maritimedissector'] then return end
 -- load modules
 local utilities = require "maritime-modules.utilities"
 
-local parser_nmea = {}
+local parser_nmea0183 = {}
 
-function parser_nmea:find_sentence(buffer)
+function parser_nmea0183:find_sentence(buffer)
     local msg = buffer():raw()
     local pattern = "([!%$]%u%w-%p.-%*[%d%u][%d%u])\r\n"
     local sentence = string.match(buffer(0, -1):string(), pattern)
@@ -14,7 +14,7 @@ function parser_nmea:find_sentence(buffer)
     return utilities:offset_length(sentence_beg, sentence_end)
 end
 
-function parser_nmea:find_sentence_load(buffer)
+function parser_nmea0183:find_sentence_load(buffer)
     local msg = buffer():raw()
     local pattern = "[!%$](%u%w-%p.-)%*[%d%u][%d%u]\r\n"
     local sentence = string.match(buffer(0, -1):string(), pattern)
@@ -22,7 +22,7 @@ function parser_nmea:find_sentence_load(buffer)
     return utilities:offset_length(sentence_beg, sentence_end)
 end
 
-function parser_nmea:find_talker_id(buffer)
+function parser_nmea0183:find_talker_id(buffer)
     local msg = buffer():raw()
     local pattern = "[!%$](%u%w-)%p.-%*[%d%u][%d%u]\r\n"
     local talker_sentence_ids = string.match(buffer(0, -1):string(), pattern)
@@ -31,7 +31,7 @@ function parser_nmea:find_talker_id(buffer)
     return utilities:offset_length(talk_id_beg, talk_id_end)
 end
 
-function parser_nmea:find_sentence_id(buffer)
+function parser_nmea0183:find_sentence_id(buffer)
     local msg = buffer():raw()
     local pattern = "[!%$](%u%w-)%p.-%*[%d%u][%d%u]\r\n"
     local talker_sentence_id = string.match(buffer(0, -1):string(), pattern)
@@ -40,7 +40,7 @@ function parser_nmea:find_sentence_id(buffer)
     return utilities:offset_length(sent_id_beg, sent_id_end)
 end
 
-function parser_nmea:find_data(buffer)
+function parser_nmea0183:find_data(buffer)
     local msg = buffer():raw()
     local pattern = "[!%$]%u%w-%p(.-)%*[%d%u][%d%u]\r\n"
     local data = string.match(buffer(0, -1):string(), pattern)
@@ -48,7 +48,7 @@ function parser_nmea:find_data(buffer)
     return utilities:offset_length(data_beg, data_end)
 end
 
-function parser_nmea:find_checksum(buffer)
+function parser_nmea0183:find_checksum(buffer)
     local msg = buffer():raw()
     local pattern = "[!%$]%u%w-%p.-%*([%d%u][%d%u])\r\n"
     local chksm = string.match(buffer(0, -1):string(), pattern)
@@ -56,7 +56,7 @@ function parser_nmea:find_checksum(buffer)
     return utilities:offset_length(chksm_beg, chksm_end)
 end
 
-function parser_nmea:find_nmea_0183(buffer, pinfo)
+function parser_nmea0183:find_nmea_0183(buffer, pinfo)
     local msg = buffer():raw()
     local pattern = "[!%$]%u%w-%p.-%*[%d%u][%d%u]\r\n"
     local matches = {}
@@ -69,4 +69,4 @@ function parser_nmea:find_nmea_0183(buffer, pinfo)
     return matches, matches_order
 end
 
-return parser_nmea
+return parser_nmea0183

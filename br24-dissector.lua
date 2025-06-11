@@ -3,7 +3,7 @@ if set_plugin_info then
     local my_info = {
         version = "0.1.0",
         license = "MIT License (supplemented)",
-        copyright = "Copyright (c) 2022 Fraunhofer FKIE",
+        copyright = "Copyright (c) 2025 Fraunhofer FKIE",
         author = "CAD-Maritime",
         email = "cad-maritime@fkie.fraunhofer.de",
         repository = "https://github.com/fkie-cad/maritime-dissector",

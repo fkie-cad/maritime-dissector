@@ -171,7 +171,7 @@ Undocumented
 
 ## Register Control
 
-The display unit addresses the RADAR unit via a set of registers, by sending packets to the broadcast address `236.6.7.10:6680`. Registers can be either written to (command `0x01`) or read from (command `0x02`), packets have the following structure:
+The display unit addresses the RADAR unit via a set of registers, by sending packets to the broadcast address `236.6.7.10:6680`. Registers can be either written to (command `0xC1`) or read from (command `0xC2`), packets have the following structure:
 
 | byte(s) | length | name | value |
 | ------- | ------ | ---- | ----- |

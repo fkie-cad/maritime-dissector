@@ -7,7 +7,7 @@ echo
 echo "Check if dependencies are installed..."
 has_tshark=$(command -v tshark)
 has_python3=$(command -v python3)
-has_pytest3=$(command -v py.test-3)
+has_pytest3=$(command -v pytest)
 has_lua=$(command -v lua)
 has_luacov=$(command -v luacov)
 has_luacovconsole=$(command -v luacov-console)
@@ -23,7 +23,7 @@ if [ ! $has_python3 ]; then
 fi
 if [ ! $has_pytest3 ]; then
     echo "ERROR: python3-pytest could not be found."
-    echo "Please install python3-pytest"
+    echo "Please install python3 pytest"
     exit 1
 fi
 if [ ! $has_lua ]; then
@@ -74,7 +74,9 @@ if [ -f ./luacov.stats.out ] ; then
     echo "rm luacov.stats.out"
     rm ./luacov.stats.out
 fi
-py.test-3 -v
+
+pytest -v
+exit_code=$?
 
 if [ $has_luacov ] && [ $has_luacovconsole ]; then
     echo
@@ -88,3 +90,5 @@ else
     echo "Cannot generate code coverage report without luacov and luacov-console."
     echo
 fi
+
+exit $exit_code

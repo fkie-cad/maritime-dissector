@@ -1,7 +1,7 @@
 -- prevent wireshark loading this file as plugin
 if not _G['maritimedissector'] then return end
 
-local parser_nmea = require "maritime-modules.parser.nmea"
+local parser_nmea = require "maritime-modules.parser.nmea0183"
 local idtranslator = require "maritime-modules.idtranslator"
 local checksum_calculator = require "maritime-modules.checksumcalculator"
 

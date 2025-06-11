@@ -4,21 +4,21 @@ BR24_IMG = Proto("NavicoBR24-IMG", "Navico BR24 RADAR image protocol")
 
 -- fields definitions
 -- header fields
-msg_marker = ProtoField.bytes("br24-img.msgstart", "Message start marker", base.SPACE)
-ns         = ProtoField.uint8("br24-img.ns", "Number of scan lines", base.DEC)
-ss         = ProtoField.uint16("br24-img.ss", "Size of scan line", base.DEC)
+local msg_marker = ProtoField.bytes("br24-img.msgstart", "Message start marker", base.SPACE)
+local ns         = ProtoField.uint8("br24-img.ns", "Number of scan lines", base.DEC)
+local ss         = ProtoField.uint16("br24-img.ss", "Size of scan line", base.DEC)
 -- scanline header fields
-l          = ProtoField.uint8("br24-img.l", "Length of scan line header", base.DEC)
-st         = ProtoField.bytes("br24-img.st", "Status", base.SPACE)
-rc         = ProtoField.uint16("br24-img.rc", "Raw scan line counter", base.DEC)
-st_unknown = ProtoField.bytes("br24-img.st_unknown", "Static unknown", base.SPACE)
-v_unknown  = ProtoField.bytes("br24-img.st_unknown", "Variable unknown", base.SPACE)
-a          = ProtoField.uint16("br24-img.a", "Absolute angle", base.DEC)
-heading    = ProtoField.uint16("br24-img.heading", "Heading", base.DEC)
-scale      = ProtoField.uint16("br24-img.scale", "Scale of the scan radius", base.DEC)
+local l          = ProtoField.uint8("br24-img.l", "Length of scan line header", base.DEC)
+local st         = ProtoField.bytes("br24-img.st", "Status", base.SPACE)
+local rc         = ProtoField.uint16("br24-img.rc", "Raw scan line counter", base.DEC)
+local st_unknown = ProtoField.bytes("br24-img.st_unknown", "Static unknown", base.SPACE)
+local v_unknown  = ProtoField.bytes("br24-img.st_unknown", "Variable unknown", base.SPACE)
+local a          = ProtoField.uint16("br24-img.a", "Absolute angle", base.DEC)
+local heading    = ProtoField.uint16("br24-img.heading", "Heading", base.DEC)
+local scale      = ProtoField.uint16("br24-img.scale", "Scale of the scan radius", base.DEC)
 
 -- scanline data field
-pixels     = ProtoField.bytes("br24-img.pixels", "Scanline pixels", base.SPACE)
+local pixels     = ProtoField.bytes("br24-img.pixels", "Scanline pixels", base.SPACE)
 
 
 BR24_IMG.fields = {msg_marker, ns, ss, l, st, rc, st_unknown, a, v_unknown, scale, pixels, heading}

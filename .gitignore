@@ -1,8 +1,12 @@
 # VSCode settings
 settings.json
 .vscode/
+.idea/
 
 # python
 __pycache__/
 .pytest_cache/
 luacov*
+
+*.swp
+*DS_Store
