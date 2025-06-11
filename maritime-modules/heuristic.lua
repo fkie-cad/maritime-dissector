@@ -3,6 +3,7 @@ if not _G['maritimedissector'] then return end
 
 local parser_nmea0183 = require "maritime-modules.parser.nmea0183"
 local proto_nmea0183 = require "maritime-modules.proto.nmea0183"
+local proto_nmea2000 = require "maritime-modules.proto.nmea2000"
 local proto_iec61162450_nmea = require "maritime-modules.proto.iec61162450nmea"
 local proto_iec61162450_nmea_multisentence = require "maritime-modules.proto.iec61162450nmea-multisentence"
 local proto_iec61162450_binary = require "maritime-modules.proto.iec61162450binary"
@@ -26,6 +27,11 @@ local function nmea_0183_heuristic_checker(buffer, pinfo, tree)
     else
         return false
     end
+end
+
+local function nmea_2000_heuristic_checker(buffer, pinfo, tree) --TODO implement heuristic--
+    proto_nmea2000.dissector(buffer, pinfo, tree)
+    return true
 end
 
 local function iec_61162_450_nmea_heuristic_checker(buffer, pinfo, tree)
@@ -73,6 +79,7 @@ end
 
 local heuristic = {
     nmea_0183_heuristic_checker = nmea_0183_heuristic_checker,
+    nmea_2000_heuristic_checker = nmea_2000_heuristic_checker,
     iec_61162_450_nmea_heuristic_checker = iec_61162_450_nmea_heuristic_checker,
     iec_61162_450_binary_heuristic_checker = iec_61162_450_binary_heuristic_checker
 }

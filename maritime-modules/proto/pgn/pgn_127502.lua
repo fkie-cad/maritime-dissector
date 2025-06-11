@@ -1,0 +1,75 @@
+-- prevent wireshark loading this file as plugin
+if not _G['maritimedissector'] then return end
+
+-- WARNING: This file is generated automatically by ./pgn.py --
+
+NMEA_2000_127502 = Proto("nmea-2000-127502", "Switch Bank Control (127502)")
+local instance = ProtoField.float("nmea-2000-127502.instance", "Instance")
+local switch1 = ProtoField.uint8("nmea-2000-127502.switch1", "Switch1", base.DEC, NULL, 0x3)
+local switch2 = ProtoField.uint8("nmea-2000-127502.switch2", "Switch2", base.DEC, NULL, 0xc)
+local switch3 = ProtoField.uint8("nmea-2000-127502.switch3", "Switch3", base.DEC, NULL, 0x30)
+local switch4 = ProtoField.uint8("nmea-2000-127502.switch4", "Switch4", base.DEC, NULL, 0xc0)
+local switch5 = ProtoField.uint8("nmea-2000-127502.switch5", "Switch5", base.DEC, NULL, 0x3)
+local switch6 = ProtoField.uint8("nmea-2000-127502.switch6", "Switch6", base.DEC, NULL, 0xc)
+local switch7 = ProtoField.uint8("nmea-2000-127502.switch7", "Switch7", base.DEC, NULL, 0x30)
+local switch8 = ProtoField.uint8("nmea-2000-127502.switch8", "Switch8", base.DEC, NULL, 0xc0)
+local switch9 = ProtoField.uint8("nmea-2000-127502.switch9", "Switch9", base.DEC, NULL, 0x3)
+local switch10 = ProtoField.uint8("nmea-2000-127502.switch10", "Switch10", base.DEC, NULL, 0xc)
+local switch11 = ProtoField.uint8("nmea-2000-127502.switch11", "Switch11", base.DEC, NULL, 0x30)
+local switch12 = ProtoField.uint8("nmea-2000-127502.switch12", "Switch12", base.DEC, NULL, 0xc0)
+local switch13 = ProtoField.uint8("nmea-2000-127502.switch13", "Switch13", base.DEC, NULL, 0x3)
+local switch14 = ProtoField.uint8("nmea-2000-127502.switch14", "Switch14", base.DEC, NULL, 0xc)
+local switch15 = ProtoField.uint8("nmea-2000-127502.switch15", "Switch15", base.DEC, NULL, 0x30)
+local switch16 = ProtoField.uint8("nmea-2000-127502.switch16", "Switch16", base.DEC, NULL, 0xc0)
+local switch17 = ProtoField.uint8("nmea-2000-127502.switch17", "Switch17", base.DEC, NULL, 0x3)
+local switch18 = ProtoField.uint8("nmea-2000-127502.switch18", "Switch18", base.DEC, NULL, 0xc)
+local switch19 = ProtoField.uint8("nmea-2000-127502.switch19", "Switch19", base.DEC, NULL, 0x30)
+local switch20 = ProtoField.uint8("nmea-2000-127502.switch20", "Switch20", base.DEC, NULL, 0xc0)
+local switch21 = ProtoField.uint8("nmea-2000-127502.switch21", "Switch21", base.DEC, NULL, 0x3)
+local switch22 = ProtoField.uint8("nmea-2000-127502.switch22", "Switch22", base.DEC, NULL, 0xc)
+local switch23 = ProtoField.uint8("nmea-2000-127502.switch23", "Switch23", base.DEC, NULL, 0x30)
+local switch24 = ProtoField.uint8("nmea-2000-127502.switch24", "Switch24", base.DEC, NULL, 0xc0)
+local switch25 = ProtoField.uint8("nmea-2000-127502.switch25", "Switch25", base.DEC, NULL, 0x3)
+local switch26 = ProtoField.uint8("nmea-2000-127502.switch26", "Switch26", base.DEC, NULL, 0xc)
+local switch27 = ProtoField.uint8("nmea-2000-127502.switch27", "Switch27", base.DEC, NULL, 0x30)
+local switch28 = ProtoField.uint8("nmea-2000-127502.switch28", "Switch28", base.DEC, NULL, 0xc0)
+
+NMEA_2000_127502.fields = {instance,switch1,switch2,switch3,switch4,switch5,switch6,switch7,switch8,switch9,switch10,switch11,switch12,switch13,switch14,switch15,switch16,switch17,switch18,switch19,switch20,switch21,switch22,switch23,switch24,switch25,switch26,switch27,switch28}
+
+function NMEA_2000_127502.dissector(buffer, pinfo, tree)
+    local subtree_title = "PGN 127502 (Switch Bank Control)"
+    local subtree = tree:add(NMEA_2000_127502, buffer(), subtree_title)
+    local str_offset = 0
+
+    subtree:add(instance, buffer(str_offset + 0, 1), buffer(str_offset + 0, 1):le_uint() * 1)
+    subtree:add(switch1, buffer(str_offset + 1, 1))
+    subtree:add(switch2, buffer(str_offset + 1, 1))
+    subtree:add(switch3, buffer(str_offset + 1, 1))
+    subtree:add(switch4, buffer(str_offset + 1, 1))
+    subtree:add(switch5, buffer(str_offset + 2, 1))
+    subtree:add(switch6, buffer(str_offset + 2, 1))
+    subtree:add(switch7, buffer(str_offset + 2, 1))
+    subtree:add(switch8, buffer(str_offset + 2, 1))
+    subtree:add(switch9, buffer(str_offset + 3, 1))
+    subtree:add(switch10, buffer(str_offset + 3, 1))
+    subtree:add(switch11, buffer(str_offset + 3, 1))
+    subtree:add(switch12, buffer(str_offset + 3, 1))
+    subtree:add(switch13, buffer(str_offset + 4, 1))
+    subtree:add(switch14, buffer(str_offset + 4, 1))
+    subtree:add(switch15, buffer(str_offset + 4, 1))
+    subtree:add(switch16, buffer(str_offset + 4, 1))
+    subtree:add(switch17, buffer(str_offset + 5, 1))
+    subtree:add(switch18, buffer(str_offset + 5, 1))
+    subtree:add(switch19, buffer(str_offset + 5, 1))
+    subtree:add(switch20, buffer(str_offset + 5, 1))
+    subtree:add(switch21, buffer(str_offset + 6, 1))
+    subtree:add(switch22, buffer(str_offset + 6, 1))
+    subtree:add(switch23, buffer(str_offset + 6, 1))
+    subtree:add(switch24, buffer(str_offset + 6, 1))
+    subtree:add(switch25, buffer(str_offset + 7, 1))
+    subtree:add(switch26, buffer(str_offset + 7, 1))
+    subtree:add(switch27, buffer(str_offset + 7, 1))
+    subtree:add(switch28, buffer(str_offset + 7, 1))
+end
+
+return NMEA_2000_127502

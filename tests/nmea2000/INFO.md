@@ -1,0 +1,94 @@
+can.pcap is a merged file of all 3 can0-*pcap files from https://github.com/canboat/canboat/tree/master/samples
+
+We have split the large file into the different PGN for debugging.
+
+List of supported or validated NMEA2000 PGN (WIP)
+
+- nmea2000-59392.pcap
+- nmea2000-59904.pcap
+- nmea2000-60928.pcap
+- nmea2000-61184.pcap
+- nmea2000-65280.pcap
+- nmea2000-65284.pcap
+- nmea2000-65285.pcap
+- nmea2000-65293.pcap
+- nmea2000-65295.pcap
+- nmea2000-65301.pcap
+- nmea2000-65304.pcap
+- nmea2000-65305.pcap
+- nmea2000-65309.pcap
+- nmea2000-65312.pcap
+- nmea2000-65313.pcap
+- nmea2000-65317.pcap
+- nmea2000-65323.pcap
+- nmea2000-65341.pcap
+- nmea2000-65350.pcap
+- nmea2000-65408.pcap
+- nmea2000-126208.pcap
+- nmea2000-126992.pcap (System time) OK
+- nmea2000-126993.pcap (Heartbeat) OK
+- nmea2000-126996.pcap (Product Information) OK
+- nmea2000-126998.pcap (Configuration Information) OK
+- nmea2000-127237.pcap (Heading/Track control) OK
+- nmea2000-127245.pcap (Rudder) OK
+- nmea2000-127250.pcap (Vessel Heading) OK
+- nmea2000-127251.pcap (Rate of Turn) OK
+- nmea2000-127252.pcap (Heave) OK
+- nmea2000-127257.pcap (Attitude) OK
+- nmea2000-127258.pcap (Magnetic Variation) OK
+- nmea2000-127488.pcap (Engine Parameters, Rapid Update) OK
+- nmea2000-127489.pcap (Engine Parameters, Dynamic) OK
+- nmea2000-127493.pcap (Transmission Parameters, Dynamic) OK
+- nmea2000-127503.pcap (AC Input Status) OK
+- nmea2000-127504.pcap (AC Output Status) OK
+- nmea2000-127505.pcap (Fluid Level) OK
+- nmea2000-127506.pcap (DC Detailed Status) OK
+- nmea2000-127507.pcap (Charger Status) OK
+- nmea2000-127508.pcap (Battery Status) OK
+- nmea2000-127509.pcap (Charger Status) OK
+- nmea2000-127744.pcap (AC Power / Current - Phase A) OK
+- nmea2000-127745.pcap (AC Power / Current - Phase B) OK
+- nmea2000-127746.pcap (AC Power / Current - Phase C) OK
+- nmea2000-127747.pcap (AC Voltage / Frequency - Phase A) OK
+- nmea2000-127748.pcap (AC Voltage / Frequency - Phase B) OK
+- nmea2000-127749.pcap (AC Voltage / Frequency - Phase C) OK
+- nmea2000-128000.pcap (Leeway Angle) OK
+- nmea2000-128259.pcap (Speed) OK
+- nmea2000-128267.pcap (Water Depth) OK
+- nmea2000-128275.pcap (Distance Log) OK
+- nmea2000-129025.pcap (Position, Rapid Update) OK
+- nmea2000-129026.pcap (COG & SOG, Rapid Update) OK
+- nmea2000-129029.pcap **LUA ERROR 8Byte Error**
+- nmea2000-129038.pcap (AIS Class A Position Report) OK
+- nmea2000-129039.pcap (AIS Class B Position Report) OK
+- nmea2000-129283.pcap (Cross Track Error) OK
+- nmea2000-129284.pcap (Navigation Data) OK
+- nmea2000-129285.pcap **LUA ERROR tvb error**
+- nmea2000-129539.pcap (GNSS DOPs) OK
+- nmea2000-129540.pcap (GNSS Sats in View) parase variable data
+- nmea2000-129793.pcap (AIS UTC and Date Report) OK
+- nmea2000-129794.pcap (AIS Class A Static and Voyage Related Data) OK
+- nmea2000-129797.pcap (AIS Binary Broadcast Message) OK
+- nmea2000-129803.pcap (AIS Interrogation) OK
+- nmea2000-129809.pcap (AIS Class B static data (msg 24 Part A)) OK
+- nmea2000-129810.pcap (AIS Class B static data (msg 24 Part B)) OK
+- nmea2000-130306.pcap (Wind Data) OK
+- nmea2000-130310.pcap (Environmental Parameters (obsolete))
+- nmea2000-130311.pcap (Environmental Parameters) OK
+- nmea2000-130312.pcap (Temperature) OK
+- nmea2000-130314.pcap (Actual Pressure) OK
+- nmea2000-130316.pcap (Temperature Extended Range) OK
+- nmea2000-130578.pcap (Vessel Speed Components) OK
+- nmea2000-130817.pcap *unsupported since definition is ambiguous*
+- nmea2000-130820.pcap
+- nmea2000-130822.pcap
+- nmea2000-130823.pcap
+- nmea2000-130824.pcap
+- nmea2000-130825.pcap
+- nmea2000-130840.pcap
+- nmea2000-130842.pcap *removed since PCAP seems broken*
+- nmea2000-130845.pcap
+- nmea2000-130846.pcap
+- nmea2000-130847.pcap
+- nmea2000-130850.pcap
+- nmea2000-130860.pcap

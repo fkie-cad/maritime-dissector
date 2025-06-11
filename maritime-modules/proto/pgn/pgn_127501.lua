@@ -1,0 +1,75 @@
+-- prevent wireshark loading this file as plugin
+if not _G['maritimedissector'] then return end
+
+-- WARNING: This file is generated automatically by ./pgn.py --
+
+NMEA_2000_127501 = Proto("nmea-2000-127501", "Binary Switch Bank Status (127501)")
+local instance = ProtoField.float("nmea-2000-127501.instance", "Instance")
+local indicator1 = ProtoField.uint8("nmea-2000-127501.indicator1", "Indicator1", base.DEC, NULL, 0x3)
+local indicator2 = ProtoField.uint8("nmea-2000-127501.indicator2", "Indicator2", base.DEC, NULL, 0xc)
+local indicator3 = ProtoField.uint8("nmea-2000-127501.indicator3", "Indicator3", base.DEC, NULL, 0x30)
+local indicator4 = ProtoField.uint8("nmea-2000-127501.indicator4", "Indicator4", base.DEC, NULL, 0xc0)
+local indicator5 = ProtoField.uint8("nmea-2000-127501.indicator5", "Indicator5", base.DEC, NULL, 0x3)
+local indicator6 = ProtoField.uint8("nmea-2000-127501.indicator6", "Indicator6", base.DEC, NULL, 0xc)
+local indicator7 = ProtoField.uint8("nmea-2000-127501.indicator7", "Indicator7", base.DEC, NULL, 0x30)
+local indicator8 = ProtoField.uint8("nmea-2000-127501.indicator8", "Indicator8", base.DEC, NULL, 0xc0)
+local indicator9 = ProtoField.uint8("nmea-2000-127501.indicator9", "Indicator9", base.DEC, NULL, 0x3)
+local indicator10 = ProtoField.uint8("nmea-2000-127501.indicator10", "Indicator10", base.DEC, NULL, 0xc)
+local indicator11 = ProtoField.uint8("nmea-2000-127501.indicator11", "Indicator11", base.DEC, NULL, 0x30)
+local indicator12 = ProtoField.uint8("nmea-2000-127501.indicator12", "Indicator12", base.DEC, NULL, 0xc0)
+local indicator13 = ProtoField.uint8("nmea-2000-127501.indicator13", "Indicator13", base.DEC, NULL, 0x3)
+local indicator14 = ProtoField.uint8("nmea-2000-127501.indicator14", "Indicator14", base.DEC, NULL, 0xc)
+local indicator15 = ProtoField.uint8("nmea-2000-127501.indicator15", "Indicator15", base.DEC, NULL, 0x30)
+local indicator16 = ProtoField.uint8("nmea-2000-127501.indicator16", "Indicator16", base.DEC, NULL, 0xc0)
+local indicator17 = ProtoField.uint8("nmea-2000-127501.indicator17", "Indicator17", base.DEC, NULL, 0x3)
+local indicator18 = ProtoField.uint8("nmea-2000-127501.indicator18", "Indicator18", base.DEC, NULL, 0xc)
+local indicator19 = ProtoField.uint8("nmea-2000-127501.indicator19", "Indicator19", base.DEC, NULL, 0x30)
+local indicator20 = ProtoField.uint8("nmea-2000-127501.indicator20", "Indicator20", base.DEC, NULL, 0xc0)
+local indicator21 = ProtoField.uint8("nmea-2000-127501.indicator21", "Indicator21", base.DEC, NULL, 0x3)
+local indicator22 = ProtoField.uint8("nmea-2000-127501.indicator22", "Indicator22", base.DEC, NULL, 0xc)
+local indicator23 = ProtoField.uint8("nmea-2000-127501.indicator23", "Indicator23", base.DEC, NULL, 0x30)
+local indicator24 = ProtoField.uint8("nmea-2000-127501.indicator24", "Indicator24", base.DEC, NULL, 0xc0)
+local indicator25 = ProtoField.uint8("nmea-2000-127501.indicator25", "Indicator25", base.DEC, NULL, 0x3)
+local indicator26 = ProtoField.uint8("nmea-2000-127501.indicator26", "Indicator26", base.DEC, NULL, 0xc)
+local indicator27 = ProtoField.uint8("nmea-2000-127501.indicator27", "Indicator27", base.DEC, NULL, 0x30)
+local indicator28 = ProtoField.uint8("nmea-2000-127501.indicator28", "Indicator28", base.DEC, NULL, 0xc0)
+
+NMEA_2000_127501.fields = {instance,indicator1,indicator2,indicator3,indicator4,indicator5,indicator6,indicator7,indicator8,indicator9,indicator10,indicator11,indicator12,indicator13,indicator14,indicator15,indicator16,indicator17,indicator18,indicator19,indicator20,indicator21,indicator22,indicator23,indicator24,indicator25,indicator26,indicator27,indicator28}
+
+function NMEA_2000_127501.dissector(buffer, pinfo, tree)
+    local subtree_title = "PGN 127501 (Binary Switch Bank Status)"
+    local subtree = tree:add(NMEA_2000_127501, buffer(), subtree_title)
+    local str_offset = 0
+
+    subtree:add(instance, buffer(str_offset + 0, 1), buffer(str_offset + 0, 1):le_uint() * 1)
+    subtree:add(indicator1, buffer(str_offset + 1, 1))
+    subtree:add(indicator2, buffer(str_offset + 1, 1))
+    subtree:add(indicator3, buffer(str_offset + 1, 1))
+    subtree:add(indicator4, buffer(str_offset + 1, 1))
+    subtree:add(indicator5, buffer(str_offset + 2, 1))
+    subtree:add(indicator6, buffer(str_offset + 2, 1))
+    subtree:add(indicator7, buffer(str_offset + 2, 1))
+    subtree:add(indicator8, buffer(str_offset + 2, 1))
+    subtree:add(indicator9, buffer(str_offset + 3, 1))
+    subtree:add(indicator10, buffer(str_offset + 3, 1))
+    subtree:add(indicator11, buffer(str_offset + 3, 1))
+    subtree:add(indicator12, buffer(str_offset + 3, 1))
+    subtree:add(indicator13, buffer(str_offset + 4, 1))
+    subtree:add(indicator14, buffer(str_offset + 4, 1))
+    subtree:add(indicator15, buffer(str_offset + 4, 1))
+    subtree:add(indicator16, buffer(str_offset + 4, 1))
+    subtree:add(indicator17, buffer(str_offset + 5, 1))
+    subtree:add(indicator18, buffer(str_offset + 5, 1))
+    subtree:add(indicator19, buffer(str_offset + 5, 1))
+    subtree:add(indicator20, buffer(str_offset + 5, 1))
+    subtree:add(indicator21, buffer(str_offset + 6, 1))
+    subtree:add(indicator22, buffer(str_offset + 6, 1))
+    subtree:add(indicator23, buffer(str_offset + 6, 1))
+    subtree:add(indicator24, buffer(str_offset + 6, 1))
+    subtree:add(indicator25, buffer(str_offset + 7, 1))
+    subtree:add(indicator26, buffer(str_offset + 7, 1))
+    subtree:add(indicator27, buffer(str_offset + 7, 1))
+    subtree:add(indicator28, buffer(str_offset + 7, 1))
+end
+
+return NMEA_2000_127501
