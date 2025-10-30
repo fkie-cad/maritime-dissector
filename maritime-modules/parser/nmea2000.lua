@@ -10,30 +10,30 @@ function parser_nmea2000:extract_pgn(id)
     -- Inspired by https://github.com/canboat/canboat/blob/master/common/common.c#L632 --
     id = tonumber(tostring(id))
 
-    local pf = (id >> 16) & 0xff
-    local ps = (id >> 8) & 0xff
-    local rdp = (id >> 24) & 0x03
+    local pf = bit32.band(bit32.rshift(id, 16), 0xff)
+    local ps = bit32.band(bit32.rshift(id, 8), 0xff)
+    local rdp = bit32.band(bit32.rshift(id, 24), 0x03)
 
     if (pf < 240) then
-        return (rdp << 16) + (pf << 8)
+        return bit32.lshift(rdp, 16) + bit32.lshift(pf, 8)
     else
-      return (rdp << 16) + (pf << 8) + ps;
+      return bit32.lshift(rdp, 16) + bit32.lshift(pf, 8) + ps;
     end
 end
 
 function parser_nmea2000:extract_src(id)
     -- Inspired by https://github.com/canboat/canboat/blob/master/common/common.c#L632 --
     id = tonumber(tostring(id))
-    return (id >> 0) & 0xff
+    return bit32.band(id, 0xff) -- rshift(id, 0) non è necessario
 end
 
 function parser_nmea2000:extract_dst(id)
     -- Inspired by https://github.com/canboat/canboat/blob/master/common/common.c#L632 --
     id = tonumber(tostring(id))
 
-    local pf = (id >> 16) & 0xff
-    local ps = (id >> 8) & 0xff
-    local rdp = (id >> 24) & 0x03
+    local pf = bit32.band(bit32.rshift(id, 16), 0xff)
+    local ps = bit32.band(bit32.rshift(id, 8), 0xff)
+    local rdp = bit32.band(bit32.rshift(id, 24), 0x03)
 
     if (pf < 240) then
         return ps
@@ -45,7 +45,7 @@ end
 function parser_nmea2000:extract_prio(id)
     -- Inspired by https://github.com/canboat/canboat/blob/master/common/common.c#L632 --
     id = tonumber(tostring(id))
-    return (id >> 26) & 0x7
+    return bit32.band(bit32.rshift(id, 26), 0x7)
 end
 
 return parser_nmea2000
