@@ -95,9 +95,9 @@ function NMEA_2000.dissector(buffer, pinfo, tree)
 
     if is_fast(pgn_id) then -- handle fragmented messages
         subtree:add(seq, buffer(0, 1))
-        seq_ = buffer(0, 1):uint() >> 5
+        seq_ = bit32.rshift(buffer(0, 1):uint(), 5)
         subtree:add(counter, buffer(0, 1))
-        counter_ = buffer(0, 1):uint() & 0x1f
+        counter_ = bit32.band(buffer(0, 1):uint(), 0x1f)
 
         if counter_ == 0 then -- only in first packet has length--
             subtree:add(len, buffer(1, 1))

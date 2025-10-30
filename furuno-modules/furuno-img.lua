@@ -37,12 +37,12 @@ function FURUNO_IMG.dissector(buffer, pinfo, tree)
     subtree:add(furuno_marker, buffer(2, 6))
 
     subtree:add_le(size, buffer(8, 2))                      -- XXXXXXXX .......X
-    local spoke_cnt_val = (buffer(9, 1):uint() >> 1)
+    local spoke_cnt_val = bit32.rshift(buffer(9, 1):uint(), 1)
     subtree:add_le(spoke_cnt, buffer(9, 1))                 --          XXXXXXX.
 
-    local cell_cnt_val = (buffer(10, 2):le_uint() & 0x7ff)
+    local cell_cnt_val = bit32.band(buffer(10, 2):le_uint(), 0x7ff)
     subtree:add_le(cell_cnt, buffer(10, 2))                 -- XXXXXXXX .....XXX
-    local compr_lvl_val = (buffer(11, 1):le_uint() & 0x18) >> 3
+    local compr_lvl_val = bit32.rshift(bit32.band(buffer(11, 1):le_uint(), 0x18), 3)
     subtree:add_le(compr_lvl, buffer(11, 1))                --          ...XX...
     subtree:add_le(uk_1, buffer(11, 1))                     --          XXX.....
 
@@ -94,9 +94,9 @@ function FURUNO_IMG.dissector(buffer, pinfo, tree)
             do
                 local byte = byte_buffer:get_index(byte_ptr)
                 byte_cnt = byte_cnt + 1
-                if (byte & 3) > 0 then
+                if (bit32.band(byte, 3)) > 0 then
                     -- reference or RLE
-                    cnt = cnt + (byte >> 2)
+                    cnt = cnt + bit32.rshift(byte, 2)
                 else
                     -- no encoding
                     cnt = cnt + 1
