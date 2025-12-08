@@ -17,9 +17,9 @@ local headingToSteerCourse = ProtoField.float("nmea-2000-127237.headingToSteerCo
 local track = ProtoField.float("nmea-2000-127237.track", "Track (rad)")
 local rudderLimit = ProtoField.float("nmea-2000-127237.rudderLimit", "Rudder Limit (rad)")
 local offHeadingLimit = ProtoField.float("nmea-2000-127237.offHeadingLimit", "Off-Heading Limit (rad)")
-local radiusOfTurnOrder = ProtoField.float("nmea-2000-127237.radiusOfTurnOrder", "Radius of Turn Order (m)")
+local radiusOfTurnOrder = ProtoField.int16("nmea-2000-127237.radiusOfTurnOrder", "Radius of Turn Order (m)")
 local rateOfTurnOrder = ProtoField.float("nmea-2000-127237.rateOfTurnOrder", "Rate of Turn Order (rad/s)")
-local offTrackLimit = ProtoField.float("nmea-2000-127237.offTrackLimit", "Off-Track Limit (m)")
+local offTrackLimit = ProtoField.int16("nmea-2000-127237.offTrackLimit", "Off-Track Limit (m)")
 local vesselHeading = ProtoField.float("nmea-2000-127237.vesselHeading", "Vessel Heading (rad)")
 
 NMEA_2000_127237.fields = {rudderLimitExceeded,offHeadingLimitExceeded,offTrackLimitExceeded,override,steeringMode,turnMode,headingReference,commandedRudderDirection,commandedRudderAngle,headingToSteerCourse,track,rudderLimit,offHeadingLimit,radiusOfTurnOrder,rateOfTurnOrder,offTrackLimit,vesselHeading}
@@ -29,23 +29,57 @@ function NMEA_2000_127237.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_127237, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(rudderLimitExceeded, buffer(str_offset + 0, 1))
-    subtree:add(offHeadingLimitExceeded, buffer(str_offset + 0, 1))
-    subtree:add(offTrackLimitExceeded, buffer(str_offset + 0, 1))
-    subtree:add(override, buffer(str_offset + 0, 1))
-    subtree:add(steeringMode, buffer(str_offset + 1, 1))
-    subtree:add(turnMode, buffer(str_offset + 1, 1))
-    subtree:add(headingReference, buffer(str_offset + 1, 1))
-    subtree:add(commandedRudderDirection, buffer(str_offset + 2, 1))
-    subtree:add(commandedRudderAngle, buffer(str_offset + 3, 2), buffer(str_offset + 3, 2):le_int() * 0.0001)
-    subtree:add(headingToSteerCourse, buffer(str_offset + 5, 2), buffer(str_offset + 5, 2):le_uint() * 0.0001)
-    subtree:add(track, buffer(str_offset + 7, 2), buffer(str_offset + 7, 2):le_uint() * 0.0001)
-    subtree:add(rudderLimit, buffer(str_offset + 9, 2), buffer(str_offset + 9, 2):le_uint() * 0.0001)
-    subtree:add(offHeadingLimit, buffer(str_offset + 11, 2), buffer(str_offset + 11, 2):le_uint() * 0.0001)
-    subtree:add(radiusOfTurnOrder, buffer(str_offset + 13, 2), buffer(str_offset + 13, 2):le_int() * 1)
-    subtree:add(rateOfTurnOrder, buffer(str_offset + 15, 2), buffer(str_offset + 15, 2):le_int() * 3.125e-05)
-    subtree:add(offTrackLimit, buffer(str_offset + 17, 2), buffer(str_offset + 17, 2):le_int() * 1)
-    subtree:add(vesselHeading, buffer(str_offset + 19, 2), buffer(str_offset + 19, 2):le_uint() * 0.0001)
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(rudderLimitExceeded, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(offHeadingLimitExceeded, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(offTrackLimitExceeded, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(override, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(steeringMode, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(turnMode, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(headingReference, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(commandedRudderDirection, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 3 + 2) then
+        subtree:add(commandedRudderAngle, buffer(str_offset + 3, 2), buffer(str_offset + 3, 2):le_int() * 0.0001)
+    end
+    if buffer:len() >= (str_offset + 5 + 2) then
+        subtree:add(headingToSteerCourse, buffer(str_offset + 5, 2), buffer(str_offset + 5, 2):le_uint() * 0.0001)
+    end
+    if buffer:len() >= (str_offset + 7 + 2) then
+        subtree:add(track, buffer(str_offset + 7, 2), buffer(str_offset + 7, 2):le_uint() * 0.0001)
+    end
+    if buffer:len() >= (str_offset + 9 + 2) then
+        subtree:add(rudderLimit, buffer(str_offset + 9, 2), buffer(str_offset + 9, 2):le_uint() * 0.0001)
+    end
+    if buffer:len() >= (str_offset + 11 + 2) then
+        subtree:add(offHeadingLimit, buffer(str_offset + 11, 2), buffer(str_offset + 11, 2):le_uint() * 0.0001)
+    end
+    if buffer:len() >= (str_offset + 13 + 2) then
+        subtree:add_le(radiusOfTurnOrder, buffer(str_offset + 13, 2))
+    end
+    if buffer:len() >= (str_offset + 15 + 2) then
+        subtree:add(rateOfTurnOrder, buffer(str_offset + 15, 2), buffer(str_offset + 15, 2):le_int() * 3.125e-05)
+    end
+    if buffer:len() >= (str_offset + 17 + 2) then
+        subtree:add_le(offTrackLimit, buffer(str_offset + 17, 2))
+    end
+    if buffer:len() >= (str_offset + 19 + 2) then
+        subtree:add(vesselHeading, buffer(str_offset + 19, 2), buffer(str_offset + 19, 2):le_uint() * 0.0001)
+    end
 end
 
 return NMEA_2000_127237

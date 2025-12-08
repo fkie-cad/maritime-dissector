@@ -22,16 +22,38 @@ function NMEA_2000_129045.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_129045, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(deltaX, buffer(str_offset + 0, 4), buffer(str_offset + 0, 4):le_int() * 0.01)
-    subtree:add(deltaY, buffer(str_offset + 4, 4), buffer(str_offset + 4, 4):le_int() * 0.01)
-    subtree:add(deltaZ, buffer(str_offset + 8, 4), buffer(str_offset + 8, 4):le_int() * 0.01)
-    subtree:add(rotationInX, buffer(str_offset + 12, 4))
-    subtree:add(rotationInY, buffer(str_offset + 16, 4))
-    subtree:add(rotationInZ, buffer(str_offset + 20, 4))
-    subtree:add(scale, buffer(str_offset + 24, 4))
-    subtree:add(ellipsoidSemiMajorAxis, buffer(str_offset + 28, 4), buffer(str_offset + 28, 4):le_int() * 0.01)
-    subtree:add(ellipsoidFlatteningInverse, buffer(str_offset + 32, 4))
-    subtree:add(datumName, buffer(str_offset + 36, 4))
+    if buffer:len() >= (str_offset + 4) then
+        subtree:add(deltaX, buffer(str_offset, 4), buffer(str_offset, 4):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 4 + 4) then
+        subtree:add(deltaY, buffer(str_offset + 4, 4), buffer(str_offset + 4, 4):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 8 + 4) then
+        subtree:add(deltaZ, buffer(str_offset + 8, 4), buffer(str_offset + 8, 4):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 12 + 4) then
+        subtree:add_le(rotationInX, buffer(str_offset + 12, 4))
+    end
+    if buffer:len() >= (str_offset + 16 + 4) then
+        subtree:add_le(rotationInY, buffer(str_offset + 16, 4))
+    end
+    if buffer:len() >= (str_offset + 20 + 4) then
+        subtree:add_le(rotationInZ, buffer(str_offset + 20, 4))
+    end
+    if buffer:len() >= (str_offset + 24 + 4) then
+        subtree:add_le(scale, buffer(str_offset + 24, 4))
+    end
+    if buffer:len() >= (str_offset + 28 + 4) then
+        subtree:add(ellipsoidSemiMajorAxis, buffer(str_offset + 28, 4), buffer(str_offset + 28, 4):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 32 + 4) then
+        subtree:add_le(ellipsoidFlatteningInverse, buffer(str_offset + 32, 4))
+    end
+    if buffer:len() >= (str_offset + 36 + 4) then
+        local _datumName_raw = buffer(str_offset + 36, 4):string()
+        local _datumName_clean = _datumName_raw:gsub("[%s@%z\xff]+$", "")
+        subtree:add(datumName, buffer(str_offset + 36, 4), _datumName_clean)
+    end
 end
 
 return NMEA_2000_129045

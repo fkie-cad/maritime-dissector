@@ -1,7 +1,6 @@
 [
   {
     "_index": "packets-2022-11-16",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -12,19 +11,18 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 16, 2022 16:15:24.138578000 CET",
-          "frame.time_utc": "Nov 16, 2022 15:15:24.138578000 UTC",
-          "frame.time_epoch": "1668611724.138578000",
+          "frame.time": "2022-11-16T15:15:24.138578000Z",
+          "frame.time_utc": "2022-11-16T15:15:24.138578000Z",
+          "frame.time_epoch": "2022-11-16T15:15:24.138578000Z",
           "frame.offset_shift": "0.000000000",
-          "frame.time_delta": "0.000000000",
-          "frame.time_delta_displayed": "0.000000000",
           "frame.time_relative": "0.000000000",
           "frame.number": "1",
           "frame.len": "16",
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -46,7 +44,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "232",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "226.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "226.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -56,7 +54,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -67,9 +64,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:31.241495000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:31.241495000 UTC",
-          "frame.time_epoch": "1669809631.241495000",
+          "frame.time": "2022-11-30T12:00:31.241495000Z",
+          "frame.time_utc": "2022-11-30T12:00:31.241495000Z",
+          "frame.time_epoch": "2022-11-30T12:00:31.241495000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1197907.102917000",
           "frame.time_delta_displayed": "1197907.102917000",
@@ -79,7 +76,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -111,7 +109,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -122,9 +119,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:32.773992000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:32.773992000 UTC",
-          "frame.time_epoch": "1669809632.773992000",
+          "frame.time": "2022-11-30T12:00:32.773992000Z",
+          "frame.time_utc": "2022-11-30T12:00:32.773992000Z",
+          "frame.time_epoch": "2022-11-30T12:00:32.773992000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.532497000",
           "frame.time_delta_displayed": "1.532497000",
@@ -134,7 +131,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -166,7 +164,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -177,9 +174,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.298527000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.298527000 UTC",
-          "frame.time_epoch": "1669809634.298527000",
+          "frame.time": "2022-11-30T12:00:34.298527000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.298527000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.298527000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.524535000",
           "frame.time_delta_displayed": "1.524535000",
@@ -189,7 +186,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -221,7 +219,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -232,9 +229,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.828328000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.828328000 UTC",
-          "frame.time_epoch": "1669809635.828328000",
+          "frame.time": "2022-11-30T12:00:35.828328000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.828328000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.828328000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529801000",
           "frame.time_delta_displayed": "1.529801000",
@@ -244,7 +241,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -266,7 +264,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "236",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "226.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "226.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -276,7 +274,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -287,9 +284,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.358387000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.358387000 UTC",
-          "frame.time_epoch": "1669809637.358387000",
+          "frame.time": "2022-11-30T12:00:37.358387000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.358387000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.358387000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530059000",
           "frame.time_delta_displayed": "1.530059000",
@@ -299,7 +296,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -331,7 +329,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -342,9 +339,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:38.888451000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:38.888451000 UTC",
-          "frame.time_epoch": "1669809638.888451000",
+          "frame.time": "2022-11-30T12:00:38.888451000Z",
+          "frame.time_utc": "2022-11-30T12:00:38.888451000Z",
+          "frame.time_epoch": "2022-11-30T12:00:38.888451000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530064000",
           "frame.time_delta_displayed": "1.530064000",
@@ -354,7 +351,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -376,7 +374,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "238",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "226.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "226.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -386,7 +384,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -397,9 +394,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.418027000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.418027000 UTC",
-          "frame.time_epoch": "1669809640.418027000",
+          "frame.time": "2022-11-30T12:00:40.418027000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.418027000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.418027000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529576000",
           "frame.time_delta_displayed": "1.529576000",
@@ -409,7 +406,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -431,7 +429,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "239",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "226.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "226.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -441,7 +439,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -452,9 +449,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:41.947848000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:41.947848000 UTC",
-          "frame.time_epoch": "1669809641.947848000",
+          "frame.time": "2022-11-30T12:00:41.947848000Z",
+          "frame.time_utc": "2022-11-30T12:00:41.947848000Z",
+          "frame.time_epoch": "2022-11-30T12:00:41.947848000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529821000",
           "frame.time_delta_displayed": "1.529821000",
@@ -464,7 +461,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -496,7 +494,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -507,9 +504,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:43.478843000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:43.478843000 UTC",
-          "frame.time_epoch": "1669809643.478843000",
+          "frame.time": "2022-11-30T12:00:43.478843000Z",
+          "frame.time_utc": "2022-11-30T12:00:43.478843000Z",
+          "frame.time_epoch": "2022-11-30T12:00:43.478843000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530995000",
           "frame.time_delta_displayed": "1.530995000",
@@ -519,7 +516,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -541,7 +539,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "241",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -551,7 +549,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -562,9 +559,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:45.009866000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:45.009866000 UTC",
-          "frame.time_epoch": "1669809645.009866000",
+          "frame.time": "2022-11-30T12:00:45.009866000Z",
+          "frame.time_utc": "2022-11-30T12:00:45.009866000Z",
+          "frame.time_epoch": "2022-11-30T12:00:45.009866000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531023000",
           "frame.time_delta_displayed": "1.531023000",
@@ -574,7 +571,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -596,7 +594,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "242",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -606,7 +604,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -617,9 +614,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:46.538095000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:46.538095000 UTC",
-          "frame.time_epoch": "1669809646.538095000",
+          "frame.time": "2022-11-30T12:00:46.538095000Z",
+          "frame.time_utc": "2022-11-30T12:00:46.538095000Z",
+          "frame.time_epoch": "2022-11-30T12:00:46.538095000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528229000",
           "frame.time_delta_displayed": "1.528229000",
@@ -629,7 +626,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -651,7 +649,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "243",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.7",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.699997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -661,7 +659,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -672,9 +669,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:48.068024000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:48.068024000 UTC",
-          "frame.time_epoch": "1669809648.068024000",
+          "frame.time": "2022-11-30T12:00:48.068024000Z",
+          "frame.time_utc": "2022-11-30T12:00:48.068024000Z",
+          "frame.time_epoch": "2022-11-30T12:00:48.068024000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529929000",
           "frame.time_delta_displayed": "1.529929000",
@@ -684,7 +681,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -706,7 +704,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "244",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.7",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.699997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -716,7 +714,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -727,9 +724,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:49.599601000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:49.599601000 UTC",
-          "frame.time_epoch": "1669809649.599601000",
+          "frame.time": "2022-11-30T12:00:49.599601000Z",
+          "frame.time_utc": "2022-11-30T12:00:49.599601000Z",
+          "frame.time_epoch": "2022-11-30T12:00:49.599601000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531577000",
           "frame.time_delta_displayed": "1.531577000",
@@ -739,7 +736,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -761,7 +759,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "245",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -771,7 +769,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -782,9 +779,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:51.128732000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:51.128732000 UTC",
-          "frame.time_epoch": "1669809651.128732000",
+          "frame.time": "2022-11-30T12:00:51.128732000Z",
+          "frame.time_utc": "2022-11-30T12:00:51.128732000Z",
+          "frame.time_epoch": "2022-11-30T12:00:51.128732000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529131000",
           "frame.time_delta_displayed": "1.529131000",
@@ -794,7 +791,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -816,7 +814,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "246",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -826,7 +824,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -837,9 +834,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:52.658503000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:52.658503000 UTC",
-          "frame.time_epoch": "1669809652.658503000",
+          "frame.time": "2022-11-30T12:00:52.658503000Z",
+          "frame.time_utc": "2022-11-30T12:00:52.658503000Z",
+          "frame.time_epoch": "2022-11-30T12:00:52.658503000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529771000",
           "frame.time_delta_displayed": "1.529771000",
@@ -849,7 +846,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -871,7 +869,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "247",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -881,7 +879,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -892,9 +889,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:54.191048000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:54.191048000 UTC",
-          "frame.time_epoch": "1669809654.191048000",
+          "frame.time": "2022-11-30T12:00:54.191048000Z",
+          "frame.time_utc": "2022-11-30T12:00:54.191048000Z",
+          "frame.time_epoch": "2022-11-30T12:00:54.191048000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.532545000",
           "frame.time_delta_displayed": "1.532545000",
@@ -904,7 +901,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -936,7 +934,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -947,9 +944,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:55.718929000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:55.718929000 UTC",
-          "frame.time_epoch": "1669809655.718929000",
+          "frame.time": "2022-11-30T12:00:55.718929000Z",
+          "frame.time_utc": "2022-11-30T12:00:55.718929000Z",
+          "frame.time_epoch": "2022-11-30T12:00:55.718929000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.527881000",
           "frame.time_delta_displayed": "1.527881000",
@@ -959,7 +956,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -981,7 +979,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "249",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "226.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "226.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -991,7 +989,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1002,9 +999,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.448363000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.448363000 UTC",
-          "frame.time_epoch": "1669809658.448363000",
+          "frame.time": "2022-11-30T12:00:58.448363000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.448363000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.448363000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "2.729434000",
           "frame.time_delta_displayed": "2.729434000",
@@ -1014,7 +1011,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1036,7 +1034,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "250",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "226.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "226.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1046,7 +1044,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1057,9 +1054,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:59.975837000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:59.975837000 UTC",
-          "frame.time_epoch": "1669809659.975837000",
+          "frame.time": "2022-11-30T12:00:59.975837000Z",
+          "frame.time_utc": "2022-11-30T12:00:59.975837000Z",
+          "frame.time_epoch": "2022-11-30T12:00:59.975837000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.527474000",
           "frame.time_delta_displayed": "1.527474000",
@@ -1069,7 +1066,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1091,7 +1089,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "251",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "226.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "226.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1101,7 +1099,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1112,9 +1109,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:01.505908000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:01.505908000 UTC",
-          "frame.time_epoch": "1669809661.505908000",
+          "frame.time": "2022-11-30T12:01:01.505908000Z",
+          "frame.time_utc": "2022-11-30T12:01:01.505908000Z",
+          "frame.time_epoch": "2022-11-30T12:01:01.505908000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530071000",
           "frame.time_delta_displayed": "1.530071000",
@@ -1124,7 +1121,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1146,7 +1144,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "252",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "226.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "226.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1156,7 +1154,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1167,9 +1164,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:03.035355000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:03.035355000 UTC",
-          "frame.time_epoch": "1669809663.035355000",
+          "frame.time": "2022-11-30T12:01:03.035355000Z",
+          "frame.time_utc": "2022-11-30T12:01:03.035355000Z",
+          "frame.time_epoch": "2022-11-30T12:01:03.035355000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529447000",
           "frame.time_delta_displayed": "1.529447000",
@@ -1179,7 +1176,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1211,7 +1209,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1222,9 +1219,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:04.566444000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:04.566444000 UTC",
-          "frame.time_epoch": "1669809664.566444000",
+          "frame.time": "2022-11-30T12:01:04.566444000Z",
+          "frame.time_utc": "2022-11-30T12:01:04.566444000Z",
+          "frame.time_epoch": "2022-11-30T12:01:04.566444000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531089000",
           "frame.time_delta_displayed": "1.531089000",
@@ -1234,7 +1231,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1266,7 +1264,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1277,9 +1274,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:06.096392000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:06.096392000 UTC",
-          "frame.time_epoch": "1669809666.096392000",
+          "frame.time": "2022-11-30T12:01:06.096392000Z",
+          "frame.time_utc": "2022-11-30T12:01:06.096392000Z",
+          "frame.time_epoch": "2022-11-30T12:01:06.096392000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529948000",
           "frame.time_delta_displayed": "1.529948000",
@@ -1289,7 +1286,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1321,7 +1319,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1332,9 +1329,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:07.628900000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:07.628900000 UTC",
-          "frame.time_epoch": "1669809667.628900000",
+          "frame.time": "2022-11-30T12:01:07.628900000Z",
+          "frame.time_utc": "2022-11-30T12:01:07.628900000Z",
+          "frame.time_epoch": "2022-11-30T12:01:07.628900000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.532508000",
           "frame.time_delta_displayed": "1.532508000",
@@ -1344,7 +1341,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1376,7 +1374,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1387,9 +1384,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:09.159145000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:09.159145000 UTC",
-          "frame.time_epoch": "1669809669.159145000",
+          "frame.time": "2022-11-30T12:01:09.159145000Z",
+          "frame.time_utc": "2022-11-30T12:01:09.159145000Z",
+          "frame.time_epoch": "2022-11-30T12:01:09.159145000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530245000",
           "frame.time_delta_displayed": "1.530245000",
@@ -1399,7 +1396,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1431,7 +1429,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1442,9 +1439,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:10.685666000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:10.685666000 UTC",
-          "frame.time_epoch": "1669809670.685666000",
+          "frame.time": "2022-11-30T12:01:10.685666000Z",
+          "frame.time_utc": "2022-11-30T12:01:10.685666000Z",
+          "frame.time_epoch": "2022-11-30T12:01:10.685666000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.526521000",
           "frame.time_delta_displayed": "1.526521000",
@@ -1454,7 +1451,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1476,7 +1474,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "5",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1486,7 +1484,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1497,9 +1494,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:12.222206000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:12.222206000 UTC",
-          "frame.time_epoch": "1669809672.222206000",
+          "frame.time": "2022-11-30T12:01:12.222206000Z",
+          "frame.time_utc": "2022-11-30T12:01:12.222206000Z",
+          "frame.time_epoch": "2022-11-30T12:01:12.222206000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.536540000",
           "frame.time_delta_displayed": "1.536540000",
@@ -1509,7 +1506,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1531,7 +1529,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "6",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.7",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.699997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1541,7 +1539,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1552,9 +1549,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:13.747099000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:13.747099000 UTC",
-          "frame.time_epoch": "1669809673.747099000",
+          "frame.time": "2022-11-30T12:01:13.747099000Z",
+          "frame.time_utc": "2022-11-30T12:01:13.747099000Z",
+          "frame.time_epoch": "2022-11-30T12:01:13.747099000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.524893000",
           "frame.time_delta_displayed": "1.524893000",
@@ -1564,7 +1561,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1586,7 +1584,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "7",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1596,7 +1594,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1607,9 +1604,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:15.275775000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:15.275775000 UTC",
-          "frame.time_epoch": "1669809675.275775000",
+          "frame.time": "2022-11-30T12:01:15.275775000Z",
+          "frame.time_utc": "2022-11-30T12:01:15.275775000Z",
+          "frame.time_epoch": "2022-11-30T12:01:15.275775000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528676000",
           "frame.time_delta_displayed": "1.528676000",
@@ -1619,7 +1616,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1651,7 +1649,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1662,9 +1659,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:16.806155000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:16.806155000 UTC",
-          "frame.time_epoch": "1669809676.806155000",
+          "frame.time": "2022-11-30T12:01:16.806155000Z",
+          "frame.time_utc": "2022-11-30T12:01:16.806155000Z",
+          "frame.time_epoch": "2022-11-30T12:01:16.806155000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530380000",
           "frame.time_delta_displayed": "1.530380000",
@@ -1674,7 +1671,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1696,7 +1694,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "9",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1706,7 +1704,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1717,9 +1714,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:18.336248000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:18.336248000 UTC",
-          "frame.time_epoch": "1669809678.336248000",
+          "frame.time": "2022-11-30T12:01:18.336248000Z",
+          "frame.time_utc": "2022-11-30T12:01:18.336248000Z",
+          "frame.time_epoch": "2022-11-30T12:01:18.336248000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530093000",
           "frame.time_delta_displayed": "1.530093000",
@@ -1729,7 +1726,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1751,7 +1749,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "10",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1761,7 +1759,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1772,9 +1769,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:19.864886000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:19.864886000 UTC",
-          "frame.time_epoch": "1669809679.864886000",
+          "frame.time": "2022-11-30T12:01:19.864886000Z",
+          "frame.time_utc": "2022-11-30T12:01:19.864886000Z",
+          "frame.time_epoch": "2022-11-30T12:01:19.864886000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528638000",
           "frame.time_delta_displayed": "1.528638000",
@@ -1784,7 +1781,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1806,7 +1804,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "11",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1816,7 +1814,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1827,9 +1824,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:21.395773000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:21.395773000 UTC",
-          "frame.time_epoch": "1669809681.395773000",
+          "frame.time": "2022-11-30T12:01:21.395773000Z",
+          "frame.time_utc": "2022-11-30T12:01:21.395773000Z",
+          "frame.time_epoch": "2022-11-30T12:01:21.395773000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530887000",
           "frame.time_delta_displayed": "1.530887000",
@@ -1839,7 +1836,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1861,7 +1859,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "12",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1871,7 +1869,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1882,9 +1879,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:22.926220000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:22.926220000 UTC",
-          "frame.time_epoch": "1669809682.926220000",
+          "frame.time": "2022-11-30T12:01:22.926220000Z",
+          "frame.time_utc": "2022-11-30T12:01:22.926220000Z",
+          "frame.time_epoch": "2022-11-30T12:01:22.926220000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530447000",
           "frame.time_delta_displayed": "1.530447000",
@@ -1894,7 +1891,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1916,7 +1914,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "13",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.7",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.699997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1926,7 +1924,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1937,9 +1934,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:24.455720000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:24.455720000 UTC",
-          "frame.time_epoch": "1669809684.455720000",
+          "frame.time": "2022-11-30T12:01:24.455720000Z",
+          "frame.time_utc": "2022-11-30T12:01:24.455720000Z",
+          "frame.time_epoch": "2022-11-30T12:01:24.455720000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529500000",
           "frame.time_delta_displayed": "1.529500000",
@@ -1949,7 +1946,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -1971,7 +1969,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "14",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -1981,7 +1979,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1992,9 +1989,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:25.984892000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:25.984892000 UTC",
-          "frame.time_epoch": "1669809685.984892000",
+          "frame.time": "2022-11-30T12:01:25.984892000Z",
+          "frame.time_utc": "2022-11-30T12:01:25.984892000Z",
+          "frame.time_epoch": "2022-11-30T12:01:25.984892000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529172000",
           "frame.time_delta_displayed": "1.529172000",
@@ -2004,7 +2001,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2026,7 +2024,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "15",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2036,7 +2034,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2047,9 +2044,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:27.517978000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:27.517978000 UTC",
-          "frame.time_epoch": "1669809687.517978000",
+          "frame.time": "2022-11-30T12:01:27.517978000Z",
+          "frame.time_utc": "2022-11-30T12:01:27.517978000Z",
+          "frame.time_epoch": "2022-11-30T12:01:27.517978000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.533086000",
           "frame.time_delta_displayed": "1.533086000",
@@ -2059,7 +2056,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2081,7 +2079,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "16",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2091,7 +2089,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2102,9 +2099,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:29.049084000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:29.049084000 UTC",
-          "frame.time_epoch": "1669809689.049084000",
+          "frame.time": "2022-11-30T12:01:29.049084000Z",
+          "frame.time_utc": "2022-11-30T12:01:29.049084000Z",
+          "frame.time_epoch": "2022-11-30T12:01:29.049084000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531106000",
           "frame.time_delta_displayed": "1.531106000",
@@ -2114,7 +2111,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2136,7 +2134,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "17",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2146,7 +2144,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2157,9 +2154,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:30.576024000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:30.576024000 UTC",
-          "frame.time_epoch": "1669809690.576024000",
+          "frame.time": "2022-11-30T12:01:30.576024000Z",
+          "frame.time_utc": "2022-11-30T12:01:30.576024000Z",
+          "frame.time_epoch": "2022-11-30T12:01:30.576024000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.526940000",
           "frame.time_delta_displayed": "1.526940000",
@@ -2169,7 +2166,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2191,7 +2189,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "18",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2201,7 +2199,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2212,9 +2209,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:32.105297000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:32.105297000 UTC",
-          "frame.time_epoch": "1669809692.105297000",
+          "frame.time": "2022-11-30T12:01:32.105297000Z",
+          "frame.time_utc": "2022-11-30T12:01:32.105297000Z",
+          "frame.time_epoch": "2022-11-30T12:01:32.105297000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529273000",
           "frame.time_delta_displayed": "1.529273000",
@@ -2224,7 +2221,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2246,7 +2244,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "19",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2256,7 +2254,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2267,9 +2264,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:33.635710000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:33.635710000 UTC",
-          "frame.time_epoch": "1669809693.635710000",
+          "frame.time": "2022-11-30T12:01:33.635710000Z",
+          "frame.time_utc": "2022-11-30T12:01:33.635710000Z",
+          "frame.time_epoch": "2022-11-30T12:01:33.635710000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530413000",
           "frame.time_delta_displayed": "1.530413000",
@@ -2279,7 +2276,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2301,7 +2299,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "20",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2311,7 +2309,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2322,9 +2319,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:35.164974000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:35.164974000 UTC",
-          "frame.time_epoch": "1669809695.164974000",
+          "frame.time": "2022-11-30T12:01:35.164974000Z",
+          "frame.time_utc": "2022-11-30T12:01:35.164974000Z",
+          "frame.time_epoch": "2022-11-30T12:01:35.164974000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529264000",
           "frame.time_delta_displayed": "1.529264000",
@@ -2334,7 +2331,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2356,7 +2354,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "21",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.7",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.699997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2366,7 +2364,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2377,9 +2374,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:36.696079000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:36.696079000 UTC",
-          "frame.time_epoch": "1669809696.696079000",
+          "frame.time": "2022-11-30T12:01:36.696079000Z",
+          "frame.time_utc": "2022-11-30T12:01:36.696079000Z",
+          "frame.time_epoch": "2022-11-30T12:01:36.696079000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531105000",
           "frame.time_delta_displayed": "1.531105000",
@@ -2389,7 +2386,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2411,7 +2409,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "22",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.7",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.699997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2421,7 +2419,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2432,9 +2429,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:38.240556000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:38.240556000 UTC",
-          "frame.time_epoch": "1669809698.240556000",
+          "frame.time": "2022-11-30T12:01:38.240556000Z",
+          "frame.time_utc": "2022-11-30T12:01:38.240556000Z",
+          "frame.time_epoch": "2022-11-30T12:01:38.240556000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.544477000",
           "frame.time_delta_displayed": "1.544477000",
@@ -2444,7 +2441,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2466,7 +2464,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "23",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2476,7 +2474,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2487,9 +2484,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:39.754424000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:39.754424000 UTC",
-          "frame.time_epoch": "1669809699.754424000",
+          "frame.time": "2022-11-30T12:01:39.754424000Z",
+          "frame.time_utc": "2022-11-30T12:01:39.754424000Z",
+          "frame.time_epoch": "2022-11-30T12:01:39.754424000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.513868000",
           "frame.time_delta_displayed": "1.513868000",
@@ -2499,7 +2496,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2521,7 +2519,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "24",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2531,7 +2529,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2542,9 +2539,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:41.293810000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:41.293810000 UTC",
-          "frame.time_epoch": "1669809701.293810000",
+          "frame.time": "2022-11-30T12:01:41.293810000Z",
+          "frame.time_utc": "2022-11-30T12:01:41.293810000Z",
+          "frame.time_epoch": "2022-11-30T12:01:41.293810000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.539386000",
           "frame.time_delta_displayed": "1.539386000",
@@ -2554,7 +2551,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2576,7 +2574,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "25",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2586,7 +2584,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2597,9 +2594,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:42.816859000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:42.816859000 UTC",
-          "frame.time_epoch": "1669809702.816859000",
+          "frame.time": "2022-11-30T12:01:42.816859000Z",
+          "frame.time_utc": "2022-11-30T12:01:42.816859000Z",
+          "frame.time_epoch": "2022-11-30T12:01:42.816859000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.523049000",
           "frame.time_delta_displayed": "1.523049000",
@@ -2609,7 +2606,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2631,7 +2629,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "26",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2641,7 +2639,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2652,9 +2649,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:44.350998000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:44.350998000 UTC",
-          "frame.time_epoch": "1669809704.350998000",
+          "frame.time": "2022-11-30T12:01:44.350998000Z",
+          "frame.time_utc": "2022-11-30T12:01:44.350998000Z",
+          "frame.time_epoch": "2022-11-30T12:01:44.350998000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.534139000",
           "frame.time_delta_displayed": "1.534139000",
@@ -2664,7 +2661,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2686,7 +2684,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "27",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2696,7 +2694,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2707,9 +2704,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:45.876744000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:45.876744000 UTC",
-          "frame.time_epoch": "1669809705.876744000",
+          "frame.time": "2022-11-30T12:01:45.876744000Z",
+          "frame.time_utc": "2022-11-30T12:01:45.876744000Z",
+          "frame.time_epoch": "2022-11-30T12:01:45.876744000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.525746000",
           "frame.time_delta_displayed": "1.525746000",
@@ -2719,7 +2716,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2741,7 +2739,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "28",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2751,7 +2749,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2762,9 +2759,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:47.406179000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:47.406179000 UTC",
-          "frame.time_epoch": "1669809707.406179000",
+          "frame.time": "2022-11-30T12:01:47.406179000Z",
+          "frame.time_utc": "2022-11-30T12:01:47.406179000Z",
+          "frame.time_epoch": "2022-11-30T12:01:47.406179000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529435000",
           "frame.time_delta_displayed": "1.529435000",
@@ -2774,7 +2771,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2796,7 +2794,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "29",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2806,7 +2804,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2817,9 +2814,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:48.935121000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:48.935121000 UTC",
-          "frame.time_epoch": "1669809708.935121000",
+          "frame.time": "2022-11-30T12:01:48.935121000Z",
+          "frame.time_utc": "2022-11-30T12:01:48.935121000Z",
+          "frame.time_epoch": "2022-11-30T12:01:48.935121000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528942000",
           "frame.time_delta_displayed": "1.528942000",
@@ -2829,7 +2826,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2851,7 +2849,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "30",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2861,7 +2859,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2872,9 +2869,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:50.464903000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:50.464903000 UTC",
-          "frame.time_epoch": "1669809710.464903000",
+          "frame.time": "2022-11-30T12:01:50.464903000Z",
+          "frame.time_utc": "2022-11-30T12:01:50.464903000Z",
+          "frame.time_epoch": "2022-11-30T12:01:50.464903000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529782000",
           "frame.time_delta_displayed": "1.529782000",
@@ -2884,7 +2881,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2906,7 +2904,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "31",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2916,7 +2914,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2927,9 +2924,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:51.994771000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:51.994771000 UTC",
-          "frame.time_epoch": "1669809711.994771000",
+          "frame.time": "2022-11-30T12:01:51.994771000Z",
+          "frame.time_utc": "2022-11-30T12:01:51.994771000Z",
+          "frame.time_epoch": "2022-11-30T12:01:51.994771000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529868000",
           "frame.time_delta_displayed": "1.529868000",
@@ -2939,7 +2936,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -2961,7 +2959,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "32",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -2971,7 +2969,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2982,9 +2979,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:53.526973000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:53.526973000 UTC",
-          "frame.time_epoch": "1669809713.526973000",
+          "frame.time": "2022-11-30T12:01:53.526973000Z",
+          "frame.time_utc": "2022-11-30T12:01:53.526973000Z",
+          "frame.time_epoch": "2022-11-30T12:01:53.526973000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.532202000",
           "frame.time_delta_displayed": "1.532202000",
@@ -2994,7 +2991,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3026,7 +3024,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3037,9 +3034,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:55.054261000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:55.054261000 UTC",
-          "frame.time_epoch": "1669809715.054261000",
+          "frame.time": "2022-11-30T12:01:55.054261000Z",
+          "frame.time_utc": "2022-11-30T12:01:55.054261000Z",
+          "frame.time_epoch": "2022-11-30T12:01:55.054261000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.527288000",
           "frame.time_delta_displayed": "1.527288000",
@@ -3049,7 +3046,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3081,7 +3079,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3092,9 +3089,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:56.585241000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:56.585241000 UTC",
-          "frame.time_epoch": "1669809716.585241000",
+          "frame.time": "2022-11-30T12:01:56.585241000Z",
+          "frame.time_utc": "2022-11-30T12:01:56.585241000Z",
+          "frame.time_epoch": "2022-11-30T12:01:56.585241000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530980000",
           "frame.time_delta_displayed": "1.530980000",
@@ -3104,7 +3101,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3136,7 +3134,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3147,9 +3144,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:58.115452000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:58.115452000 UTC",
-          "frame.time_epoch": "1669809718.115452000",
+          "frame.time": "2022-11-30T12:01:58.115452000Z",
+          "frame.time_utc": "2022-11-30T12:01:58.115452000Z",
+          "frame.time_epoch": "2022-11-30T12:01:58.115452000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530211000",
           "frame.time_delta_displayed": "1.530211000",
@@ -3159,7 +3156,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3191,7 +3189,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3202,9 +3199,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:59.644429000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:59.644429000 UTC",
-          "frame.time_epoch": "1669809719.644429000",
+          "frame.time": "2022-11-30T12:01:59.644429000Z",
+          "frame.time_utc": "2022-11-30T12:01:59.644429000Z",
+          "frame.time_epoch": "2022-11-30T12:01:59.644429000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528977000",
           "frame.time_delta_displayed": "1.528977000",
@@ -3214,7 +3211,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3246,7 +3244,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3257,9 +3254,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:01.174722000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:01.174722000 UTC",
-          "frame.time_epoch": "1669809721.174722000",
+          "frame.time": "2022-11-30T12:02:01.174722000Z",
+          "frame.time_utc": "2022-11-30T12:02:01.174722000Z",
+          "frame.time_epoch": "2022-11-30T12:02:01.174722000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530293000",
           "frame.time_delta_displayed": "1.530293000",
@@ -3269,7 +3266,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3301,7 +3299,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3312,9 +3309,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:02.708254000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:02.708254000 UTC",
-          "frame.time_epoch": "1669809722.708254000",
+          "frame.time": "2022-11-30T12:02:02.708254000Z",
+          "frame.time_utc": "2022-11-30T12:02:02.708254000Z",
+          "frame.time_epoch": "2022-11-30T12:02:02.708254000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.533532000",
           "frame.time_delta_displayed": "1.533532000",
@@ -3324,7 +3321,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3356,7 +3354,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3367,9 +3364,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:04.236221000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:04.236221000 UTC",
-          "frame.time_epoch": "1669809724.236221000",
+          "frame.time": "2022-11-30T12:02:04.236221000Z",
+          "frame.time_utc": "2022-11-30T12:02:04.236221000Z",
+          "frame.time_epoch": "2022-11-30T12:02:04.236221000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.527967000",
           "frame.time_delta_displayed": "1.527967000",
@@ -3379,7 +3376,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3401,7 +3399,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "40",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3411,7 +3409,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3422,9 +3419,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:05.764858000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:05.764858000 UTC",
-          "frame.time_epoch": "1669809725.764858000",
+          "frame.time": "2022-11-30T12:02:05.764858000Z",
+          "frame.time_utc": "2022-11-30T12:02:05.764858000Z",
+          "frame.time_epoch": "2022-11-30T12:02:05.764858000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528637000",
           "frame.time_delta_displayed": "1.528637000",
@@ -3434,7 +3431,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3456,7 +3454,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "41",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3466,7 +3464,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3477,9 +3474,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:07.295321000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:07.295321000 UTC",
-          "frame.time_epoch": "1669809727.295321000",
+          "frame.time": "2022-11-30T12:02:07.295321000Z",
+          "frame.time_utc": "2022-11-30T12:02:07.295321000Z",
+          "frame.time_epoch": "2022-11-30T12:02:07.295321000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530463000",
           "frame.time_delta_displayed": "1.530463000",
@@ -3489,7 +3486,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3511,7 +3509,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "42",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3521,7 +3519,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3532,9 +3529,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:08.825865000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:08.825865000 UTC",
-          "frame.time_epoch": "1669809728.825865000",
+          "frame.time": "2022-11-30T12:02:08.825865000Z",
+          "frame.time_utc": "2022-11-30T12:02:08.825865000Z",
+          "frame.time_epoch": "2022-11-30T12:02:08.825865000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530544000",
           "frame.time_delta_displayed": "1.530544000",
@@ -3544,7 +3541,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3566,7 +3564,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "43",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3576,7 +3574,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3587,9 +3584,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:10.356733000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:10.356733000 UTC",
-          "frame.time_epoch": "1669809730.356733000",
+          "frame.time": "2022-11-30T12:02:10.356733000Z",
+          "frame.time_utc": "2022-11-30T12:02:10.356733000Z",
+          "frame.time_epoch": "2022-11-30T12:02:10.356733000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530868000",
           "frame.time_delta_displayed": "1.530868000",
@@ -3599,7 +3596,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3621,7 +3619,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "44",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3631,7 +3629,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3642,9 +3639,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:11.884591000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:11.884591000 UTC",
-          "frame.time_epoch": "1669809731.884591000",
+          "frame.time": "2022-11-30T12:02:11.884591000Z",
+          "frame.time_utc": "2022-11-30T12:02:11.884591000Z",
+          "frame.time_epoch": "2022-11-30T12:02:11.884591000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.527858000",
           "frame.time_delta_displayed": "1.527858000",
@@ -3654,7 +3651,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3676,7 +3674,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "45",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3686,7 +3684,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3697,9 +3694,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:13.415226000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:13.415226000 UTC",
-          "frame.time_epoch": "1669809733.415226000",
+          "frame.time": "2022-11-30T12:02:13.415226000Z",
+          "frame.time_utc": "2022-11-30T12:02:13.415226000Z",
+          "frame.time_epoch": "2022-11-30T12:02:13.415226000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530635000",
           "frame.time_delta_displayed": "1.530635000",
@@ -3709,7 +3706,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3731,7 +3729,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "46",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3741,7 +3739,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3752,9 +3749,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:14.944431000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:14.944431000 UTC",
-          "frame.time_epoch": "1669809734.944431000",
+          "frame.time": "2022-11-30T12:02:14.944431000Z",
+          "frame.time_utc": "2022-11-30T12:02:14.944431000Z",
+          "frame.time_epoch": "2022-11-30T12:02:14.944431000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529205000",
           "frame.time_delta_displayed": "1.529205000",
@@ -3764,7 +3761,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3786,7 +3784,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "47",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3796,7 +3794,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3807,9 +3804,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:16.474805000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:16.474805000 UTC",
-          "frame.time_epoch": "1669809736.474805000",
+          "frame.time": "2022-11-30T12:02:16.474805000Z",
+          "frame.time_utc": "2022-11-30T12:02:16.474805000Z",
+          "frame.time_epoch": "2022-11-30T12:02:16.474805000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530374000",
           "frame.time_delta_displayed": "1.530374000",
@@ -3819,7 +3816,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3841,7 +3839,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "48",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3851,7 +3849,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3862,9 +3859,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:18.004028000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:18.004028000 UTC",
-          "frame.time_epoch": "1669809738.004028000",
+          "frame.time": "2022-11-30T12:02:18.004028000Z",
+          "frame.time_utc": "2022-11-30T12:02:18.004028000Z",
+          "frame.time_epoch": "2022-11-30T12:02:18.004028000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529223000",
           "frame.time_delta_displayed": "1.529223000",
@@ -3874,7 +3871,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3896,7 +3894,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "49",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -3906,7 +3904,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3917,9 +3914,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:19.534903000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:19.534903000 UTC",
-          "frame.time_epoch": "1669809739.534903000",
+          "frame.time": "2022-11-30T12:02:19.534903000Z",
+          "frame.time_utc": "2022-11-30T12:02:19.534903000Z",
+          "frame.time_epoch": "2022-11-30T12:02:19.534903000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530875000",
           "frame.time_delta_displayed": "1.530875000",
@@ -3929,7 +3926,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -3961,7 +3959,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3972,9 +3969,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:21.065099000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:21.065099000 UTC",
-          "frame.time_epoch": "1669809741.065099000",
+          "frame.time": "2022-11-30T12:02:21.065099000Z",
+          "frame.time_utc": "2022-11-30T12:02:21.065099000Z",
+          "frame.time_epoch": "2022-11-30T12:02:21.065099000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530196000",
           "frame.time_delta_displayed": "1.530196000",
@@ -3984,7 +3981,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4006,7 +4004,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "51",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.7",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.699997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4016,7 +4014,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4027,9 +4024,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:22.595422000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:22.595422000 UTC",
-          "frame.time_epoch": "1669809742.595422000",
+          "frame.time": "2022-11-30T12:02:22.595422000Z",
+          "frame.time_utc": "2022-11-30T12:02:22.595422000Z",
+          "frame.time_epoch": "2022-11-30T12:02:22.595422000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530323000",
           "frame.time_delta_displayed": "1.530323000",
@@ -4039,7 +4036,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4061,7 +4059,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "52",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4071,7 +4069,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4082,9 +4079,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:24.126934000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:24.126934000 UTC",
-          "frame.time_epoch": "1669809744.126934000",
+          "frame.time": "2022-11-30T12:02:24.126934000Z",
+          "frame.time_utc": "2022-11-30T12:02:24.126934000Z",
+          "frame.time_epoch": "2022-11-30T12:02:24.126934000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531512000",
           "frame.time_delta_displayed": "1.531512000",
@@ -4094,7 +4091,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4116,7 +4114,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "53",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4126,7 +4124,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4137,9 +4134,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:25.655421000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:25.655421000 UTC",
-          "frame.time_epoch": "1669809745.655421000",
+          "frame.time": "2022-11-30T12:02:25.655421000Z",
+          "frame.time_utc": "2022-11-30T12:02:25.655421000Z",
+          "frame.time_epoch": "2022-11-30T12:02:25.655421000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528487000",
           "frame.time_delta_displayed": "1.528487000",
@@ -4149,7 +4146,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4171,7 +4169,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "54",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4181,7 +4179,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4192,9 +4189,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:27.185741000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:27.185741000 UTC",
-          "frame.time_epoch": "1669809747.185741000",
+          "frame.time": "2022-11-30T12:02:27.185741000Z",
+          "frame.time_utc": "2022-11-30T12:02:27.185741000Z",
+          "frame.time_epoch": "2022-11-30T12:02:27.185741000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530320000",
           "frame.time_delta_displayed": "1.530320000",
@@ -4204,7 +4201,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4226,7 +4224,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "55",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4236,7 +4234,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4247,9 +4244,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:28.715114000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:28.715114000 UTC",
-          "frame.time_epoch": "1669809748.715114000",
+          "frame.time": "2022-11-30T12:02:28.715114000Z",
+          "frame.time_utc": "2022-11-30T12:02:28.715114000Z",
+          "frame.time_epoch": "2022-11-30T12:02:28.715114000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529373000",
           "frame.time_delta_displayed": "1.529373000",
@@ -4259,7 +4256,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4281,7 +4279,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "56",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4291,7 +4289,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4302,9 +4299,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:30.246209000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:30.246209000 UTC",
-          "frame.time_epoch": "1669809750.246209000",
+          "frame.time": "2022-11-30T12:02:30.246209000Z",
+          "frame.time_utc": "2022-11-30T12:02:30.246209000Z",
+          "frame.time_epoch": "2022-11-30T12:02:30.246209000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531095000",
           "frame.time_delta_displayed": "1.531095000",
@@ -4314,7 +4311,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4336,7 +4334,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "57",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4346,7 +4344,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4357,9 +4354,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:31.775711000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:31.775711000 UTC",
-          "frame.time_epoch": "1669809751.775711000",
+          "frame.time": "2022-11-30T12:02:31.775711000Z",
+          "frame.time_utc": "2022-11-30T12:02:31.775711000Z",
+          "frame.time_epoch": "2022-11-30T12:02:31.775711000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529502000",
           "frame.time_delta_displayed": "1.529502000",
@@ -4369,7 +4366,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4391,7 +4389,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "58",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4401,7 +4399,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4412,9 +4409,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:33.305347000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:33.305347000 UTC",
-          "frame.time_epoch": "1669809753.305347000",
+          "frame.time": "2022-11-30T12:02:33.305347000Z",
+          "frame.time_utc": "2022-11-30T12:02:33.305347000Z",
+          "frame.time_epoch": "2022-11-30T12:02:33.305347000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529636000",
           "frame.time_delta_displayed": "1.529636000",
@@ -4424,7 +4421,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4446,7 +4444,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "59",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.8",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.800003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4456,7 +4454,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4467,9 +4464,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:34.835036000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:34.835036000 UTC",
-          "frame.time_epoch": "1669809754.835036000",
+          "frame.time": "2022-11-30T12:02:34.835036000Z",
+          "frame.time_utc": "2022-11-30T12:02:34.835036000Z",
+          "frame.time_epoch": "2022-11-30T12:02:34.835036000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529689000",
           "frame.time_delta_displayed": "1.529689000",
@@ -4479,7 +4476,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4501,7 +4499,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "60",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4511,7 +4509,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4522,9 +4519,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:36.369782000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:36.369782000 UTC",
-          "frame.time_epoch": "1669809756.369782000",
+          "frame.time": "2022-11-30T12:02:36.369782000Z",
+          "frame.time_utc": "2022-11-30T12:02:36.369782000Z",
+          "frame.time_epoch": "2022-11-30T12:02:36.369782000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.534746000",
           "frame.time_delta_displayed": "1.534746000",
@@ -4534,7 +4531,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4566,7 +4564,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4577,9 +4574,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:37.897153000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:37.897153000 UTC",
-          "frame.time_epoch": "1669809757.897153000",
+          "frame.time": "2022-11-30T12:02:37.897153000Z",
+          "frame.time_utc": "2022-11-30T12:02:37.897153000Z",
+          "frame.time_epoch": "2022-11-30T12:02:37.897153000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.527371000",
           "frame.time_delta_displayed": "1.527371000",
@@ -4589,7 +4586,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4611,7 +4609,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "62",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4621,7 +4619,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4632,9 +4629,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:39.431965000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:39.431965000 UTC",
-          "frame.time_epoch": "1669809759.431965000",
+          "frame.time": "2022-11-30T12:02:39.431965000Z",
+          "frame.time_utc": "2022-11-30T12:02:39.431965000Z",
+          "frame.time_epoch": "2022-11-30T12:02:39.431965000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.534812000",
           "frame.time_delta_displayed": "1.534812000",
@@ -4644,7 +4641,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4666,7 +4664,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "63",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4676,7 +4674,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4687,9 +4684,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:40.955686000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:40.955686000 UTC",
-          "frame.time_epoch": "1669809760.955686000",
+          "frame.time": "2022-11-30T12:02:40.955686000Z",
+          "frame.time_utc": "2022-11-30T12:02:40.955686000Z",
+          "frame.time_epoch": "2022-11-30T12:02:40.955686000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.523721000",
           "frame.time_delta_displayed": "1.523721000",
@@ -4699,7 +4696,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4721,7 +4719,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "64",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4731,7 +4729,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4742,9 +4739,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:42.486253000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:42.486253000 UTC",
-          "frame.time_epoch": "1669809762.486253000",
+          "frame.time": "2022-11-30T12:02:42.486253000Z",
+          "frame.time_utc": "2022-11-30T12:02:42.486253000Z",
+          "frame.time_epoch": "2022-11-30T12:02:42.486253000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530567000",
           "frame.time_delta_displayed": "1.530567000",
@@ -4754,7 +4751,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4776,7 +4774,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "65",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4786,7 +4784,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4797,9 +4794,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:44.015361000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:44.015361000 UTC",
-          "frame.time_epoch": "1669809764.015361000",
+          "frame.time": "2022-11-30T12:02:44.015361000Z",
+          "frame.time_utc": "2022-11-30T12:02:44.015361000Z",
+          "frame.time_epoch": "2022-11-30T12:02:44.015361000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529108000",
           "frame.time_delta_displayed": "1.529108000",
@@ -4809,7 +4806,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4831,7 +4829,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "66",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4841,7 +4839,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4852,9 +4849,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:45.545322000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:45.545322000 UTC",
-          "frame.time_epoch": "1669809765.545322000",
+          "frame.time": "2022-11-30T12:02:45.545322000Z",
+          "frame.time_utc": "2022-11-30T12:02:45.545322000Z",
+          "frame.time_epoch": "2022-11-30T12:02:45.545322000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529961000",
           "frame.time_delta_displayed": "1.529961000",
@@ -4864,7 +4861,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4896,7 +4894,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4907,9 +4904,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:47.075418000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:47.075418000 UTC",
-          "frame.time_epoch": "1669809767.075418000",
+          "frame.time": "2022-11-30T12:02:47.075418000Z",
+          "frame.time_utc": "2022-11-30T12:02:47.075418000Z",
+          "frame.time_epoch": "2022-11-30T12:02:47.075418000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530096000",
           "frame.time_delta_displayed": "1.530096000",
@@ -4919,7 +4916,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4941,7 +4939,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "68",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -4951,7 +4949,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4962,9 +4959,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:48.604935000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:48.604935000 UTC",
-          "frame.time_epoch": "1669809768.604935000",
+          "frame.time": "2022-11-30T12:02:48.604935000Z",
+          "frame.time_utc": "2022-11-30T12:02:48.604935000Z",
+          "frame.time_epoch": "2022-11-30T12:02:48.604935000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529517000",
           "frame.time_delta_displayed": "1.529517000",
@@ -4974,7 +4971,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -4996,7 +4994,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "69",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.2",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.199997",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5006,7 +5004,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5017,9 +5014,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:50.135355000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:50.135355000 UTC",
-          "frame.time_epoch": "1669809770.135355000",
+          "frame.time": "2022-11-30T12:02:50.135355000Z",
+          "frame.time_utc": "2022-11-30T12:02:50.135355000Z",
+          "frame.time_epoch": "2022-11-30T12:02:50.135355000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530420000",
           "frame.time_delta_displayed": "1.530420000",
@@ -5029,7 +5026,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5051,7 +5049,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "70",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5061,7 +5059,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5072,9 +5069,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:51.666758000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:51.666758000 UTC",
-          "frame.time_epoch": "1669809771.666758000",
+          "frame.time": "2022-11-30T12:02:51.666758000Z",
+          "frame.time_utc": "2022-11-30T12:02:51.666758000Z",
+          "frame.time_epoch": "2022-11-30T12:02:51.666758000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531403000",
           "frame.time_delta_displayed": "1.531403000",
@@ -5084,7 +5081,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5116,7 +5114,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5127,9 +5124,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:53.195234000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:53.195234000 UTC",
-          "frame.time_epoch": "1669809773.195234000",
+          "frame.time": "2022-11-30T12:02:53.195234000Z",
+          "frame.time_utc": "2022-11-30T12:02:53.195234000Z",
+          "frame.time_epoch": "2022-11-30T12:02:53.195234000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528476000",
           "frame.time_delta_displayed": "1.528476000",
@@ -5139,7 +5136,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5171,7 +5169,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5182,9 +5179,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:54.725645000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:54.725645000 UTC",
-          "frame.time_epoch": "1669809774.725645000",
+          "frame.time": "2022-11-30T12:02:54.725645000Z",
+          "frame.time_utc": "2022-11-30T12:02:54.725645000Z",
+          "frame.time_epoch": "2022-11-30T12:02:54.725645000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530411000",
           "frame.time_delta_displayed": "1.530411000",
@@ -5194,7 +5191,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5216,7 +5214,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "73",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5226,7 +5224,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5237,9 +5234,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:56.257257000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:56.257257000 UTC",
-          "frame.time_epoch": "1669809776.257257000",
+          "frame.time": "2022-11-30T12:02:56.257257000Z",
+          "frame.time_utc": "2022-11-30T12:02:56.257257000Z",
+          "frame.time_epoch": "2022-11-30T12:02:56.257257000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531612000",
           "frame.time_delta_displayed": "1.531612000",
@@ -5249,7 +5246,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5271,7 +5269,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "74",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5281,7 +5279,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5292,9 +5289,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:57.784997000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:57.784997000 UTC",
-          "frame.time_epoch": "1669809777.784997000",
+          "frame.time": "2022-11-30T12:02:57.784997000Z",
+          "frame.time_utc": "2022-11-30T12:02:57.784997000Z",
+          "frame.time_epoch": "2022-11-30T12:02:57.784997000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.527740000",
           "frame.time_delta_displayed": "1.527740000",
@@ -5304,7 +5301,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5326,7 +5324,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "75",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5336,7 +5334,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5347,9 +5344,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:02:59.315480000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:02:59.315480000 UTC",
-          "frame.time_epoch": "1669809779.315480000",
+          "frame.time": "2022-11-30T12:02:59.315480000Z",
+          "frame.time_utc": "2022-11-30T12:02:59.315480000Z",
+          "frame.time_epoch": "2022-11-30T12:02:59.315480000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530483000",
           "frame.time_delta_displayed": "1.530483000",
@@ -5359,7 +5356,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5381,7 +5379,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "76",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5391,7 +5389,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5402,9 +5399,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:00.845819000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:00.845819000 UTC",
-          "frame.time_epoch": "1669809780.845819000",
+          "frame.time": "2022-11-30T12:03:00.845819000Z",
+          "frame.time_utc": "2022-11-30T12:03:00.845819000Z",
+          "frame.time_epoch": "2022-11-30T12:03:00.845819000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530339000",
           "frame.time_delta_displayed": "1.530339000",
@@ -5414,7 +5411,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5446,7 +5444,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5457,9 +5454,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:02.376962000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:02.376962000 UTC",
-          "frame.time_epoch": "1669809782.376962000",
+          "frame.time": "2022-11-30T12:03:02.376962000Z",
+          "frame.time_utc": "2022-11-30T12:03:02.376962000Z",
+          "frame.time_epoch": "2022-11-30T12:03:02.376962000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531143000",
           "frame.time_delta_displayed": "1.531143000",
@@ -5469,7 +5466,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5491,7 +5489,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "78",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5501,7 +5499,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5512,9 +5509,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:03.905968000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:03.905968000 UTC",
-          "frame.time_epoch": "1669809783.905968000",
+          "frame.time": "2022-11-30T12:03:03.905968000Z",
+          "frame.time_utc": "2022-11-30T12:03:03.905968000Z",
+          "frame.time_epoch": "2022-11-30T12:03:03.905968000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529006000",
           "frame.time_delta_displayed": "1.529006000",
@@ -5524,7 +5521,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5546,7 +5544,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "79",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.1",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.100006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5556,7 +5554,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5567,9 +5564,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:05.436127000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:05.436127000 UTC",
-          "frame.time_epoch": "1669809785.436127000",
+          "frame.time": "2022-11-30T12:03:05.436127000Z",
+          "frame.time_utc": "2022-11-30T12:03:05.436127000Z",
+          "frame.time_epoch": "2022-11-30T12:03:05.436127000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530159000",
           "frame.time_delta_displayed": "1.530159000",
@@ -5579,7 +5576,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5611,7 +5609,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5622,9 +5619,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:06.964318000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:06.964318000 UTC",
-          "frame.time_epoch": "1669809786.964318000",
+          "frame.time": "2022-11-30T12:03:06.964318000Z",
+          "frame.time_utc": "2022-11-30T12:03:06.964318000Z",
+          "frame.time_epoch": "2022-11-30T12:03:06.964318000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.528191000",
           "frame.time_delta_displayed": "1.528191000",
@@ -5634,7 +5631,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5656,7 +5654,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "81",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "224.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "224.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5666,7 +5664,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5677,9 +5674,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:08.494107000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:08.494107000 UTC",
-          "frame.time_epoch": "1669809788.494107000",
+          "frame.time": "2022-11-30T12:03:08.494107000Z",
+          "frame.time_utc": "2022-11-30T12:03:08.494107000Z",
+          "frame.time_epoch": "2022-11-30T12:03:08.494107000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529789000",
           "frame.time_delta_displayed": "1.529789000",
@@ -5689,7 +5686,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5711,7 +5709,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "82",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "224.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "224.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5721,7 +5719,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5732,9 +5729,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:10.024558000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:10.024558000 UTC",
-          "frame.time_epoch": "1669809790.024558000",
+          "frame.time": "2022-11-30T12:03:10.024558000Z",
+          "frame.time_utc": "2022-11-30T12:03:10.024558000Z",
+          "frame.time_epoch": "2022-11-30T12:03:10.024558000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530451000",
           "frame.time_delta_displayed": "1.530451000",
@@ -5744,7 +5741,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5766,7 +5764,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "83",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "224.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "224.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5776,7 +5774,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5787,9 +5784,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:11.553974000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:11.553974000 UTC",
-          "frame.time_epoch": "1669809791.553974000",
+          "frame.time": "2022-11-30T12:03:11.553974000Z",
+          "frame.time_utc": "2022-11-30T12:03:11.553974000Z",
+          "frame.time_epoch": "2022-11-30T12:03:11.553974000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529416000",
           "frame.time_delta_displayed": "1.529416000",
@@ -5799,7 +5796,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5821,7 +5819,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "84",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "224.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "224.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5831,7 +5829,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5842,9 +5839,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:13.085871000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:13.085871000 UTC",
-          "frame.time_epoch": "1669809793.085871000",
+          "frame.time": "2022-11-30T12:03:13.085871000Z",
+          "frame.time_utc": "2022-11-30T12:03:13.085871000Z",
+          "frame.time_epoch": "2022-11-30T12:03:13.085871000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.531897000",
           "frame.time_delta_displayed": "1.531897000",
@@ -5854,7 +5851,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5876,7 +5874,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "85",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "224.9",
+            "nmea-2000-127748.acVoltageLineToNeutral": "224.899994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5886,7 +5884,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5897,9 +5894,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:14.616036000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:14.616036000 UTC",
-          "frame.time_epoch": "1669809794.616036000",
+          "frame.time": "2022-11-30T12:03:14.616036000Z",
+          "frame.time_utc": "2022-11-30T12:03:14.616036000Z",
+          "frame.time_epoch": "2022-11-30T12:03:14.616036000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530165000",
           "frame.time_delta_displayed": "1.530165000",
@@ -5909,7 +5906,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5941,7 +5939,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5952,9 +5949,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:16.145183000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:16.145183000 UTC",
-          "frame.time_epoch": "1669809796.145183000",
+          "frame.time": "2022-11-30T12:03:16.145183000Z",
+          "frame.time_utc": "2022-11-30T12:03:16.145183000Z",
+          "frame.time_epoch": "2022-11-30T12:03:16.145183000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529147000",
           "frame.time_delta_displayed": "1.529147000",
@@ -5964,7 +5961,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -5986,7 +5984,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "87",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -5996,7 +5994,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -6007,9 +6004,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:17.675520000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:17.675520000 UTC",
-          "frame.time_epoch": "1669809797.675520000",
+          "frame.time": "2022-11-30T12:03:17.675520000Z",
+          "frame.time_utc": "2022-11-30T12:03:17.675520000Z",
+          "frame.time_epoch": "2022-11-30T12:03:17.675520000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530337000",
           "frame.time_delta_displayed": "1.530337000",
@@ -6019,7 +6016,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -6041,7 +6039,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "88",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -6051,7 +6049,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -6062,9 +6059,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:19.205189000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:19.205189000 UTC",
-          "frame.time_epoch": "1669809799.205189000",
+          "frame.time": "2022-11-30T12:03:19.205189000Z",
+          "frame.time_utc": "2022-11-30T12:03:19.205189000Z",
+          "frame.time_epoch": "2022-11-30T12:03:19.205189000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529669000",
           "frame.time_delta_displayed": "1.529669000",
@@ -6074,7 +6071,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -6096,7 +6094,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "89",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -6106,7 +6104,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -6117,9 +6114,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:20.738405000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:20.738405000 UTC",
-          "frame.time_epoch": "1669809800.738405000",
+          "frame.time": "2022-11-30T12:03:20.738405000Z",
+          "frame.time_utc": "2022-11-30T12:03:20.738405000Z",
+          "frame.time_epoch": "2022-11-30T12:03:20.738405000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.533216000",
           "frame.time_delta_displayed": "1.533216000",
@@ -6129,7 +6126,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -6151,7 +6149,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "90",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -6161,7 +6159,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -6172,9 +6169,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.266202000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.266202000 UTC",
-          "frame.time_epoch": "1669809802.266202000",
+          "frame.time": "2022-11-30T12:03:22.266202000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.266202000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.266202000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.527797000",
           "frame.time_delta_displayed": "1.527797000",
@@ -6184,7 +6181,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -6206,7 +6204,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "91",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -6216,7 +6214,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -6227,9 +6224,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.796423000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.796423000 UTC",
-          "frame.time_epoch": "1669809803.796423000",
+          "frame.time": "2022-11-30T12:03:23.796423000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.796423000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.796423000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.530221000",
           "frame.time_delta_displayed": "1.530221000",
@@ -6239,7 +6236,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -6261,7 +6259,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "92",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.3",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.300003",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -6271,7 +6269,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -6282,9 +6279,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.325530000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.325530000 UTC",
-          "frame.time_epoch": "1669809805.325530000",
+          "frame.time": "2022-11-30T12:03:25.325530000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.325530000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.325530000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529107000",
           "frame.time_delta_displayed": "1.529107000",
@@ -6294,7 +6291,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -6316,7 +6314,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "93",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.4",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.399994",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }
@@ -6326,7 +6324,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -6337,9 +6334,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.855371000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.855371000 UTC",
-          "frame.time_epoch": "1669809806.855371000",
+          "frame.time": "2022-11-30T12:03:26.855371000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.855371000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.855371000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.529841000",
           "frame.time_delta_displayed": "1.529841000",
@@ -6349,7 +6346,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -6381,7 +6379,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -6392,9 +6389,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.387974000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.387974000 UTC",
-          "frame.time_epoch": "1669809808.387974000",
+          "frame.time": "2022-11-30T12:03:28.387974000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.387974000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.387974000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.532603000",
           "frame.time_delta_displayed": "1.532603000",
@@ -6404,7 +6401,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127748",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435356673",
@@ -6426,7 +6424,7 @@
           "nmea-2000-127748": {
             "nmea-2000-127748.sid": "95",
             "nmea-2000-127748.connectionNumber": "1",
-            "nmea-2000-127748.acVoltageLineToNeutral": "225.6",
+            "nmea-2000-127748.acVoltageLineToNeutral": "225.600006",
             "nmea-2000-127748.acVoltageLineToLine": "6553.5",
             "nmea-2000-127748.frequency": "50"
           }

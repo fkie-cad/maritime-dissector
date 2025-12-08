@@ -18,12 +18,24 @@ function NMEA_2000_130578.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_130578, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(longitudinalSpeedWaterReferenced, buffer(str_offset + 0, 2), buffer(str_offset + 0, 2):le_int() * 0.001)
-    subtree:add(transverseSpeedWaterReferenced, buffer(str_offset + 2, 2), buffer(str_offset + 2, 2):le_int() * 0.001)
-    subtree:add(longitudinalSpeedGroundReferenced, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_int() * 0.001)
-    subtree:add(transverseSpeedGroundReferenced, buffer(str_offset + 6, 2), buffer(str_offset + 6, 2):le_int() * 0.001)
-    subtree:add(sternSpeedWaterReferenced, buffer(str_offset + 8, 2), buffer(str_offset + 8, 2):le_int() * 0.001)
-    subtree:add(sternSpeedGroundReferenced, buffer(str_offset + 10, 2), buffer(str_offset + 10, 2):le_int() * 0.001)
+    if buffer:len() >= (str_offset + 2) then
+        subtree:add(longitudinalSpeedWaterReferenced, buffer(str_offset, 2), buffer(str_offset, 2):le_int() * 0.001)
+    end
+    if buffer:len() >= (str_offset + 2 + 2) then
+        subtree:add(transverseSpeedWaterReferenced, buffer(str_offset + 2, 2), buffer(str_offset + 2, 2):le_int() * 0.001)
+    end
+    if buffer:len() >= (str_offset + 4 + 2) then
+        subtree:add(longitudinalSpeedGroundReferenced, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_int() * 0.001)
+    end
+    if buffer:len() >= (str_offset + 6 + 2) then
+        subtree:add(transverseSpeedGroundReferenced, buffer(str_offset + 6, 2), buffer(str_offset + 6, 2):le_int() * 0.001)
+    end
+    if buffer:len() >= (str_offset + 8 + 2) then
+        subtree:add(sternSpeedWaterReferenced, buffer(str_offset + 8, 2), buffer(str_offset + 8, 2):le_int() * 0.001)
+    end
+    if buffer:len() >= (str_offset + 10 + 2) then
+        subtree:add(sternSpeedGroundReferenced, buffer(str_offset + 10, 2), buffer(str_offset + 10, 2):le_int() * 0.001)
+    end
 end
 
 return NMEA_2000_130578

@@ -4,7 +4,7 @@ if not _G['maritimedissector'] then return end
 -- WARNING: This file is generated automatically by ./pgn.py --
 
 NMEA_2000_128267 = Proto("nmea-2000-128267", "Water Depth (128267)")
-local sid = ProtoField.float("nmea-2000-128267.sid", "SID")
+local sid = ProtoField.uint8("nmea-2000-128267.sid", "SID")
 local depth = ProtoField.float("nmea-2000-128267.depth", "Depth (m)")
 local offset = ProtoField.float("nmea-2000-128267.offset", "Offset (m)")
 local range = ProtoField.float("nmea-2000-128267.range", "Range (m)")
@@ -16,10 +16,18 @@ function NMEA_2000_128267.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_128267, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(sid, buffer(str_offset + 0, 1), buffer(str_offset + 0, 1):le_uint() * 1)
-    subtree:add(depth, buffer(str_offset + 1, 4), buffer(str_offset + 1, 4):le_uint() * 0.01)
-    subtree:add(offset, buffer(str_offset + 5, 2), buffer(str_offset + 5, 2):le_int() * 0.001)
-    subtree:add(range, buffer(str_offset + 7, 1), buffer(str_offset + 7, 1):le_uint() * 10)
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(sid, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 4) then
+        subtree:add(depth, buffer(str_offset + 1, 4), buffer(str_offset + 1, 4):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 5 + 2) then
+        subtree:add(offset, buffer(str_offset + 5, 2), buffer(str_offset + 5, 2):le_int() * 0.001)
+    end
+    if buffer:len() >= (str_offset + 7 + 1) then
+        subtree:add(range, buffer(str_offset + 7, 1), buffer(str_offset + 7, 1):le_uint() * 10)
+    end
 end
 
 return NMEA_2000_128267

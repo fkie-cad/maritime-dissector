@@ -17,7 +17,7 @@ local sensorStatus = ProtoField.uint8("nmea-2000-130567.sensorStatus", "Sensor S
 local oilChangeIndicatorStatus = ProtoField.uint8("nmea-2000-130567.oilChangeIndicatorStatus", "Oil Change Indicator Status", base.DEC, NULL, 0x3)
 local filterStatus = ProtoField.uint8("nmea-2000-130567.filterStatus", "Filter Status", base.DEC, NULL, 0xc)
 local systemStatus = ProtoField.uint8("nmea-2000-130567.systemStatus", "System Status", base.DEC, NULL, 0x30)
-local salinity = ProtoField.float("nmea-2000-130567.salinity", "Salinity (ppm)")
+local salinity = ProtoField.uint16("nmea-2000-130567.salinity", "Salinity (ppm)")
 local productWaterTemperature = ProtoField.float("nmea-2000-130567.productWaterTemperature", "Product Water Temperature (K)")
 local preFilterPressure = ProtoField.float("nmea-2000-130567.preFilterPressure", "Pre-filter Pressure (Pa)")
 local postFilterPressure = ProtoField.float("nmea-2000-130567.postFilterPressure", "Post-filter Pressure (Pa)")
@@ -25,7 +25,7 @@ local feedPressure = ProtoField.float("nmea-2000-130567.feedPressure", "Feed Pre
 local systemHighPressure = ProtoField.float("nmea-2000-130567.systemHighPressure", "System High Pressure (Pa)")
 local productWaterFlow = ProtoField.float("nmea-2000-130567.productWaterFlow", "Product Water Flow (L/h)")
 local brineWaterFlow = ProtoField.float("nmea-2000-130567.brineWaterFlow", "Brine Water Flow (L/h)")
-local runTime = ProtoField.float("nmea-2000-130567.runTime", "Run Time (s)")
+local runTime = ProtoField.uint32("nmea-2000-130567.runTime", "Run Time (s)")
 
 NMEA_2000_130567.fields = {watermakerOperatingState,productionStartStop,rinseStartStop,lowPressurePumpStatus,highPressurePumpStatus,emergencyStop,productSolenoidValveStatus,flushModeStatus,salinityStatus,sensorStatus,oilChangeIndicatorStatus,filterStatus,systemStatus,salinity,productWaterTemperature,preFilterPressure,postFilterPressure,feedPressure,systemHighPressure,productWaterFlow,brineWaterFlow,runTime}
 
@@ -34,28 +34,72 @@ function NMEA_2000_130567.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_130567, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(watermakerOperatingState, buffer(str_offset + 0, 1))
-    subtree:add(productionStartStop, buffer(str_offset + 0, 1))
-    subtree:add(rinseStartStop, buffer(str_offset + 1, 1))
-    subtree:add(lowPressurePumpStatus, buffer(str_offset + 1, 1))
-    subtree:add(highPressurePumpStatus, buffer(str_offset + 1, 1))
-    subtree:add(emergencyStop, buffer(str_offset + 1, 1))
-    subtree:add(productSolenoidValveStatus, buffer(str_offset + 2, 1))
-    subtree:add(flushModeStatus, buffer(str_offset + 2, 1))
-    subtree:add(salinityStatus, buffer(str_offset + 2, 1))
-    subtree:add(sensorStatus, buffer(str_offset + 2, 1))
-    subtree:add(oilChangeIndicatorStatus, buffer(str_offset + 3, 1))
-    subtree:add(filterStatus, buffer(str_offset + 3, 1))
-    subtree:add(systemStatus, buffer(str_offset + 3, 1))
-    subtree:add(salinity, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_uint() * 1)
-    subtree:add(productWaterTemperature, buffer(str_offset + 6, 2), buffer(str_offset + 6, 2):le_uint() * 0.01)
-    subtree:add(preFilterPressure, buffer(str_offset + 8, 2), buffer(str_offset + 8, 2):le_uint() * 100)
-    subtree:add(postFilterPressure, buffer(str_offset + 10, 2), buffer(str_offset + 10, 2):le_uint() * 100)
-    subtree:add(feedPressure, buffer(str_offset + 12, 2), buffer(str_offset + 12, 2):le_int() * 1000)
-    subtree:add(systemHighPressure, buffer(str_offset + 14, 2), buffer(str_offset + 14, 2):le_uint() * 1000)
-    subtree:add(productWaterFlow, buffer(str_offset + 16, 2), buffer(str_offset + 16, 2):le_int() * 0.1)
-    subtree:add(brineWaterFlow, buffer(str_offset + 18, 2), buffer(str_offset + 18, 2):le_int() * 0.1)
-    subtree:add(runTime, buffer(str_offset + 20, 4), buffer(str_offset + 20, 4):le_uint() * 1)
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(watermakerOperatingState, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(productionStartStop, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(rinseStartStop, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(lowPressurePumpStatus, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(highPressurePumpStatus, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(emergencyStop, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(productSolenoidValveStatus, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(flushModeStatus, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(salinityStatus, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(sensorStatus, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 3 + 1) then
+        subtree:add(oilChangeIndicatorStatus, buffer(str_offset + 3, 1))
+    end
+    if buffer:len() >= (str_offset + 3 + 1) then
+        subtree:add(filterStatus, buffer(str_offset + 3, 1))
+    end
+    if buffer:len() >= (str_offset + 3 + 1) then
+        subtree:add(systemStatus, buffer(str_offset + 3, 1))
+    end
+    if buffer:len() >= (str_offset + 4 + 2) then
+        subtree:add_le(salinity, buffer(str_offset + 4, 2))
+    end
+    if buffer:len() >= (str_offset + 6 + 2) then
+        subtree:add(productWaterTemperature, buffer(str_offset + 6, 2), buffer(str_offset + 6, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 8 + 2) then
+        subtree:add(preFilterPressure, buffer(str_offset + 8, 2), buffer(str_offset + 8, 2):le_uint() * 100)
+    end
+    if buffer:len() >= (str_offset + 10 + 2) then
+        subtree:add(postFilterPressure, buffer(str_offset + 10, 2), buffer(str_offset + 10, 2):le_uint() * 100)
+    end
+    if buffer:len() >= (str_offset + 12 + 2) then
+        subtree:add(feedPressure, buffer(str_offset + 12, 2), buffer(str_offset + 12, 2):le_int() * 1000)
+    end
+    if buffer:len() >= (str_offset + 14 + 2) then
+        subtree:add(systemHighPressure, buffer(str_offset + 14, 2), buffer(str_offset + 14, 2):le_uint() * 1000)
+    end
+    if buffer:len() >= (str_offset + 16 + 2) then
+        subtree:add(productWaterFlow, buffer(str_offset + 16, 2), buffer(str_offset + 16, 2):le_int() * 0.1)
+    end
+    if buffer:len() >= (str_offset + 18 + 2) then
+        subtree:add(brineWaterFlow, buffer(str_offset + 18, 2), buffer(str_offset + 18, 2):le_int() * 0.1)
+    end
+    if buffer:len() >= (str_offset + 20 + 4) then
+        subtree:add_le(runTime, buffer(str_offset + 20, 4))
+    end
 end
 
 return NMEA_2000_130567

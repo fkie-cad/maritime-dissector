@@ -4,7 +4,7 @@ if not _G['maritimedissector'] then return end
 -- WARNING: This file is generated automatically by ./pgn.py --
 
 NMEA_2000_65012 = Proto("nmea-2000-65012", "Utility Phase A AC Reactive Power (65012)")
-local reactivePower = ProtoField.float("nmea-2000-65012.reactivePower", "Reactive Power (VAR)")
+local reactivePower = ProtoField.int32("nmea-2000-65012.reactivePower", "Reactive Power (VAR)")
 local powerFactor = ProtoField.float("nmea-2000-65012.powerFactor", "Power factor (Cos Phi)")
 local powerFactorLagging = ProtoField.uint8("nmea-2000-65012.powerFactorLagging", "Power Factor Lagging", base.DEC, NULL, 0x3)
 
@@ -15,9 +15,15 @@ function NMEA_2000_65012.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_65012, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(reactivePower, buffer(str_offset + 0, 4), buffer(str_offset + 0, 4):le_int() * 1)
-    subtree:add(powerFactor, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_uint() * 6.10352e-05)
-    subtree:add(powerFactorLagging, buffer(str_offset + 6, 1))
+    if buffer:len() >= (str_offset + 4) then
+        subtree:add_le(reactivePower, buffer(str_offset, 4))
+    end
+    if buffer:len() >= (str_offset + 4 + 2) then
+        subtree:add(powerFactor, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_uint() * 6.10352e-05)
+    end
+    if buffer:len() >= (str_offset + 6 + 1) then
+        subtree:add(powerFactorLagging, buffer(str_offset + 6, 1))
+    end
 end
 
 return NMEA_2000_65012

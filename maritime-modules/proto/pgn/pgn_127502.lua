@@ -4,7 +4,7 @@ if not _G['maritimedissector'] then return end
 -- WARNING: This file is generated automatically by ./pgn.py --
 
 NMEA_2000_127502 = Proto("nmea-2000-127502", "Switch Bank Control (127502)")
-local instance = ProtoField.float("nmea-2000-127502.instance", "Instance")
+local instance = ProtoField.uint8("nmea-2000-127502.instance", "Instance")
 local switch1 = ProtoField.uint8("nmea-2000-127502.switch1", "Switch1", base.DEC, NULL, 0x3)
 local switch2 = ProtoField.uint8("nmea-2000-127502.switch2", "Switch2", base.DEC, NULL, 0xc)
 local switch3 = ProtoField.uint8("nmea-2000-127502.switch3", "Switch3", base.DEC, NULL, 0x30)
@@ -41,35 +41,93 @@ function NMEA_2000_127502.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_127502, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(instance, buffer(str_offset + 0, 1), buffer(str_offset + 0, 1):le_uint() * 1)
-    subtree:add(switch1, buffer(str_offset + 1, 1))
-    subtree:add(switch2, buffer(str_offset + 1, 1))
-    subtree:add(switch3, buffer(str_offset + 1, 1))
-    subtree:add(switch4, buffer(str_offset + 1, 1))
-    subtree:add(switch5, buffer(str_offset + 2, 1))
-    subtree:add(switch6, buffer(str_offset + 2, 1))
-    subtree:add(switch7, buffer(str_offset + 2, 1))
-    subtree:add(switch8, buffer(str_offset + 2, 1))
-    subtree:add(switch9, buffer(str_offset + 3, 1))
-    subtree:add(switch10, buffer(str_offset + 3, 1))
-    subtree:add(switch11, buffer(str_offset + 3, 1))
-    subtree:add(switch12, buffer(str_offset + 3, 1))
-    subtree:add(switch13, buffer(str_offset + 4, 1))
-    subtree:add(switch14, buffer(str_offset + 4, 1))
-    subtree:add(switch15, buffer(str_offset + 4, 1))
-    subtree:add(switch16, buffer(str_offset + 4, 1))
-    subtree:add(switch17, buffer(str_offset + 5, 1))
-    subtree:add(switch18, buffer(str_offset + 5, 1))
-    subtree:add(switch19, buffer(str_offset + 5, 1))
-    subtree:add(switch20, buffer(str_offset + 5, 1))
-    subtree:add(switch21, buffer(str_offset + 6, 1))
-    subtree:add(switch22, buffer(str_offset + 6, 1))
-    subtree:add(switch23, buffer(str_offset + 6, 1))
-    subtree:add(switch24, buffer(str_offset + 6, 1))
-    subtree:add(switch25, buffer(str_offset + 7, 1))
-    subtree:add(switch26, buffer(str_offset + 7, 1))
-    subtree:add(switch27, buffer(str_offset + 7, 1))
-    subtree:add(switch28, buffer(str_offset + 7, 1))
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(instance, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(switch1, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(switch2, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(switch3, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(switch4, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(switch5, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(switch6, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(switch7, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(switch8, buffer(str_offset + 2, 1))
+    end
+    if buffer:len() >= (str_offset + 3 + 1) then
+        subtree:add(switch9, buffer(str_offset + 3, 1))
+    end
+    if buffer:len() >= (str_offset + 3 + 1) then
+        subtree:add(switch10, buffer(str_offset + 3, 1))
+    end
+    if buffer:len() >= (str_offset + 3 + 1) then
+        subtree:add(switch11, buffer(str_offset + 3, 1))
+    end
+    if buffer:len() >= (str_offset + 3 + 1) then
+        subtree:add(switch12, buffer(str_offset + 3, 1))
+    end
+    if buffer:len() >= (str_offset + 4 + 1) then
+        subtree:add(switch13, buffer(str_offset + 4, 1))
+    end
+    if buffer:len() >= (str_offset + 4 + 1) then
+        subtree:add(switch14, buffer(str_offset + 4, 1))
+    end
+    if buffer:len() >= (str_offset + 4 + 1) then
+        subtree:add(switch15, buffer(str_offset + 4, 1))
+    end
+    if buffer:len() >= (str_offset + 4 + 1) then
+        subtree:add(switch16, buffer(str_offset + 4, 1))
+    end
+    if buffer:len() >= (str_offset + 5 + 1) then
+        subtree:add(switch17, buffer(str_offset + 5, 1))
+    end
+    if buffer:len() >= (str_offset + 5 + 1) then
+        subtree:add(switch18, buffer(str_offset + 5, 1))
+    end
+    if buffer:len() >= (str_offset + 5 + 1) then
+        subtree:add(switch19, buffer(str_offset + 5, 1))
+    end
+    if buffer:len() >= (str_offset + 5 + 1) then
+        subtree:add(switch20, buffer(str_offset + 5, 1))
+    end
+    if buffer:len() >= (str_offset + 6 + 1) then
+        subtree:add(switch21, buffer(str_offset + 6, 1))
+    end
+    if buffer:len() >= (str_offset + 6 + 1) then
+        subtree:add(switch22, buffer(str_offset + 6, 1))
+    end
+    if buffer:len() >= (str_offset + 6 + 1) then
+        subtree:add(switch23, buffer(str_offset + 6, 1))
+    end
+    if buffer:len() >= (str_offset + 6 + 1) then
+        subtree:add(switch24, buffer(str_offset + 6, 1))
+    end
+    if buffer:len() >= (str_offset + 7 + 1) then
+        subtree:add(switch25, buffer(str_offset + 7, 1))
+    end
+    if buffer:len() >= (str_offset + 7 + 1) then
+        subtree:add(switch26, buffer(str_offset + 7, 1))
+    end
+    if buffer:len() >= (str_offset + 7 + 1) then
+        subtree:add(switch27, buffer(str_offset + 7, 1))
+    end
+    if buffer:len() >= (str_offset + 7 + 1) then
+        subtree:add(switch28, buffer(str_offset + 7, 1))
+    end
 end
 
 return NMEA_2000_127502

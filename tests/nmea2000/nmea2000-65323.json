@@ -1,7 +1,6 @@
 [
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -12,19 +11,18 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.494191000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.494191000 UTC",
-          "frame.time_epoch": "1669809634.494191000",
+          "frame.time": "2022-11-30T12:00:34.494191000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.494191000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.494191000Z",
           "frame.offset_shift": "0.000000000",
-          "frame.time_delta": "0.000000000",
-          "frame.time_delta_displayed": "0.000000000",
           "frame.time_relative": "0.000000000",
           "frame.number": "1",
           "frame.len": "16",
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "218049323",
@@ -49,7 +47,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -60,9 +57,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.869164000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.869164000 UTC",
-          "frame.time_epoch": "1669809637.869164000",
+          "frame.time": "2022-11-30T12:00:37.869164000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.869164000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.869164000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "3.374973000",
           "frame.time_delta_displayed": "3.374973000",
@@ -72,7 +69,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "218049323",

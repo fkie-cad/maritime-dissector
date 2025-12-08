@@ -14,8 +14,12 @@ function NMEA_2000_129025.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_129025, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(latitude, buffer(str_offset + 0, 4), buffer(str_offset + 0, 4):le_int() * 1e-07)
-    subtree:add(longitude, buffer(str_offset + 4, 4), buffer(str_offset + 4, 4):le_int() * 1e-07)
+    if buffer:len() >= (str_offset + 4) then
+        subtree:add(latitude, buffer(str_offset, 4), buffer(str_offset, 4):le_int() * 1e-07)
+    end
+    if buffer:len() >= (str_offset + 4 + 4) then
+        subtree:add(longitude, buffer(str_offset + 4, 4), buffer(str_offset + 4, 4):le_int() * 1e-07)
+    end
 end
 
 return NMEA_2000_129025

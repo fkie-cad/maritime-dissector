@@ -1,7 +1,6 @@
 [
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -12,19 +11,18 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.001317000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.001317000 UTC",
-          "frame.time_epoch": "1669809801.001317000",
+          "frame.time": "2022-11-30T12:03:21.001317000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.001317000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.001317000Z",
           "frame.offset_shift": "0.000000000",
-          "frame.time_delta": "0.000000000",
-          "frame.time_delta_displayed": "0.000000000",
           "frame.time_relative": "0.000000000",
           "frame.number": "1",
           "frame.len": "16",
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127505"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127505",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435294464",
@@ -44,9 +42,10 @@
           "nmea-2000.prio": "6",
           "_ws.lua.fake": "",
           "nmea-2000-127505": {
+            "nmea-2000-127505.instance": "0",
             "nmea-2000-127505.type": "0",
-            "nmea-2000-127505.level": "131.068",
-            "nmea-2000-127505.capacity": "4.29497e+08"
+            "nmea-2000-127505.level": "131.067993",
+            "nmea-2000-127505.capacity": "429496736"
           }
         }
       }
@@ -54,7 +53,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -65,9 +63,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.504303000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.504303000 UTC",
-          "frame.time_epoch": "1669809803.504303000",
+          "frame.time": "2022-11-30T12:03:23.504303000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.504303000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.504303000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "2.502986000",
           "frame.time_delta_displayed": "2.502986000",
@@ -77,7 +75,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127505"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127505",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435294464",
@@ -97,9 +96,10 @@
           "nmea-2000.prio": "6",
           "_ws.lua.fake": "",
           "nmea-2000-127505": {
+            "nmea-2000-127505.instance": "0",
             "nmea-2000-127505.type": "0",
-            "nmea-2000-127505.level": "-0.004",
-            "nmea-2000-127505.capacity": "4.29497e+08"
+            "nmea-2000-127505.level": "-0.00400000019",
+            "nmea-2000-127505.capacity": "429496736"
           }
         }
       }
@@ -107,7 +107,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -118,9 +117,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.005601000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.005601000 UTC",
-          "frame.time_epoch": "1669809806.005601000",
+          "frame.time": "2022-11-30T12:03:26.005601000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.005601000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.005601000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "2.501298000",
           "frame.time_delta_displayed": "2.501298000",
@@ -130,7 +129,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127505"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127505",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435294464",
@@ -150,9 +150,10 @@
           "nmea-2000.prio": "6",
           "_ws.lua.fake": "",
           "nmea-2000-127505": {
+            "nmea-2000-127505.instance": "0",
             "nmea-2000-127505.type": "0",
-            "nmea-2000-127505.level": "-0.004",
-            "nmea-2000-127505.capacity": "4.29497e+08"
+            "nmea-2000-127505.level": "-0.00400000019",
+            "nmea-2000-127505.capacity": "429496736"
           }
         }
       }
@@ -160,7 +161,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -171,9 +171,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.507411000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.507411000 UTC",
-          "frame.time_epoch": "1669809808.507411000",
+          "frame.time": "2022-11-30T12:03:28.507411000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.507411000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.507411000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "2.501810000",
           "frame.time_delta_displayed": "2.501810000",
@@ -183,7 +183,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127505"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127505",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435294464",
@@ -203,9 +204,10 @@
           "nmea-2000.prio": "6",
           "_ws.lua.fake": "",
           "nmea-2000-127505": {
+            "nmea-2000-127505.instance": "0",
             "nmea-2000-127505.type": "0",
-            "nmea-2000-127505.level": "-0.004",
-            "nmea-2000-127505.capacity": "4.29497e+08"
+            "nmea-2000-127505.level": "-0.00400000019",
+            "nmea-2000-127505.capacity": "429496736"
           }
         }
       }
