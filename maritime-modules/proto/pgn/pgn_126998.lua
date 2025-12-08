@@ -15,18 +15,30 @@ function NMEA_2000_126998.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_126998, buffer(), subtree_title)
     local str_offset = 0
 
-    length = buffer(str_offset + 0, 1):uint() - 2
-    -- type = buffer(str_offset + 0 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
-    subtree:add(installationDescription1, buffer(str_offset + 0 + 2, length))
-    str_offset = str_offset + length + 2
-    length = buffer(str_offset + 0, 1):uint() - 2
-    -- type = buffer(str_offset + 0 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
-    subtree:add(installationDescription2, buffer(str_offset + 0 + 2, length))
-    str_offset = str_offset + length + 2
-    length = buffer(str_offset + 0, 1):uint() - 2
-    -- type = buffer(str_offset + 0 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
-    subtree:add(manufacturerInformation, buffer(str_offset + 0 + 2, length))
-    str_offset = str_offset + length + 2
+    if buffer:len() >= (str_offset + 1) then
+        length = buffer(str_offset, 1):uint() - 2
+        if length and length >= 0 and buffer:len() >= (str_offset + 2 + length) then
+            -- type = buffer(str_offset + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
+            subtree:add(installationDescription1, buffer(str_offset + 2, length))
+            str_offset = str_offset + length + 2
+        end
+    end
+    if buffer:len() >= (str_offset + 1) then
+        length = buffer(str_offset, 1):uint() - 2
+        if length and length >= 0 and buffer:len() >= (str_offset + 2 + length) then
+            -- type = buffer(str_offset + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
+            subtree:add(installationDescription2, buffer(str_offset + 2, length))
+            str_offset = str_offset + length + 2
+        end
+    end
+    if buffer:len() >= (str_offset + 1) then
+        length = buffer(str_offset, 1):uint() - 2
+        if length and length >= 0 and buffer:len() >= (str_offset + 2 + length) then
+            -- type = buffer(str_offset + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
+            subtree:add(manufacturerInformation, buffer(str_offset + 2, length))
+            str_offset = str_offset + length + 2
+        end
+    end
 end
 
 return NMEA_2000_126998

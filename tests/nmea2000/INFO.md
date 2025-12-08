@@ -4,27 +4,27 @@ We have split the large file into the different PGN for debugging.
 
 List of supported or validated NMEA2000 PGN (WIP)
 
-- nmea2000-59392.pcap
-- nmea2000-59904.pcap
-- nmea2000-60928.pcap
-- nmea2000-61184.pcap
-- nmea2000-65280.pcap
-- nmea2000-65284.pcap
-- nmea2000-65285.pcap
-- nmea2000-65293.pcap
-- nmea2000-65295.pcap
-- nmea2000-65301.pcap
-- nmea2000-65304.pcap
-- nmea2000-65305.pcap
-- nmea2000-65309.pcap
-- nmea2000-65312.pcap
-- nmea2000-65313.pcap
-- nmea2000-65317.pcap
-- nmea2000-65323.pcap
-- nmea2000-65341.pcap
-- nmea2000-65350.pcap
-- nmea2000-65408.pcap
-- nmea2000-126208.pcap
+- nmea2000-59392.pcap (ISO Acknowledgement)
+- nmea2000-59904.pcap (ISO Request)
+- nmea2000-60928.pcap (ISO Address Claim)
+- nmea2000-61184.pcap (Victron Battery Register)
+- nmea2000-65280.pcap (Furuno: Heave)
+- nmea2000-65284.pcap (Maretron: Proprietary DC Breaker Current)
+- nmea2000-65285.pcap (Lowrance: Temperature)
+- nmea2000-65293.pcap (Diverse Yacht Services: Load Cell)
+- nmea2000-65295.pcap (Unknown)
+- nmea2000-65301.pcap (Unknown)
+- nmea2000-65304.pcap (Unknown)
+- nmea2000-65305.pcap (Simnet: Sailing Processor Status)
+- nmea2000-65309.pcap (Navico: Wireless Battery Status)
+- nmea2000-65312.pcap (Navico: Wireless Signal Status)
+- nmea2000-65313.pcap (Unknown)
+- nmea2000-65317.pcap (Unknown)
+- nmea2000-65323.pcap (Unknown)
+- nmea2000-65341.pcap (Simnet: Autopilot Angle)
+- nmea2000-65350.pcap (Simnet: Magnetic Field)
+- nmea2000-65408.pcap (Airmar: Depth Quality Factor)
+- nmea2000-126208.pcap NMEA - Write Fields reply group function
 - nmea2000-126992.pcap (System time) OK
 - nmea2000-126993.pcap (Heartbeat) OK
 - nmea2000-126996.pcap (Product Information) OK
@@ -45,7 +45,7 @@ List of supported or validated NMEA2000 PGN (WIP)
 - nmea2000-127506.pcap (DC Detailed Status) OK
 - nmea2000-127507.pcap (Charger Status) OK
 - nmea2000-127508.pcap (Battery Status) OK
-- nmea2000-127509.pcap (Charger Status) OK
+- nmea2000-127509.pcap (Inverter Status) OK
 - nmea2000-127744.pcap (AC Power / Current - Phase A) OK
 - nmea2000-127745.pcap (AC Power / Current - Phase B) OK
 - nmea2000-127746.pcap (AC Power / Current - Phase C) OK
@@ -58,12 +58,12 @@ List of supported or validated NMEA2000 PGN (WIP)
 - nmea2000-128275.pcap (Distance Log) OK
 - nmea2000-129025.pcap (Position, Rapid Update) OK
 - nmea2000-129026.pcap (COG & SOG, Rapid Update) OK
-- nmea2000-129029.pcap **LUA ERROR 8Byte Error**
+- nmea2000-129029.pcap (GNSS Position Data)
 - nmea2000-129038.pcap (AIS Class A Position Report) OK
 - nmea2000-129039.pcap (AIS Class B Position Report) OK
 - nmea2000-129283.pcap (Cross Track Error) OK
 - nmea2000-129284.pcap (Navigation Data) OK
-- nmea2000-129285.pcap **LUA ERROR tvb error**
+- nmea2000-129285.pcap (Navigation - Route/WP Information)
 - nmea2000-129539.pcap (GNSS DOPs) OK
 - nmea2000-129540.pcap (GNSS Sats in View) parase variable data
 - nmea2000-129793.pcap (AIS UTC and Date Report) OK
@@ -79,16 +79,16 @@ List of supported or validated NMEA2000 PGN (WIP)
 - nmea2000-130314.pcap (Actual Pressure) OK
 - nmea2000-130316.pcap (Temperature Extended Range) OK
 - nmea2000-130578.pcap (Vessel Speed Components) OK
-- nmea2000-130817.pcap *unsupported since definition is ambiguous*
-- nmea2000-130820.pcap
-- nmea2000-130822.pcap
-- nmea2000-130823.pcap
-- nmea2000-130824.pcap
-- nmea2000-130825.pcap
-- nmea2000-130840.pcap
-- nmea2000-130842.pcap *removed since PCAP seems broken*
-- nmea2000-130845.pcap
-- nmea2000-130846.pcap
-- nmea2000-130847.pcap
-- nmea2000-130850.pcap
-- nmea2000-130860.pcap
+- nmea2000-130817.pcap (Unknown) *unsupported since definition is ambiguous*
+- nmea2000-130820.pcap (Fusion: SiriusXM Presets)
+- nmea2000-130822.pcap (Navico: Unknown 1)
+- nmea2000-130823.pcap (Maretron: Proprietary Temperature High Range)
+- nmea2000-130824.pcap (Maretron: Annunciator)
+- nmea2000-130825.pcap (Navico: Unknown 2)
+- nmea2000-130840.pcap (Simnet: Data User Group Configuration)
+- nmea2000-130842.pcap (Simnet: AIS Class B static data)
+- nmea2000-130845.pcap (Simnet: Key Value)
+- nmea2000-130846.pcap (Furuno: Motion Sensor Status Extended)
+- nmea2000-130847.pcap (SeaTalk: Node Statistics)
+- nmea2000-130850.pcap (Simnet: Alarm)
+- nmea2000-130860.pcap (Simnet: AP Unknown 4)

@@ -4,9 +4,9 @@ if not _G['maritimedissector'] then return end
 -- WARNING: This file is generated automatically by ./pgn.py --
 
 NMEA_2000_130581 = Proto("nmea-2000-130581", "Zone Configuration (deprecated) (130581)")
-local firstZoneId = ProtoField.float("nmea-2000-130581.firstZoneId", "First zone ID")
-local zoneCount = ProtoField.float("nmea-2000-130581.zoneCount", "Zone count")
-local totalZoneCount = ProtoField.float("nmea-2000-130581.totalZoneCount", "Total zone count")
+local firstZoneId = ProtoField.uint8("nmea-2000-130581.firstZoneId", "First zone ID")
+local zoneCount = ProtoField.uint8("nmea-2000-130581.zoneCount", "Zone count")
+local totalZoneCount = ProtoField.uint8("nmea-2000-130581.totalZoneCount", "Total zone count")
 local zoneId = ProtoField.uint8("nmea-2000-130581.zoneId", "Zone ID", base.DEC, NULL, 0xff)
 local zoneName = ProtoField.string("nmea-2000-130581.zoneName", "Zone name")
 
@@ -17,14 +17,36 @@ function NMEA_2000_130581.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_130581, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(firstZoneId, buffer(str_offset + 0, 1), buffer(str_offset + 0, 1):le_uint() * 1)
-    subtree:add(zoneCount, buffer(str_offset + 1, 1), buffer(str_offset + 1, 1):le_uint() * 1)
-    subtree:add(totalZoneCount, buffer(str_offset + 2, 1), buffer(str_offset + 2, 1):le_uint() * 1)
-    subtree:add(zoneId, buffer(str_offset + 3, 1))
-    length = buffer(str_offset + 4, 1):uint() - 2
-    -- type = buffer(str_offset + 4 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
-    subtree:add(zoneName, buffer(str_offset + 4 + 2, length))
-    str_offset = str_offset + length + 2
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(firstZoneId, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(zoneCount, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 1) then
+        subtree:add(totalZoneCount, buffer(str_offset + 2, 1))
+    end
+    local count_1 = buffer(1, 1):uint()
+    if count_1 > 100 then count_1 = 0 end  -- sentinel check
+    local cursor_1 = str_offset
+    for _i_1 = 1, count_1 do
+        if cursor_1 >= buffer:len() then break end
+        if buffer:len() >= (cursor_1 + 1) then
+            subtree:add(zoneId, buffer(cursor_1, 1))
+            cursor_1 = cursor_1 + 1
+        end
+        if buffer:len() > cursor_1 then
+            local _zoneName_len = buffer(cursor_1, 1):uint()
+            if _zoneName_len >= 2 and buffer:len() >= (cursor_1 + _zoneName_len) then
+                subtree:add(zoneName, buffer(cursor_1 + 2, _zoneName_len - 2))
+                cursor_1 = cursor_1 + _zoneName_len
+            elseif _zoneName_len == 0 or _zoneName_len == 1 then
+                cursor_1 = cursor_1 + math.max(1, _zoneName_len)  -- empty string
+            else
+                cursor_1 = cursor_1 + 1  -- malformed, skip length byte
+            end
+        end
+    end
 end
 
 return NMEA_2000_130581

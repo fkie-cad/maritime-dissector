@@ -76,6 +76,10 @@ NMEA_2000_126720 = require "maritime-modules.proto.pgn.pgn_126720"
 NMEA_2000_126720 = require "maritime-modules.proto.pgn.pgn_126720"
 NMEA_2000_126720 = require "maritime-modules.proto.pgn.pgn_126720"
 NMEA_2000_126720 = require "maritime-modules.proto.pgn.pgn_126720"
+NMEA_2000_126720 = require "maritime-modules.proto.pgn.pgn_126720"
+NMEA_2000_126720 = require "maritime-modules.proto.pgn.pgn_126720"
+NMEA_2000_126720 = require "maritime-modules.proto.pgn.pgn_126720"
+NMEA_2000_126720 = require "maritime-modules.proto.pgn.pgn_126720"
 NMEA_2000_126976 = require "maritime-modules.proto.pgn.pgn_126976"
 NMEA_2000_126983 = require "maritime-modules.proto.pgn.pgn_126983"
 NMEA_2000_126984 = require "maritime-modules.proto.pgn.pgn_126984"
@@ -271,6 +275,8 @@ NMEA_2000_130816 = require "maritime-modules.proto.pgn.pgn_130816"
 NMEA_2000_130816 = require "maritime-modules.proto.pgn.pgn_130816"
 NMEA_2000_130816 = require "maritime-modules.proto.pgn.pgn_130816"
 NMEA_2000_130816 = require "maritime-modules.proto.pgn.pgn_130816"
+NMEA_2000_130816 = require "maritime-modules.proto.pgn.pgn_130816"
+NMEA_2000_130818 = require "maritime-modules.proto.pgn.pgn_130818"
 NMEA_2000_130818 = require "maritime-modules.proto.pgn.pgn_130818"
 NMEA_2000_130819 = require "maritime-modules.proto.pgn.pgn_130819"
 NMEA_2000_130820 = require "maritime-modules.proto.pgn.pgn_130820"
@@ -344,6 +350,14 @@ NMEA_2000_130846 = require "maritime-modules.proto.pgn.pgn_130846"
 NMEA_2000_130846 = require "maritime-modules.proto.pgn.pgn_130846"
 NMEA_2000_130847 = require "maritime-modules.proto.pgn.pgn_130847"
 NMEA_2000_130848 = require "maritime-modules.proto.pgn.pgn_130848"
+NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
+NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
+NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
+NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
+NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
+NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
+NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
+NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
 NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
 NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
 NMEA_2000_130850 = require "maritime-modules.proto.pgn.pgn_130850"
@@ -438,6 +452,14 @@ function pgn_dissector.dissector(buffer, pinfo, tree, pgn)
         NMEA_2000_126208.dissector(buffer, pinfo, tree)
     elseif pgn == 126464 then
         NMEA_2000_126464.dissector(buffer, pinfo, tree)
+    elseif pgn == 126720 then
+        NMEA_2000_126720.dissector(buffer, pinfo, tree)
+    elseif pgn == 126720 then
+        NMEA_2000_126720.dissector(buffer, pinfo, tree)
+    elseif pgn == 126720 then
+        NMEA_2000_126720.dissector(buffer, pinfo, tree)
+    elseif pgn == 126720 then
+        NMEA_2000_126720.dissector(buffer, pinfo, tree)
     elseif pgn == 126720 then
         NMEA_2000_126720.dissector(buffer, pinfo, tree)
     elseif pgn == 126720 then
@@ -888,6 +910,10 @@ function pgn_dissector.dissector(buffer, pinfo, tree, pgn)
         NMEA_2000_130816.dissector(buffer, pinfo, tree)
     elseif pgn == 130816 then
         NMEA_2000_130816.dissector(buffer, pinfo, tree)
+    elseif pgn == 130816 then
+        NMEA_2000_130816.dissector(buffer, pinfo, tree)
+    elseif pgn == 130818 then
+        NMEA_2000_130818.dissector(buffer, pinfo, tree)
     elseif pgn == 130818 then
         NMEA_2000_130818.dissector(buffer, pinfo, tree)
     elseif pgn == 130819 then
@@ -1034,6 +1060,22 @@ function pgn_dissector.dissector(buffer, pinfo, tree, pgn)
         NMEA_2000_130847.dissector(buffer, pinfo, tree)
     elseif pgn == 130848 then
         NMEA_2000_130848.dissector(buffer, pinfo, tree)
+    elseif pgn == 130850 then
+        NMEA_2000_130850.dissector(buffer, pinfo, tree)
+    elseif pgn == 130850 then
+        NMEA_2000_130850.dissector(buffer, pinfo, tree)
+    elseif pgn == 130850 then
+        NMEA_2000_130850.dissector(buffer, pinfo, tree)
+    elseif pgn == 130850 then
+        NMEA_2000_130850.dissector(buffer, pinfo, tree)
+    elseif pgn == 130850 then
+        NMEA_2000_130850.dissector(buffer, pinfo, tree)
+    elseif pgn == 130850 then
+        NMEA_2000_130850.dissector(buffer, pinfo, tree)
+    elseif pgn == 130850 then
+        NMEA_2000_130850.dissector(buffer, pinfo, tree)
+    elseif pgn == 130850 then
+        NMEA_2000_130850.dissector(buffer, pinfo, tree)
     elseif pgn == 130850 then
         NMEA_2000_130850.dissector(buffer, pinfo, tree)
     elseif pgn == 130850 then

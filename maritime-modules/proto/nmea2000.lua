@@ -46,13 +46,17 @@ function is_fast(pgn)
     end
 end
 
-function fragment_complete(fragment)
-    length = 0
-
-    for k, v in pairs(fragment["frames"]) do
+local function fragment_payload_length(fragment)
+    local length = 0
+    for _, v in pairs(fragment.frames) do
         length = length + #v
     end
-    return length >= fragment["length"]
+    return length
+end
+
+function fragment_complete(fragment)
+    if not fragment or not fragment.length then return false end
+    return fragment_payload_length(fragment) >= fragment.length
 end
 
 function get_fragment_data(fragment)
@@ -95,9 +99,9 @@ function NMEA_2000.dissector(buffer, pinfo, tree)
 
     if is_fast(pgn_id) then -- handle fragmented messages
         subtree:add(seq, buffer(0, 1))
-        seq_ = bit32.rshift(buffer(0, 1):uint(), 5)
+        seq_ = bit.rshift(buffer(0, 1):uint(), 5)
         subtree:add(counter, buffer(0, 1))
-        counter_ = bit32.band(buffer(0, 1):uint(), 0x1f)
+        counter_ = bit.band(buffer(0, 1):uint(), 0x1f)
 
         if counter_ == 0 then -- only in first packet has length--
             subtree:add(len, buffer(1, 1))
@@ -118,13 +122,21 @@ function NMEA_2000.dissector(buffer, pinfo, tree)
                 frag_buffer[key]["length"] = 99999
             end
 
-            if counter_ == 0 then -- only in first packet has length--
+            if counter_ == 0 then -- first packet carries total payload length and first up to 6 bytes
+                local declared_len = buffer(1, 1):uint() or 0
                 frag_buffer[key]["time"] = pinfo.abs_ts
-                frag_buffer[key]["length"] = buffer(1, 1):uint()
-                frag_buffer[key]["frames"][counter_] = buffer(2, 6):raw()
+                frag_buffer[key]["length"] = declared_len
+                -- Clamp first chunk to remaining length (may be < 6 if malformed capture)
+                local first_chunk_len = math.min(6, math.max(0, declared_len))
+                frag_buffer[key]["frames"][counter_] = buffer(2, first_chunk_len):raw()
 
             else
-                frag_buffer[key]["frames"][counter_] = buffer(1, 7):raw()
+                -- For subsequent frames always 7 data bytes but clamp to remaining
+                local remaining = frag_buffer[key]["length"] - fragment_payload_length(frag_buffer[key])
+                if remaining > 0 then
+                    local take = math.min(7, remaining)
+                    frag_buffer[key]["frames"][counter_] = buffer(1, take):raw()
+                end
             end
 
             if fragment_complete(frag_buffer[key]) then
@@ -133,7 +145,13 @@ function NMEA_2000.dissector(buffer, pinfo, tree)
                 end
 
                 defragmented[key][frag_buffer[key]["time"]] = ByteArray.new(get_fragment_data(frag_buffer[key]), true)
-                pgn_dissector.dissector(ByteArray.tvb(defragmented[key][frag_buffer[key]["time"]], "Reassembled Data"), pinfo, subtree, pgn_id)
+                -- Only call the PGN dissector if we exactly match declared length
+                local re_buf = defragmented[key][frag_buffer[key]["time"]]
+                if re_buf:len() == frag_buffer[key]["length"] then
+                    pgn_dissector.dissector(ByteArray.tvb(re_buf, "Reassembled Data"), pinfo, subtree, pgn_id)
+                else
+                    subtree:add_expert_info(PI_MALFORMED, PI_ERROR, string.format("Reassembled length mismatch: have %d expected %d", re_buf:len(), frag_buffer[key]["length"]))
+                end
                 frag_buffer[key] = nil
             end
 

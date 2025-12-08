@@ -16,16 +16,28 @@ function NMEA_2000_127498.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_127498, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(instance, buffer(str_offset + 0, 1))
-    subtree:add(ratedEngineSpeed, buffer(str_offset + 1, 2), buffer(str_offset + 1, 2):le_uint() * 0.25)
-    length = buffer(str_offset + 3, 1):uint() - 2
-    -- type = buffer(str_offset + 3 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
-    subtree:add(vin, buffer(str_offset + 3 + 2, length))
-    str_offset = str_offset + length + 2
-    length = buffer(str_offset + 0, 1):uint() - 2
-    -- type = buffer(str_offset + 0 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
-    subtree:add(softwareId, buffer(str_offset + 0 + 2, length))
-    str_offset = str_offset + length + 2
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(instance, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 2) then
+        subtree:add(ratedEngineSpeed, buffer(str_offset + 1, 2), buffer(str_offset + 1, 2):le_uint() * 0.25)
+    end
+    if buffer:len() >= (str_offset + 3 + 1) then
+        length = buffer(str_offset + 3, 1):uint() - 2
+        if length and length >= 0 and buffer:len() >= (str_offset + 3 + 2 + length) then
+            -- type = buffer(str_offset + 3 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
+            subtree:add(vin, buffer(str_offset + 3 + 2, length))
+            str_offset = str_offset + 3 + length + 2
+        end
+    end
+    if buffer:len() >= (str_offset + 1) then
+        length = buffer(str_offset, 1):uint() - 2
+        if length and length >= 0 and buffer:len() >= (str_offset + 2 + length) then
+            -- type = buffer(str_offset + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
+            subtree:add(softwareId, buffer(str_offset + 2, length))
+            str_offset = str_offset + length + 2
+        end
+    end
 end
 
 return NMEA_2000_127498

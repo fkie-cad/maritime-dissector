@@ -1,7 +1,6 @@
 [
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -12,19 +11,18 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:29.717464000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:29.717464000 UTC",
-          "frame.time_epoch": "1669809629.717464000",
+          "frame.time": "2022-11-30T12:00:29.717464000Z",
+          "frame.time_utc": "2022-11-30T12:00:29.717464000Z",
+          "frame.time_epoch": "2022-11-30T12:00:29.717464000Z",
           "frame.offset_shift": "0.000000000",
-          "frame.time_delta": "0.000000000",
-          "frame.time_delta_displayed": "0.000000000",
           "frame.time_relative": "0.000000000",
           "frame.number": "1",
           "frame.len": "16",
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258900",
@@ -52,7 +50,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -63,9 +60,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:29.718266000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:29.718266000 UTC",
-          "frame.time_epoch": "1669809629.718266000",
+          "frame.time": "2022-11-30T12:00:29.718266000Z",
+          "frame.time_utc": "2022-11-30T12:00:29.718266000Z",
+          "frame.time_epoch": "2022-11-30T12:00:29.718266000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000802000",
           "frame.time_delta_displayed": "0.000802000",
@@ -75,7 +72,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258900",
@@ -98,12 +96,13 @@
           "nmea-2000.frag_data": "30:37:37:31:38:31:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "14128",
-            "nmea-2000-130847.nodeVoltage": "125.99"
+            "nmea-2000-130847.nodeVoltage": "125.989998"
           }
         }
       }
@@ -111,7 +110,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -122,9 +120,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:29.878805000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:29.878805000 UTC",
-          "frame.time_epoch": "1669809629.878805000",
+          "frame.time": "2022-11-30T12:00:29.878805000Z",
+          "frame.time_utc": "2022-11-30T12:00:29.878805000Z",
+          "frame.time_epoch": "2022-11-30T12:00:29.878805000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.160539000",
           "frame.time_delta_displayed": "0.160539000",
@@ -134,7 +132,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258898",
@@ -162,7 +161,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -173,9 +171,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:29.879916000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:29.879916000 UTC",
-          "frame.time_epoch": "1669809629.879916000",
+          "frame.time": "2022-11-30T12:00:29.879916000Z",
+          "frame.time_utc": "2022-11-30T12:00:29.879916000Z",
+          "frame.time_epoch": "2022-11-30T12:00:29.879916000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001111000",
           "frame.time_delta_displayed": "0.001111000",
@@ -185,7 +183,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258898",
@@ -208,12 +207,13 @@
           "nmea-2000.frag_data": "30:37:37:31:38:31:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "14128",
-            "nmea-2000-130847.nodeVoltage": "125.99"
+            "nmea-2000-130847.nodeVoltage": "125.989998"
           }
         }
       }
@@ -221,7 +221,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -232,9 +231,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.131329000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.131329000 UTC",
-          "frame.time_epoch": "1669809630.131329000",
+          "frame.time": "2022-11-30T12:00:30.131329000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.131329000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.131329000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.251413000",
           "frame.time_delta_displayed": "0.251413000",
@@ -244,7 +243,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258923",
@@ -272,7 +272,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -283,9 +282,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.131773000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.131773000 UTC",
-          "frame.time_epoch": "1669809630.131773000",
+          "frame.time": "2022-11-30T12:00:30.131773000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.131773000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.131773000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000444000",
           "frame.time_delta_displayed": "0.000444000",
@@ -295,7 +294,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258923",
@@ -318,12 +318,13 @@
           "nmea-2000.frag_data": "30:37:37:31:38:31:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "14128",
-            "nmea-2000-130847.nodeVoltage": "125.99"
+            "nmea-2000-130847.nodeVoltage": "125.989998"
           }
         }
       }
@@ -331,7 +332,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -342,9 +342,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.456204000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.456204000 UTC",
-          "frame.time_epoch": "1669809630.456204000",
+          "frame.time": "2022-11-30T12:00:30.456204000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.456204000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.456204000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.324431000",
           "frame.time_delta_displayed": "0.324431000",
@@ -354,7 +354,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258888",
@@ -382,7 +383,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -393,9 +393,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.457866000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.457866000 UTC",
-          "frame.time_epoch": "1669809630.457866000",
+          "frame.time": "2022-11-30T12:00:30.457866000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.457866000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.457866000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001662000",
           "frame.time_delta_displayed": "0.001662000",
@@ -405,7 +405,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258888",
@@ -428,12 +429,13 @@
           "nmea-2000.frag_data": "30:37:37:31:38:31:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "14128",
-            "nmea-2000-130847.nodeVoltage": "125.99"
+            "nmea-2000-130847.nodeVoltage": "125.989998"
           }
         }
       }
@@ -441,7 +443,6 @@
   },
   {
     "_index": "packets-2022-11-16",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -452,9 +453,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 16, 2022 16:15:24.073090000 CET",
-          "frame.time_utc": "Nov 16, 2022 15:15:24.073090000 UTC",
-          "frame.time_epoch": "1668611724.073090000",
+          "frame.time": "2022-11-16T15:15:24.073090000Z",
+          "frame.time_utc": "2022-11-16T15:15:24.073090000Z",
+          "frame.time_epoch": "2022-11-16T15:15:24.073090000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "-1197906.384776000",
           "frame.time_delta_displayed": "-1197906.384776000",
@@ -464,7 +465,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258902",
@@ -492,7 +494,6 @@
   },
   {
     "_index": "packets-2022-11-16",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -503,9 +504,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 16, 2022 16:15:24.074127000 CET",
-          "frame.time_utc": "Nov 16, 2022 15:15:24.074127000 UTC",
-          "frame.time_epoch": "1668611724.074127000",
+          "frame.time": "2022-11-16T15:15:24.074127000Z",
+          "frame.time_utc": "2022-11-16T15:15:24.074127000Z",
+          "frame.time_epoch": "2022-11-16T15:15:24.074127000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001037000",
           "frame.time_delta_displayed": "0.001037000",
@@ -515,7 +516,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258902",
@@ -538,12 +540,13 @@
           "nmea-2000.frag_data": "30:37:37:31:38:31:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "14128",
-            "nmea-2000-130847.nodeVoltage": "125.99"
+            "nmea-2000-130847.nodeVoltage": "125.989998"
           }
         }
       }
@@ -551,7 +554,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -562,9 +564,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:32.715970000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:32.715970000 UTC",
-          "frame.time_epoch": "1669809632.715970000",
+          "frame.time": "2022-11-30T12:00:32.715970000Z",
+          "frame.time_utc": "2022-11-30T12:00:32.715970000Z",
+          "frame.time_epoch": "2022-11-30T12:00:32.715970000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1197908.641843000",
           "frame.time_delta_displayed": "1197908.641843000",
@@ -574,7 +576,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258927",
@@ -602,7 +605,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -613,9 +615,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:32.717048000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:32.717048000 UTC",
-          "frame.time_epoch": "1669809632.717048000",
+          "frame.time": "2022-11-30T12:00:32.717048000Z",
+          "frame.time_utc": "2022-11-30T12:00:32.717048000Z",
+          "frame.time_epoch": "2022-11-30T12:00:32.717048000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001078000",
           "frame.time_delta_displayed": "0.001078000",
@@ -625,7 +627,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258927",
@@ -648,12 +651,13 @@
           "nmea-2000.frag_data": "33:33:33:35:35:36:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "55",
             "nmea-2000-130847.deviceNumber": "13107",
-            "nmea-2000-130847.nodeVoltage": "136.19"
+            "nmea-2000-130847.nodeVoltage": "136.190002"
           }
         }
       }
@@ -661,7 +665,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -672,9 +675,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:32.997098000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:32.997098000 UTC",
-          "frame.time_epoch": "1669809632.997098000",
+          "frame.time": "2022-11-30T12:00:32.997098000Z",
+          "frame.time_utc": "2022-11-30T12:00:32.997098000Z",
+          "frame.time_epoch": "2022-11-30T12:00:32.997098000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.280050000",
           "frame.time_delta_displayed": "0.280050000",
@@ -684,7 +687,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258893",
@@ -712,7 +716,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -723,9 +726,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:32.999722000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:32.999722000 UTC",
-          "frame.time_epoch": "1669809632.999722000",
+          "frame.time": "2022-11-30T12:00:32.999722000Z",
+          "frame.time_utc": "2022-11-30T12:00:32.999722000Z",
+          "frame.time_epoch": "2022-11-30T12:00:32.999722000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002624000",
           "frame.time_delta_displayed": "0.002624000",
@@ -735,7 +738,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258893",
@@ -758,12 +762,13 @@
           "nmea-2000.frag_data": "33:39:36:34:38:34:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12553",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "55",
             "nmea-2000-130847.deviceNumber": "14643",
-            "nmea-2000-130847.nodeVoltage": "133.66"
+            "nmea-2000-130847.nodeVoltage": "133.660004"
           }
         }
       }
@@ -771,7 +776,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -782,9 +786,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.100003000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.100003000 UTC",
-          "frame.time_epoch": "1669809633.100003000",
+          "frame.time": "2022-11-30T12:00:33.100003000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.100003000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.100003000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100281000",
           "frame.time_delta_displayed": "0.100281000",
@@ -794,7 +798,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258926",
@@ -822,7 +827,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -833,9 +837,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.100575000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.100575000 UTC",
-          "frame.time_epoch": "1669809633.100575000",
+          "frame.time": "2022-11-30T12:00:33.100575000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.100575000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.100575000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000572000",
           "frame.time_delta_displayed": "0.000572000",
@@ -845,7 +849,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258926",
@@ -868,12 +873,13 @@
           "nmea-2000.frag_data": "31:35:33:31:37:38:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "13617",
-            "nmea-2000-130847.nodeVoltage": "125.95"
+            "nmea-2000-130847.nodeVoltage": "125.949997"
           }
         }
       }
@@ -881,7 +887,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -892,9 +897,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.312568000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.312568000 UTC",
-          "frame.time_epoch": "1669809633.312568000",
+          "frame.time": "2022-11-30T12:00:33.312568000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.312568000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.312568000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.211993000",
           "frame.time_delta_displayed": "0.211993000",
@@ -904,7 +909,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258882",
@@ -932,7 +938,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -943,9 +948,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.312591000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.312591000 UTC",
-          "frame.time_epoch": "1669809633.312591000",
+          "frame.time": "2022-11-30T12:00:33.312591000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.312591000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.312591000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000023000",
           "frame.time_delta_displayed": "0.000023000",
@@ -955,7 +960,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258882",
@@ -978,12 +984,13 @@
           "nmea-2000.frag_data": "36:37:31:39:34:32:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12553",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "55",
             "nmea-2000-130847.deviceNumber": "14134",
-            "nmea-2000-130847.nodeVoltage": "146.41"
+            "nmea-2000-130847.nodeVoltage": "146.410004"
           }
         }
       }
@@ -991,7 +998,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1002,9 +1008,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.606204000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.606204000 UTC",
-          "frame.time_epoch": "1669809633.606204000",
+          "frame.time": "2022-11-30T12:00:33.606204000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.606204000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.606204000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.293613000",
           "frame.time_delta_displayed": "0.293613000",
@@ -1014,7 +1020,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258904",
@@ -1042,7 +1049,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1053,9 +1059,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.606728000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.606728000 UTC",
-          "frame.time_epoch": "1669809633.606728000",
+          "frame.time": "2022-11-30T12:00:33.606728000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.606728000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.606728000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000524000",
           "frame.time_delta_displayed": "0.000524000",
@@ -1065,7 +1071,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258904",
@@ -1088,12 +1095,13 @@
           "nmea-2000.frag_data": "37:34:38:35:32:30:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12553",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "53",
             "nmea-2000-130847.deviceNumber": "13367",
-            "nmea-2000-130847.nodeVoltage": "136.24"
+            "nmea-2000-130847.nodeVoltage": "136.240005"
           }
         }
       }
@@ -1101,7 +1109,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1112,9 +1119,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.706856000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.706856000 UTC",
-          "frame.time_epoch": "1669809633.706856000",
+          "frame.time": "2022-11-30T12:00:33.706856000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.706856000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.706856000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100128000",
           "frame.time_delta_displayed": "0.100128000",
@@ -1124,7 +1131,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258920",
@@ -1152,7 +1160,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1163,9 +1170,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.707432000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.707432000 UTC",
-          "frame.time_epoch": "1669809633.707432000",
+          "frame.time": "2022-11-30T12:00:33.707432000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.707432000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.707432000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000576000",
           "frame.time_delta_displayed": "0.000576000",
@@ -1175,7 +1182,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258920",
@@ -1198,12 +1206,13 @@
           "nmea-2000.frag_data": "38:33:31:38:30:35:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12553",
             "nmea-2000-130847.year": "49",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "13112",
-            "nmea-2000-130847.nodeVoltage": "143.85"
+            "nmea-2000-130847.nodeVoltage": "143.850006"
           }
         }
       }
@@ -1211,7 +1220,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1222,9 +1230,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.979072000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.979072000 UTC",
-          "frame.time_epoch": "1669809633.979072000",
+          "frame.time": "2022-11-30T12:00:33.979072000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.979072000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.979072000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.271640000",
           "frame.time_delta_displayed": "0.271640000",
@@ -1234,7 +1242,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258922",
@@ -1262,7 +1271,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1273,9 +1281,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:33.979825000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:33.979825000 UTC",
-          "frame.time_epoch": "1669809633.979825000",
+          "frame.time": "2022-11-30T12:00:33.979825000Z",
+          "frame.time_utc": "2022-11-30T12:00:33.979825000Z",
+          "frame.time_epoch": "2022-11-30T12:00:33.979825000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000753000",
           "frame.time_delta_displayed": "0.000753000",
@@ -1285,7 +1293,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258922",
@@ -1308,12 +1317,13 @@
           "nmea-2000.frag_data": "30:39:36:31:34:31:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "14640",
-            "nmea-2000-130847.nodeVoltage": "125.98"
+            "nmea-2000-130847.nodeVoltage": "125.980003"
           }
         }
       }
@@ -1321,7 +1331,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1332,9 +1341,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.117178000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.117178000 UTC",
-          "frame.time_epoch": "1669809634.117178000",
+          "frame.time": "2022-11-30T12:00:34.117178000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.117178000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.117178000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.137353000",
           "frame.time_delta_displayed": "0.137353000",
@@ -1344,7 +1353,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258925",
@@ -1372,7 +1382,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1383,9 +1392,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.117722000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.117722000 UTC",
-          "frame.time_epoch": "1669809634.117722000",
+          "frame.time": "2022-11-30T12:00:34.117722000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.117722000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.117722000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000544000",
           "frame.time_delta_displayed": "0.000544000",
@@ -1395,7 +1404,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258925",
@@ -1418,12 +1428,13 @@
           "nmea-2000.frag_data": "33:30:32:34:30:33:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "55",
             "nmea-2000-130847.deviceNumber": "12339",
-            "nmea-2000-130847.nodeVoltage": "133.62"
+            "nmea-2000-130847.nodeVoltage": "133.619995"
           }
         }
       }
@@ -1431,7 +1442,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1442,9 +1452,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.213164000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.213164000 UTC",
-          "frame.time_epoch": "1669809634.213164000",
+          "frame.time": "2022-11-30T12:00:34.213164000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.213164000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.213164000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.095442000",
           "frame.time_delta_displayed": "0.095442000",
@@ -1454,7 +1464,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258901",
@@ -1482,7 +1493,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1493,9 +1503,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.215448000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.215448000 UTC",
-          "frame.time_epoch": "1669809634.215448000",
+          "frame.time": "2022-11-30T12:00:34.215448000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.215448000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.215448000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002284000",
           "frame.time_delta_displayed": "0.002284000",
@@ -1505,7 +1515,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258901",
@@ -1532,7 +1543,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1543,9 +1553,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.216563000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.216563000 UTC",
-          "frame.time_epoch": "1669809634.216563000",
+          "frame.time": "2022-11-30T12:00:34.216563000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.216563000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.216563000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001115000",
           "frame.time_delta_displayed": "0.001115000",
@@ -1555,7 +1565,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258901",
@@ -1578,12 +1589,13 @@
           "nmea-2000.frag_data": "61:35:63:31:66:30:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12560",
             "nmea-2000-130847.year": "52",
             "nmea-2000-130847.month": "48",
             "nmea-2000-130847.deviceNumber": "13369",
-            "nmea-2000-130847.nodeVoltage": "123.44"
+            "nmea-2000-130847.nodeVoltage": "123.440002"
           }
         }
       }
@@ -1591,7 +1603,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1602,9 +1613,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.418337000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.418337000 UTC",
-          "frame.time_epoch": "1669809634.418337000",
+          "frame.time": "2022-11-30T12:00:34.418337000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.418337000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.418337000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.201774000",
           "frame.time_delta_displayed": "0.201774000",
@@ -1614,7 +1625,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258928",
@@ -1642,7 +1654,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1653,9 +1664,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.421756000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.421756000 UTC",
-          "frame.time_epoch": "1669809634.421756000",
+          "frame.time": "2022-11-30T12:00:34.421756000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.421756000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.421756000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003419000",
           "frame.time_delta_displayed": "0.003419000",
@@ -1665,7 +1676,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258928",
@@ -1688,12 +1700,13 @@
           "nmea-2000.frag_data": "30:31:35:37:34:36:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "55",
             "nmea-2000-130847.deviceNumber": "12592",
-            "nmea-2000-130847.nodeVoltage": "141.33"
+            "nmea-2000-130847.nodeVoltage": "141.330002"
           }
         }
       }
@@ -1701,7 +1714,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1712,9 +1724,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.512277000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.512277000 UTC",
-          "frame.time_epoch": "1669809634.512277000",
+          "frame.time": "2022-11-30T12:00:34.512277000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.512277000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.512277000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.090521000",
           "frame.time_delta_displayed": "0.090521000",
@@ -1724,7 +1736,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258883",
@@ -1752,7 +1765,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1763,9 +1775,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.512738000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.512738000 UTC",
-          "frame.time_epoch": "1669809634.512738000",
+          "frame.time": "2022-11-30T12:00:34.512738000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.512738000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.512738000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000461000",
           "frame.time_delta_displayed": "0.000461000",
@@ -1775,7 +1787,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258883",
@@ -1802,7 +1815,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1813,9 +1825,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.513328000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.513328000 UTC",
-          "frame.time_epoch": "1669809634.513328000",
+          "frame.time": "2022-11-30T12:00:34.513328000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.513328000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.513328000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000590000",
           "frame.time_delta_displayed": "0.000590000",
@@ -1825,7 +1837,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258883",
@@ -1848,12 +1861,13 @@
           "nmea-2000.frag_data": "61:35:63:31:66:30:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12560",
             "nmea-2000-130847.year": "52",
             "nmea-2000-130847.month": "48",
             "nmea-2000-130847.deviceNumber": "13369",
-            "nmea-2000-130847.nodeVoltage": "123.44"
+            "nmea-2000-130847.nodeVoltage": "123.440002"
           }
         }
       }
@@ -1861,7 +1875,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1872,9 +1885,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.727513000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.727513000 UTC",
-          "frame.time_epoch": "1669809634.727513000",
+          "frame.time": "2022-11-30T12:00:34.727513000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.727513000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.727513000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.214185000",
           "frame.time_delta_displayed": "0.214185000",
@@ -1884,7 +1897,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258909",
@@ -1912,7 +1926,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1923,9 +1936,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.728050000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.728050000 UTC",
-          "frame.time_epoch": "1669809634.728050000",
+          "frame.time": "2022-11-30T12:00:34.728050000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.728050000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.728050000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000537000",
           "frame.time_delta_displayed": "0.000537000",
@@ -1935,7 +1948,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258909",
@@ -1958,12 +1972,13 @@
           "nmea-2000.frag_data": "38:30:33:35:37:33:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "49",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "12344",
-            "nmea-2000-130847.nodeVoltage": "136.19"
+            "nmea-2000-130847.nodeVoltage": "136.190002"
           }
         }
       }
@@ -1971,7 +1986,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1982,9 +1996,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.807673000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.807673000 UTC",
-          "frame.time_epoch": "1669809634.807673000",
+          "frame.time": "2022-11-30T12:00:34.807673000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.807673000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.807673000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.079623000",
           "frame.time_delta_displayed": "0.079623000",
@@ -1994,7 +2008,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258914",
@@ -2022,7 +2037,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2033,9 +2047,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:34.808191000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:34.808191000 UTC",
-          "frame.time_epoch": "1669809634.808191000",
+          "frame.time": "2022-11-30T12:00:34.808191000Z",
+          "frame.time_utc": "2022-11-30T12:00:34.808191000Z",
+          "frame.time_epoch": "2022-11-30T12:00:34.808191000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000518000",
           "frame.time_delta_displayed": "0.000518000",
@@ -2045,7 +2059,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258914",
@@ -2068,12 +2083,13 @@
           "nmea-2000.frag_data": "36:36:35:30:37:34:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12553",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "55",
             "nmea-2000-130847.deviceNumber": "13878",
-            "nmea-2000-130847.nodeVoltage": "123.41"
+            "nmea-2000-130847.nodeVoltage": "123.410004"
           }
         }
       }
@@ -2081,7 +2097,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2092,9 +2107,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.113486000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.113486000 UTC",
-          "frame.time_epoch": "1669809635.113486000",
+          "frame.time": "2022-11-30T12:00:35.113486000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.113486000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.113486000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.305295000",
           "frame.time_delta_displayed": "0.305295000",
@@ -2104,7 +2119,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258912",
@@ -2132,7 +2148,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2143,9 +2158,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.115794000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.115794000 UTC",
-          "frame.time_epoch": "1669809635.115794000",
+          "frame.time": "2022-11-30T12:00:35.115794000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.115794000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.115794000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002308000",
           "frame.time_delta_displayed": "0.002308000",
@@ -2155,7 +2170,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258912",
@@ -2182,7 +2198,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2193,9 +2208,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.117419000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.117419000 UTC",
-          "frame.time_epoch": "1669809635.117419000",
+          "frame.time": "2022-11-30T12:00:35.117419000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.117419000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.117419000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001625000",
           "frame.time_delta_displayed": "0.001625000",
@@ -2205,7 +2220,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258912",
@@ -2228,12 +2244,13 @@
           "nmea-2000.frag_data": "61:35:63:31:66:30:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12560",
             "nmea-2000-130847.year": "52",
             "nmea-2000-130847.month": "48",
             "nmea-2000-130847.deviceNumber": "13369",
-            "nmea-2000-130847.nodeVoltage": "123.44"
+            "nmea-2000-130847.nodeVoltage": "123.440002"
           }
         }
       }
@@ -2241,7 +2258,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2252,9 +2268,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.202317000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.202317000 UTC",
-          "frame.time_epoch": "1669809635.202317000",
+          "frame.time": "2022-11-30T12:00:35.202317000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.202317000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.202317000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.084898000",
           "frame.time_delta_displayed": "0.084898000",
@@ -2264,7 +2280,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258905",
@@ -2292,7 +2309,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2303,9 +2319,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.202663000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.202663000 UTC",
-          "frame.time_epoch": "1669809635.202663000",
+          "frame.time": "2022-11-30T12:00:35.202663000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.202663000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.202663000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000346000",
           "frame.time_delta_displayed": "0.000346000",
@@ -2315,7 +2331,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258905",
@@ -2338,12 +2355,13 @@
           "nmea-2000.frag_data": "38:30:33:35:37:33:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "49",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "12344",
-            "nmea-2000-130847.nodeVoltage": "136.19"
+            "nmea-2000-130847.nodeVoltage": "136.190002"
           }
         }
       }
@@ -2351,7 +2369,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2362,9 +2379,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.816972000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.816972000 UTC",
-          "frame.time_epoch": "1669809635.816972000",
+          "frame.time": "2022-11-30T12:00:35.816972000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.816972000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.816972000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.614309000",
           "frame.time_delta_displayed": "0.614309000",
@@ -2374,7 +2391,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258915",
@@ -2402,7 +2420,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2413,9 +2430,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.817502000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.817502000 UTC",
-          "frame.time_epoch": "1669809635.817502000",
+          "frame.time": "2022-11-30T12:00:35.817502000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.817502000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.817502000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000530000",
           "frame.time_delta_displayed": "0.000530000",
@@ -2425,7 +2442,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258915",
@@ -2448,12 +2466,13 @@
           "nmea-2000.frag_data": "37:34:39:30:37:31:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12553",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "53",
             "nmea-2000-130847.deviceNumber": "13367",
-            "nmea-2000-130847.nodeVoltage": "123.45"
+            "nmea-2000-130847.nodeVoltage": "123.449997"
           }
         }
       }
@@ -2461,7 +2480,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2472,9 +2490,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.874864000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.874864000 UTC",
-          "frame.time_epoch": "1669809635.874864000",
+          "frame.time": "2022-11-30T12:00:35.874864000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.874864000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.874864000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.057362000",
           "frame.time_delta_displayed": "0.057362000",
@@ -2484,7 +2502,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258911",
@@ -2512,7 +2531,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2523,9 +2541,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.875461000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.875461000 UTC",
-          "frame.time_epoch": "1669809635.875461000",
+          "frame.time": "2022-11-30T12:00:35.875461000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.875461000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.875461000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000597000",
           "frame.time_delta_displayed": "0.000597000",
@@ -2535,7 +2553,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258911",
@@ -2562,7 +2581,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2573,9 +2591,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.875971000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.875971000 UTC",
-          "frame.time_epoch": "1669809635.875971000",
+          "frame.time": "2022-11-30T12:00:35.875971000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.875971000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.875971000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000510000",
           "frame.time_delta_displayed": "0.000510000",
@@ -2585,7 +2603,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258911",
@@ -2608,12 +2627,13 @@
           "nmea-2000.frag_data": "00:00:00:00:00:00:00",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "55",
             "nmea-2000-130847.month": "48",
             "nmea-2000-130847.deviceNumber": "19508",
-            "nmea-2000-130847.nodeVoltage": "123.37"
+            "nmea-2000-130847.nodeVoltage": "123.370003"
           }
         }
       }
@@ -2621,7 +2641,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2632,9 +2651,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.325435000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.325435000 UTC",
-          "frame.time_epoch": "1669809636.325435000",
+          "frame.time": "2022-11-30T12:00:36.325435000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.325435000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.325435000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.449464000",
           "frame.time_delta_displayed": "0.449464000",
@@ -2644,7 +2663,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258899",
@@ -2672,7 +2692,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2683,9 +2702,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.326063000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.326063000 UTC",
-          "frame.time_epoch": "1669809636.326063000",
+          "frame.time": "2022-11-30T12:00:36.326063000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.326063000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.326063000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000628000",
           "frame.time_delta_displayed": "0.000628000",
@@ -2695,7 +2714,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258899",
@@ -2722,7 +2742,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2733,9 +2752,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.326572000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.326572000 UTC",
-          "frame.time_epoch": "1669809636.326572000",
+          "frame.time": "2022-11-30T12:00:36.326572000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.326572000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.326572000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000509000",
           "frame.time_delta_displayed": "0.000509000",
@@ -2745,7 +2764,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258899",
@@ -2768,12 +2788,13 @@
           "nmea-2000.frag_data": "61:35:63:31:66:30:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12560",
             "nmea-2000-130847.year": "52",
             "nmea-2000-130847.month": "48",
             "nmea-2000-130847.deviceNumber": "13369",
-            "nmea-2000-130847.nodeVoltage": "123.44"
+            "nmea-2000-130847.nodeVoltage": "123.440002"
           }
         }
       }
@@ -2781,7 +2802,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2792,9 +2812,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.401968000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.401968000 UTC",
-          "frame.time_epoch": "1669809636.401968000",
+          "frame.time": "2022-11-30T12:00:36.401968000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.401968000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.401968000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.075396000",
           "frame.time_delta_displayed": "0.075396000",
@@ -2804,7 +2824,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258892",
@@ -2832,7 +2853,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2843,9 +2863,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.402323000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.402323000 UTC",
-          "frame.time_epoch": "1669809636.402323000",
+          "frame.time": "2022-11-30T12:00:36.402323000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.402323000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.402323000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000355000",
           "frame.time_delta_displayed": "0.000355000",
@@ -2855,7 +2875,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258892",
@@ -2878,12 +2899,13 @@
           "nmea-2000.frag_data": "38:30:33:35:37:33:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "49",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "12344",
-            "nmea-2000-130847.nodeVoltage": "136.19"
+            "nmea-2000-130847.nodeVoltage": "136.190002"
           }
         }
       }
@@ -2891,7 +2913,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2902,9 +2923,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.511606000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.511606000 UTC",
-          "frame.time_epoch": "1669809636.511606000",
+          "frame.time": "2022-11-30T12:00:36.511606000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.511606000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.511606000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.109283000",
           "frame.time_delta_displayed": "0.109283000",
@@ -2914,7 +2935,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258906",
@@ -2938,28 +2960,8 @@
           "nmea-2000.frag_data": "13:99:00:ff:ff:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
-            "nmea-2000-130847.industryCode": "4",
-            "nmea-2000-130847.productCode": "65280",
-            "nmea-2000-130847.year": "255",
-            "nmea-2000-130847.month": "255"
-          },
-          "Lua Error: ...eshark/plugins/maritime-modules/proto/pgn/pgn_130847.lua:25: Range is out of bounds": {
-            "_ws.expert": {
-              "_ws.lua.error": "",
-              "_ws.expert.message": "Lua Error: ...eshark/plugins/maritime-modules/proto/pgn/pgn_130847.lua:25: Range is out of bounds",
-              "_ws.expert.severity": "8388608",
-              "_ws.expert.group": "83886080"
-            }
-          },
-          "Lua Traceback": {
-            "stack traceback:": "",
-            " [C]: in local 'buffer'": "",
-            " ...eshark/plugins/maritime-modules/proto/pgn/pgn_130847.lua:25: in function <...eshark/plugins/maritime-modules/proto/pgn/pgn_130847.lua:16>": "",
-            " [C]: in field 'dissector'": "",
-            " ...lib/wireshark/plugins/maritime-modules/proto/pgn/pgn.lua:1034: in function 'maritime-modules.proto.pgn.pgn.dissector'": "",
-            " ...ib/wireshark/plugins/maritime-modules/proto/nmea2000.lua:136: in function <...ib/wireshark/plugins/maritime-modules/proto/nmea2000.lua:84>": "",
-            " [C]: in field 'dissector'": "",
-            " ...cal/lib/wireshark/plugins/maritime-modules/heuristic.lua:33: in function 'maritime-modules.heuristic.nmea_2000_heuristic_checker'": ""
+            "nmea-2000-130847.manufacturerCode": "275",
+            "nmea-2000-130847.industryCode": "4"
           }
         }
       }
@@ -2967,7 +2969,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2978,9 +2979,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.612887000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.612887000 UTC",
-          "frame.time_epoch": "1669809636.612887000",
+          "frame.time": "2022-11-30T12:00:36.612887000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.612887000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.612887000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101281000",
           "frame.time_delta_displayed": "0.101281000",
@@ -2990,7 +2991,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258907",
@@ -3018,7 +3020,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3029,9 +3030,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.614006000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.614006000 UTC",
-          "frame.time_epoch": "1669809636.614006000",
+          "frame.time": "2022-11-30T12:00:36.614006000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.614006000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.614006000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001119000",
           "frame.time_delta_displayed": "0.001119000",
@@ -3041,7 +3042,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258907",
@@ -3068,7 +3070,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3079,9 +3080,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:36.615125000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:36.615125000 UTC",
-          "frame.time_epoch": "1669809636.615125000",
+          "frame.time": "2022-11-30T12:00:36.615125000Z",
+          "frame.time_utc": "2022-11-30T12:00:36.615125000Z",
+          "frame.time_epoch": "2022-11-30T12:00:36.615125000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001119000",
           "frame.time_delta_displayed": "0.001119000",
@@ -3091,7 +3092,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258907",
@@ -3114,12 +3116,13 @@
           "nmea-2000.frag_data": "61:35:63:31:66:30:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12560",
             "nmea-2000-130847.year": "52",
             "nmea-2000-130847.month": "48",
             "nmea-2000-130847.deviceNumber": "13369",
-            "nmea-2000-130847.nodeVoltage": "123.44"
+            "nmea-2000-130847.nodeVoltage": "123.440002"
           }
         }
       }
@@ -3127,7 +3130,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3138,9 +3140,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.550908000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.550908000 UTC",
-          "frame.time_epoch": "1669809637.550908000",
+          "frame.time": "2022-11-30T12:00:37.550908000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.550908000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.550908000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.935783000",
           "frame.time_delta_displayed": "0.935783000",
@@ -3150,7 +3152,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258921",
@@ -3178,7 +3181,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3189,9 +3191,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.551525000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.551525000 UTC",
-          "frame.time_epoch": "1669809637.551525000",
+          "frame.time": "2022-11-30T12:00:37.551525000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.551525000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.551525000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000617000",
           "frame.time_delta_displayed": "0.000617000",
@@ -3201,7 +3203,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258921",
@@ -3224,12 +3227,13 @@
           "nmea-2000.frag_data": "37:34:37:37:32:37:ff",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "13577",
             "nmea-2000-130847.year": "48",
             "nmea-2000-130847.month": "49",
             "nmea-2000-130847.deviceNumber": "13367",
-            "nmea-2000-130847.nodeVoltage": "141.35"
+            "nmea-2000-130847.nodeVoltage": "141.350006"
           }
         }
       }
@@ -3237,7 +3241,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3248,9 +3251,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:56.832463000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:56.832463000 UTC",
-          "frame.time_epoch": "1669809656.832463000",
+          "frame.time": "2022-11-30T12:00:56.832463000Z",
+          "frame.time_utc": "2022-11-30T12:00:56.832463000Z",
+          "frame.time_epoch": "2022-11-30T12:00:56.832463000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "19.280938000",
           "frame.time_delta_displayed": "19.280938000",
@@ -3260,7 +3263,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258897",
@@ -3288,7 +3292,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3299,9 +3302,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:56.833623000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:56.833623000 UTC",
-          "frame.time_epoch": "1669809656.833623000",
+          "frame.time": "2022-11-30T12:00:56.833623000Z",
+          "frame.time_utc": "2022-11-30T12:00:56.833623000Z",
+          "frame.time_epoch": "2022-11-30T12:00:56.833623000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001160000",
           "frame.time_delta_displayed": "0.001160000",
@@ -3311,7 +3314,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258897",
@@ -3334,12 +3338,13 @@
           "nmea-2000.frag_data": "39:36:39:32:39:38:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "49",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "13881",
-            "nmea-2000-130847.nodeVoltage": "128.57"
+            "nmea-2000-130847.nodeVoltage": "128.570007"
           }
         }
       }
@@ -3347,7 +3352,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3358,9 +3362,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.899103000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.899103000 UTC",
-          "frame.time_epoch": "1669809658.899103000",
+          "frame.time": "2022-11-30T12:00:58.899103000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.899103000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.899103000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "2.065480000",
           "frame.time_delta_displayed": "2.065480000",
@@ -3370,7 +3374,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258895",
@@ -3398,7 +3403,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3409,9 +3413,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.899661000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.899661000 UTC",
-          "frame.time_epoch": "1669809658.899661000",
+          "frame.time": "2022-11-30T12:00:58.899661000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.899661000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.899661000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000558000",
           "frame.time_delta_displayed": "0.000558000",
@@ -3421,7 +3425,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-130847",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "503258895",
@@ -3444,12 +3449,13 @@
           "nmea-2000.frag_data": "39:36:39:32:39:38:0a",
           "_ws.lua.fake": "",
           "nmea-2000-130847": {
+            "nmea-2000-130847.manufacturerCode": "275",
             "nmea-2000-130847.industryCode": "4",
             "nmea-2000-130847.productCode": "12554",
             "nmea-2000-130847.year": "49",
             "nmea-2000-130847.month": "56",
             "nmea-2000-130847.deviceNumber": "13881",
-            "nmea-2000-130847.nodeVoltage": "128.57"
+            "nmea-2000-130847.nodeVoltage": "128.570007"
           }
         }
       }

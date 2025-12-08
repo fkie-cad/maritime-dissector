@@ -1,7 +1,6 @@
 [
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -12,19 +11,18 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.158025000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.158025000 UTC",
-          "frame.time_epoch": "1669809630.158025000",
+          "frame.time": "2022-11-30T12:00:30.158025000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.158025000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.158025000Z",
           "frame.offset_shift": "0.000000000",
-          "frame.time_delta": "0.000000000",
-          "frame.time_delta_displayed": "0.000000000",
           "frame.time_relative": "0.000000000",
           "frame.number": "1",
           "frame.len": "16",
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164692",
@@ -58,7 +56,6 @@
   },
   {
     "_index": "packets-2022-11-16",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -69,9 +66,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 16, 2022 16:15:24.098921000 CET",
-          "frame.time_utc": "Nov 16, 2022 15:15:24.098921000 UTC",
-          "frame.time_epoch": "1668611724.098921000",
+          "frame.time": "2022-11-16T15:15:24.098921000Z",
+          "frame.time_utc": "2022-11-16T15:15:24.098921000Z",
+          "frame.time_epoch": "2022-11-16T15:15:24.098921000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "-1197906.059104000",
           "frame.time_delta_displayed": "-1197906.059104000",
@@ -81,7 +78,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164690",
@@ -115,7 +113,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -126,9 +123,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.095984000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.095984000 UTC",
-          "frame.time_epoch": "1669809630.095984000",
+          "frame.time": "2022-11-30T12:00:30.095984000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.095984000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.095984000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1197905.997063000",
           "frame.time_delta_displayed": "1197905.997063000",
@@ -138,7 +135,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164715",
@@ -172,7 +170,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -183,9 +180,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.583133000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.583133000 UTC",
-          "frame.time_epoch": "1669809630.583133000",
+          "frame.time": "2022-11-30T12:00:30.583133000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.583133000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.583133000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.487149000",
           "frame.time_delta_displayed": "0.487149000",
@@ -195,7 +192,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164694",
@@ -229,7 +227,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -240,9 +237,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.769240000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.769240000 UTC",
-          "frame.time_epoch": "1669809630.769240000",
+          "frame.time": "2022-11-30T12:00:30.769240000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.769240000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.769240000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.186107000",
           "frame.time_delta_displayed": "0.186107000",
@@ -252,7 +249,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164680",
@@ -286,7 +284,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -297,9 +294,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:30.770922000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:30.770922000 UTC",
-          "frame.time_epoch": "1669809630.770922000",
+          "frame.time": "2022-11-30T12:00:30.770922000Z",
+          "frame.time_utc": "2022-11-30T12:00:30.770922000Z",
+          "frame.time_epoch": "2022-11-30T12:00:30.770922000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001682000",
           "frame.time_delta_displayed": "0.001682000",
@@ -309,7 +306,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164680",
@@ -343,7 +341,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -354,9 +351,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.775353000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.775353000 UTC",
-          "frame.time_epoch": "1669809635.775353000",
+          "frame.time": "2022-11-30T12:00:35.775353000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.775353000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.775353000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "5.004431000",
           "frame.time_delta_displayed": "5.004431000",
@@ -366,7 +363,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164722",
@@ -394,7 +392,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -405,9 +402,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.775862000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.775862000 UTC",
-          "frame.time_epoch": "1669809635.775862000",
+          "frame.time": "2022-11-30T12:00:35.775862000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.775862000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.775862000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000509000",
           "frame.time_delta_displayed": "0.000509000",
@@ -417,7 +414,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164722",
@@ -444,7 +442,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -455,9 +452,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.776414000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.776414000 UTC",
-          "frame.time_epoch": "1669809635.776414000",
+          "frame.time": "2022-11-30T12:00:35.776414000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.776414000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.776414000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000552000",
           "frame.time_delta_displayed": "0.000552000",
@@ -467,7 +464,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164722",
@@ -494,7 +492,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -505,9 +502,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.777545000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.777545000 UTC",
-          "frame.time_epoch": "1669809635.777545000",
+          "frame.time": "2022-11-30T12:00:35.777545000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.777545000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.777545000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001131000",
           "frame.time_delta_displayed": "0.001131000",
@@ -517,7 +514,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164722",
@@ -544,7 +542,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -555,9 +552,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.778111000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.778111000 UTC",
-          "frame.time_epoch": "1669809635.778111000",
+          "frame.time": "2022-11-30T12:00:35.778111000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.778111000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.778111000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000566000",
           "frame.time_delta_displayed": "0.000566000",
@@ -567,7 +564,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164722",
@@ -594,7 +592,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -605,9 +602,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:35.778663000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:35.778663000 UTC",
-          "frame.time_epoch": "1669809635.778663000",
+          "frame.time": "2022-11-30T12:00:35.778663000Z",
+          "frame.time_utc": "2022-11-30T12:00:35.778663000Z",
+          "frame.time_epoch": "2022-11-30T12:00:35.778663000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000552000",
           "frame.time_delta_displayed": "0.000552000",
@@ -617,7 +614,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164722",
@@ -650,7 +648,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -661,9 +658,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.017132000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.017132000 UTC",
-          "frame.time_epoch": "1669809637.017132000",
+          "frame.time": "2022-11-30T12:00:37.017132000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.017132000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.017132000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.238469000",
           "frame.time_delta_displayed": "1.238469000",
@@ -673,7 +670,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164719",
@@ -707,7 +705,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -718,9 +715,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.293168000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.293168000 UTC",
-          "frame.time_epoch": "1669809637.293168000",
+          "frame.time": "2022-11-30T12:00:37.293168000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.293168000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.293168000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.276036000",
           "frame.time_delta_displayed": "0.276036000",
@@ -730,7 +727,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -758,7 +756,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -769,9 +766,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.294953000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.294953000 UTC",
-          "frame.time_epoch": "1669809637.294953000",
+          "frame.time": "2022-11-30T12:00:37.294953000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.294953000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.294953000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001785000",
           "frame.time_delta_displayed": "0.001785000",
@@ -781,7 +778,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -808,7 +806,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -819,9 +816,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.297713000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.297713000 UTC",
-          "frame.time_epoch": "1669809637.297713000",
+          "frame.time": "2022-11-30T12:00:37.297713000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.297713000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.297713000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002760000",
           "frame.time_delta_displayed": "0.002760000",
@@ -831,7 +828,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -858,7 +856,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -869,9 +866,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.299966000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.299966000 UTC",
-          "frame.time_epoch": "1669809637.299966000",
+          "frame.time": "2022-11-30T12:00:37.299966000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.299966000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.299966000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002253000",
           "frame.time_delta_displayed": "0.002253000",
@@ -881,7 +878,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -908,7 +906,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -919,9 +916,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.301675000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.301675000 UTC",
-          "frame.time_epoch": "1669809637.301675000",
+          "frame.time": "2022-11-30T12:00:37.301675000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.301675000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.301675000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001709000",
           "frame.time_delta_displayed": "0.001709000",
@@ -931,7 +928,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -958,7 +956,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -969,9 +966,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.304111000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.304111000 UTC",
-          "frame.time_epoch": "1669809637.304111000",
+          "frame.time": "2022-11-30T12:00:37.304111000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.304111000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.304111000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002436000",
           "frame.time_delta_displayed": "0.002436000",
@@ -981,7 +978,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -1008,7 +1006,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1019,9 +1016,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.305677000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.305677000 UTC",
-          "frame.time_epoch": "1669809637.305677000",
+          "frame.time": "2022-11-30T12:00:37.305677000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.305677000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.305677000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001566000",
           "frame.time_delta_displayed": "0.001566000",
@@ -1031,7 +1028,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -1058,7 +1056,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1069,9 +1066,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.306849000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.306849000 UTC",
-          "frame.time_epoch": "1669809637.306849000",
+          "frame.time": "2022-11-30T12:00:37.306849000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.306849000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.306849000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001172000",
           "frame.time_delta_displayed": "0.001172000",
@@ -1081,7 +1078,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -1108,7 +1106,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1119,9 +1116,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.307944000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.307944000 UTC",
-          "frame.time_epoch": "1669809637.307944000",
+          "frame.time": "2022-11-30T12:00:37.307944000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.307944000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.307944000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001095000",
           "frame.time_delta_displayed": "0.001095000",
@@ -1131,7 +1128,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -1158,7 +1156,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1169,9 +1166,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.309699000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.309699000 UTC",
-          "frame.time_epoch": "1669809637.309699000",
+          "frame.time": "2022-11-30T12:00:37.309699000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.309699000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.309699000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001755000",
           "frame.time_delta_displayed": "0.001755000",
@@ -1181,7 +1178,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -1208,7 +1206,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1219,9 +1216,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.310260000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.310260000 UTC",
-          "frame.time_epoch": "1669809637.310260000",
+          "frame.time": "2022-11-30T12:00:37.310260000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.310260000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.310260000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000561000",
           "frame.time_delta_displayed": "0.000561000",
@@ -1231,7 +1228,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -1258,7 +1256,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1269,9 +1266,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.310855000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.310855000 UTC",
-          "frame.time_epoch": "1669809637.310855000",
+          "frame.time": "2022-11-30T12:00:37.310855000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.310855000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.310855000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000595000",
           "frame.time_delta_displayed": "0.000595000",
@@ -1281,7 +1278,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164685",
@@ -1314,7 +1312,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1325,9 +1322,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.399792000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.399792000 UTC",
-          "frame.time_epoch": "1669809637.399792000",
+          "frame.time": "2022-11-30T12:00:37.399792000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.399792000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.399792000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.088937000",
           "frame.time_delta_displayed": "0.088937000",
@@ -1337,7 +1334,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164718",
@@ -1371,7 +1369,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1382,9 +1379,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.906592000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.906592000 UTC",
-          "frame.time_epoch": "1669809637.906592000",
+          "frame.time": "2022-11-30T12:00:37.906592000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.906592000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.906592000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.506800000",
           "frame.time_delta_displayed": "0.506800000",
@@ -1394,7 +1391,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1422,7 +1420,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1433,9 +1430,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.907180000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.907180000 UTC",
-          "frame.time_epoch": "1669809637.907180000",
+          "frame.time": "2022-11-30T12:00:37.907180000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.907180000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.907180000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000588000",
           "frame.time_delta_displayed": "0.000588000",
@@ -1445,7 +1442,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1472,7 +1470,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1483,9 +1480,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.907813000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.907813000 UTC",
-          "frame.time_epoch": "1669809637.907813000",
+          "frame.time": "2022-11-30T12:00:37.907813000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.907813000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.907813000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000633000",
           "frame.time_delta_displayed": "0.000633000",
@@ -1495,7 +1492,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1522,7 +1520,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1533,9 +1530,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.908569000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.908569000 UTC",
-          "frame.time_epoch": "1669809637.908569000",
+          "frame.time": "2022-11-30T12:00:37.908569000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.908569000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.908569000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000756000",
           "frame.time_delta_displayed": "0.000756000",
@@ -1545,7 +1542,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1572,7 +1570,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1583,9 +1580,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.909020000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.909020000 UTC",
-          "frame.time_epoch": "1669809637.909020000",
+          "frame.time": "2022-11-30T12:00:37.909020000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.909020000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.909020000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000451000",
           "frame.time_delta_displayed": "0.000451000",
@@ -1595,7 +1592,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1622,7 +1620,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1633,9 +1630,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.909600000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.909600000 UTC",
-          "frame.time_epoch": "1669809637.909600000",
+          "frame.time": "2022-11-30T12:00:37.909600000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.909600000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.909600000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000580000",
           "frame.time_delta_displayed": "0.000580000",
@@ -1645,7 +1642,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1672,7 +1670,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1683,9 +1680,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.910245000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.910245000 UTC",
-          "frame.time_epoch": "1669809637.910245000",
+          "frame.time": "2022-11-30T12:00:37.910245000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.910245000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.910245000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000645000",
           "frame.time_delta_displayed": "0.000645000",
@@ -1695,7 +1692,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1722,7 +1720,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1733,9 +1730,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.910790000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.910790000 UTC",
-          "frame.time_epoch": "1669809637.910790000",
+          "frame.time": "2022-11-30T12:00:37.910790000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.910790000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.910790000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000545000",
           "frame.time_delta_displayed": "0.000545000",
@@ -1745,7 +1742,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1772,7 +1770,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1783,9 +1780,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.911892000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.911892000 UTC",
-          "frame.time_epoch": "1669809637.911892000",
+          "frame.time": "2022-11-30T12:00:37.911892000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.911892000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.911892000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001102000",
           "frame.time_delta_displayed": "0.001102000",
@@ -1795,7 +1792,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1822,7 +1820,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1833,9 +1830,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.912472000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.912472000 UTC",
-          "frame.time_epoch": "1669809637.912472000",
+          "frame.time": "2022-11-30T12:00:37.912472000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.912472000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.912472000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000580000",
           "frame.time_delta_displayed": "0.000580000",
@@ -1845,7 +1842,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1872,7 +1870,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1883,9 +1880,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.913726000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.913726000 UTC",
-          "frame.time_epoch": "1669809637.913726000",
+          "frame.time": "2022-11-30T12:00:37.913726000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.913726000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.913726000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001254000",
           "frame.time_delta_displayed": "0.001254000",
@@ -1895,7 +1892,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1922,7 +1920,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1933,9 +1930,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:37.914383000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:37.914383000 UTC",
-          "frame.time_epoch": "1669809637.914383000",
+          "frame.time": "2022-11-30T12:00:37.914383000Z",
+          "frame.time_utc": "2022-11-30T12:00:37.914383000Z",
+          "frame.time_epoch": "2022-11-30T12:00:37.914383000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000657000",
           "frame.time_delta_displayed": "0.000657000",
@@ -1945,7 +1942,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164696",
@@ -1978,7 +1976,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1989,9 +1986,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:38.231132000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:38.231132000 UTC",
-          "frame.time_epoch": "1669809638.231132000",
+          "frame.time": "2022-11-30T12:00:38.231132000Z",
+          "frame.time_utc": "2022-11-30T12:00:38.231132000Z",
+          "frame.time_epoch": "2022-11-30T12:00:38.231132000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.316749000",
           "frame.time_delta_displayed": "0.316749000",
@@ -2001,7 +1998,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164714",
@@ -2035,7 +2033,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2046,9 +2043,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:38.417075000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:38.417075000 UTC",
-          "frame.time_epoch": "1669809638.417075000",
+          "frame.time": "2022-11-30T12:00:38.417075000Z",
+          "frame.time_utc": "2022-11-30T12:00:38.417075000Z",
+          "frame.time_epoch": "2022-11-30T12:00:38.417075000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.185943000",
           "frame.time_delta_displayed": "0.185943000",
@@ -2058,7 +2055,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164717",
@@ -2092,7 +2090,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2103,9 +2100,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:38.512389000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:38.512389000 UTC",
-          "frame.time_epoch": "1669809638.512389000",
+          "frame.time": "2022-11-30T12:00:38.512389000Z",
+          "frame.time_utc": "2022-11-30T12:00:38.512389000Z",
+          "frame.time_epoch": "2022-11-30T12:00:38.512389000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.095314000",
           "frame.time_delta_displayed": "0.095314000",
@@ -2115,7 +2112,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164693",
@@ -2149,7 +2147,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2160,9 +2157,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:38.716275000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:38.716275000 UTC",
-          "frame.time_epoch": "1669809638.716275000",
+          "frame.time": "2022-11-30T12:00:38.716275000Z",
+          "frame.time_utc": "2022-11-30T12:00:38.716275000Z",
+          "frame.time_epoch": "2022-11-30T12:00:38.716275000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.203886000",
           "frame.time_delta_displayed": "0.203886000",
@@ -2172,7 +2169,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164720",
@@ -2206,7 +2204,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2217,9 +2214,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:38.812433000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:38.812433000 UTC",
-          "frame.time_epoch": "1669809638.812433000",
+          "frame.time": "2022-11-30T12:00:38.812433000Z",
+          "frame.time_utc": "2022-11-30T12:00:38.812433000Z",
+          "frame.time_epoch": "2022-11-30T12:00:38.812433000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.096158000",
           "frame.time_delta_displayed": "0.096158000",
@@ -2229,7 +2226,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164675",
@@ -2263,7 +2261,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2274,9 +2271,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:39.306306000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:39.306306000 UTC",
-          "frame.time_epoch": "1669809639.306306000",
+          "frame.time": "2022-11-30T12:00:39.306306000Z",
+          "frame.time_utc": "2022-11-30T12:00:39.306306000Z",
+          "frame.time_epoch": "2022-11-30T12:00:39.306306000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.493873000",
           "frame.time_delta_displayed": "0.493873000",
@@ -2286,7 +2283,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164701",
@@ -2320,7 +2318,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2331,9 +2328,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:39.412318000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:39.412318000 UTC",
-          "frame.time_epoch": "1669809639.412318000",
+          "frame.time": "2022-11-30T12:00:39.412318000Z",
+          "frame.time_utc": "2022-11-30T12:00:39.412318000Z",
+          "frame.time_epoch": "2022-11-30T12:00:39.412318000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.106012000",
           "frame.time_delta_displayed": "0.106012000",
@@ -2343,7 +2340,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164704",
@@ -2377,7 +2375,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2388,9 +2385,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:39.520906000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:39.520906000 UTC",
-          "frame.time_epoch": "1669809639.520906000",
+          "frame.time": "2022-11-30T12:00:39.520906000Z",
+          "frame.time_utc": "2022-11-30T12:00:39.520906000Z",
+          "frame.time_epoch": "2022-11-30T12:00:39.520906000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.108588000",
           "frame.time_delta_displayed": "0.108588000",
@@ -2400,7 +2397,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164697",
@@ -2434,7 +2432,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2445,9 +2442,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.140614000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.140614000 UTC",
-          "frame.time_epoch": "1669809640.140614000",
+          "frame.time": "2022-11-30T12:00:40.140614000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.140614000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.140614000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.619708000",
           "frame.time_delta_displayed": "0.619708000",
@@ -2457,7 +2454,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2485,7 +2483,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2496,9 +2493,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.141211000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.141211000 UTC",
-          "frame.time_epoch": "1669809640.141211000",
+          "frame.time": "2022-11-30T12:00:40.141211000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.141211000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.141211000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000597000",
           "frame.time_delta_displayed": "0.000597000",
@@ -2508,7 +2505,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2535,7 +2533,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2546,9 +2543,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.141817000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.141817000 UTC",
-          "frame.time_epoch": "1669809640.141817000",
+          "frame.time": "2022-11-30T12:00:40.141817000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.141817000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.141817000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000606000",
           "frame.time_delta_displayed": "0.000606000",
@@ -2558,7 +2555,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2585,7 +2583,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2596,9 +2593,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.142499000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.142499000 UTC",
-          "frame.time_epoch": "1669809640.142499000",
+          "frame.time": "2022-11-30T12:00:40.142499000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.142499000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.142499000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000682000",
           "frame.time_delta_displayed": "0.000682000",
@@ -2608,7 +2605,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2635,7 +2633,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2646,9 +2643,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.142958000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.142958000 UTC",
-          "frame.time_epoch": "1669809640.142958000",
+          "frame.time": "2022-11-30T12:00:40.142958000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.142958000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.142958000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000459000",
           "frame.time_delta_displayed": "0.000459000",
@@ -2658,7 +2655,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2685,7 +2683,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2696,9 +2693,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.144102000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.144102000 UTC",
-          "frame.time_epoch": "1669809640.144102000",
+          "frame.time": "2022-11-30T12:00:40.144102000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.144102000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.144102000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001144000",
           "frame.time_delta_displayed": "0.001144000",
@@ -2708,7 +2705,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2735,7 +2733,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2746,9 +2743,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.145679000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.145679000 UTC",
-          "frame.time_epoch": "1669809640.145679000",
+          "frame.time": "2022-11-30T12:00:40.145679000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.145679000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.145679000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001577000",
           "frame.time_delta_displayed": "0.001577000",
@@ -2758,7 +2755,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2785,7 +2783,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2796,9 +2793,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.146403000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.146403000 UTC",
-          "frame.time_epoch": "1669809640.146403000",
+          "frame.time": "2022-11-30T12:00:40.146403000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.146403000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.146403000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000724000",
           "frame.time_delta_displayed": "0.000724000",
@@ -2808,7 +2805,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2835,7 +2833,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2846,9 +2843,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.151710000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.151710000 UTC",
-          "frame.time_epoch": "1669809640.151710000",
+          "frame.time": "2022-11-30T12:00:40.151710000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.151710000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.151710000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.005307000",
           "frame.time_delta_displayed": "0.005307000",
@@ -2858,7 +2855,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2885,7 +2883,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2896,9 +2893,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.152760000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.152760000 UTC",
-          "frame.time_epoch": "1669809640.152760000",
+          "frame.time": "2022-11-30T12:00:40.152760000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.152760000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.152760000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001050000",
           "frame.time_delta_displayed": "0.001050000",
@@ -2908,7 +2905,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2935,7 +2933,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2946,9 +2943,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.153872000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.153872000 UTC",
-          "frame.time_epoch": "1669809640.153872000",
+          "frame.time": "2022-11-30T12:00:40.153872000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.153872000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.153872000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001112000",
           "frame.time_delta_displayed": "0.001112000",
@@ -2958,7 +2955,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -2985,7 +2983,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2996,9 +2993,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.155058000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.155058000 UTC",
-          "frame.time_epoch": "1669809640.155058000",
+          "frame.time": "2022-11-30T12:00:40.155058000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.155058000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.155058000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.001186000",
           "frame.time_delta_displayed": "0.001186000",
@@ -3008,7 +3005,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164707",
@@ -3041,7 +3039,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3052,9 +3049,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.597665000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.597665000 UTC",
-          "frame.time_epoch": "1669809640.597665000",
+          "frame.time": "2022-11-30T12:00:40.597665000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.597665000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.597665000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.442607000",
           "frame.time_delta_displayed": "0.442607000",
@@ -3064,7 +3061,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164691",
@@ -3098,7 +3096,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3109,9 +3106,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.837437000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.837437000 UTC",
-          "frame.time_epoch": "1669809640.837437000",
+          "frame.time": "2022-11-30T12:00:40.837437000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.837437000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.837437000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.239772000",
           "frame.time_delta_displayed": "0.239772000",
@@ -3121,7 +3118,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164698",
@@ -3155,7 +3153,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3166,9 +3163,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.915429000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.915429000 UTC",
-          "frame.time_epoch": "1669809640.915429000",
+          "frame.time": "2022-11-30T12:00:40.915429000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.915429000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.915429000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.077992000",
           "frame.time_delta_displayed": "0.077992000",
@@ -3178,7 +3175,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164699",
@@ -3212,7 +3210,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3223,9 +3220,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:40.986872000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:40.986872000 UTC",
-          "frame.time_epoch": "1669809640.986872000",
+          "frame.time": "2022-11-30T12:00:40.986872000Z",
+          "frame.time_utc": "2022-11-30T12:00:40.986872000Z",
+          "frame.time_epoch": "2022-11-30T12:00:40.986872000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.071443000",
           "frame.time_delta_displayed": "0.071443000",
@@ -3235,7 +3232,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164684",
@@ -3269,7 +3267,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3280,9 +3277,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.486676000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.486676000 UTC",
-          "frame.time_epoch": "1669809644.486676000",
+          "frame.time": "2022-11-30T12:00:44.486676000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.486676000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.486676000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "3.499804000",
           "frame.time_delta_displayed": "3.499804000",
@@ -3292,7 +3289,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3320,7 +3318,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3331,9 +3328,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.487167000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.487167000 UTC",
-          "frame.time_epoch": "1669809644.487167000",
+          "frame.time": "2022-11-30T12:00:44.487167000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.487167000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.487167000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000491000",
           "frame.time_delta_displayed": "0.000491000",
@@ -3343,7 +3340,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3370,7 +3368,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3381,9 +3378,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.487716000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.487716000 UTC",
-          "frame.time_epoch": "1669809644.487716000",
+          "frame.time": "2022-11-30T12:00:44.487716000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.487716000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.487716000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000549000",
           "frame.time_delta_displayed": "0.000549000",
@@ -3393,7 +3390,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3420,7 +3418,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3431,9 +3428,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.488289000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.488289000 UTC",
-          "frame.time_epoch": "1669809644.488289000",
+          "frame.time": "2022-11-30T12:00:44.488289000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.488289000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.488289000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000573000",
           "frame.time_delta_displayed": "0.000573000",
@@ -3443,7 +3440,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3470,7 +3468,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3481,9 +3478,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.488828000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.488828000 UTC",
-          "frame.time_epoch": "1669809644.488828000",
+          "frame.time": "2022-11-30T12:00:44.488828000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.488828000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.488828000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000539000",
           "frame.time_delta_displayed": "0.000539000",
@@ -3493,7 +3490,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3520,7 +3518,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3531,9 +3528,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.489403000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.489403000 UTC",
-          "frame.time_epoch": "1669809644.489403000",
+          "frame.time": "2022-11-30T12:00:44.489403000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.489403000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.489403000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000575000",
           "frame.time_delta_displayed": "0.000575000",
@@ -3543,7 +3540,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3570,7 +3568,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3581,9 +3578,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.489928000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.489928000 UTC",
-          "frame.time_epoch": "1669809644.489928000",
+          "frame.time": "2022-11-30T12:00:44.489928000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.489928000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.489928000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000525000",
           "frame.time_delta_displayed": "0.000525000",
@@ -3593,7 +3590,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3620,7 +3618,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3631,9 +3628,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.490510000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.490510000 UTC",
-          "frame.time_epoch": "1669809644.490510000",
+          "frame.time": "2022-11-30T12:00:44.490510000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.490510000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.490510000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000582000",
           "frame.time_delta_displayed": "0.000582000",
@@ -3643,7 +3640,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3670,7 +3668,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3681,9 +3678,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:44.491056000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:44.491056000 UTC",
-          "frame.time_epoch": "1669809644.491056000",
+          "frame.time": "2022-11-30T12:00:44.491056000Z",
+          "frame.time_utc": "2022-11-30T12:00:44.491056000Z",
+          "frame.time_epoch": "2022-11-30T12:00:44.491056000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000546000",
           "frame.time_delta_displayed": "0.000546000",
@@ -3693,7 +3690,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164703",
@@ -3726,7 +3724,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3737,9 +3734,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:54.393429000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:54.393429000 UTC",
-          "frame.time_epoch": "1669809654.393429000",
+          "frame.time": "2022-11-30T12:00:54.393429000Z",
+          "frame.time_utc": "2022-11-30T12:00:54.393429000Z",
+          "frame.time_epoch": "2022-11-30T12:00:54.393429000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "9.902373000",
           "frame.time_delta_displayed": "9.902373000",
@@ -3749,7 +3746,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164672",
@@ -3777,7 +3775,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3788,9 +3785,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:54.393964000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:54.393964000 UTC",
-          "frame.time_epoch": "1669809654.393964000",
+          "frame.time": "2022-11-30T12:00:54.393964000Z",
+          "frame.time_utc": "2022-11-30T12:00:54.393964000Z",
+          "frame.time_epoch": "2022-11-30T12:00:54.393964000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000535000",
           "frame.time_delta_displayed": "0.000535000",
@@ -3800,7 +3797,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164672",
@@ -3833,7 +3831,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3844,9 +3841,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:54.918462000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:54.918462000 UTC",
-          "frame.time_epoch": "1669809654.918462000",
+          "frame.time": "2022-11-30T12:00:54.918462000Z",
+          "frame.time_utc": "2022-11-30T12:00:54.918462000Z",
+          "frame.time_epoch": "2022-11-30T12:00:54.918462000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.524498000",
           "frame.time_delta_displayed": "0.524498000",
@@ -3856,7 +3853,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164695",
@@ -3890,7 +3888,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3901,9 +3898,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:56.095549000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:56.095549000 UTC",
-          "frame.time_epoch": "1669809656.095549000",
+          "frame.time": "2022-11-30T12:00:56.095549000Z",
+          "frame.time_utc": "2022-11-30T12:00:56.095549000Z",
+          "frame.time_epoch": "2022-11-30T12:00:56.095549000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "1.177087000",
           "frame.time_delta_displayed": "1.177087000",
@@ -3913,7 +3910,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164700",
@@ -3941,7 +3939,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3952,9 +3949,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:56.096098000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:56.096098000 UTC",
-          "frame.time_epoch": "1669809656.096098000",
+          "frame.time": "2022-11-30T12:00:56.096098000Z",
+          "frame.time_utc": "2022-11-30T12:00:56.096098000Z",
+          "frame.time_epoch": "2022-11-30T12:00:56.096098000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.000549000",
           "frame.time_delta_displayed": "0.000549000",
@@ -3964,7 +3961,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164700",
@@ -3997,7 +3995,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4008,9 +4005,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.372083000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.372083000 UTC",
-          "frame.time_epoch": "1669809658.372083000",
+          "frame.time": "2022-11-30T12:00:58.372083000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.372083000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.372083000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "2.275985000",
           "frame.time_delta_displayed": "2.275985000",
@@ -4020,7 +4017,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164710",
@@ -4048,7 +4046,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4059,9 +4056,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.374094000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.374094000 UTC",
-          "frame.time_epoch": "1669809658.374094000",
+          "frame.time": "2022-11-30T12:00:58.374094000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.374094000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.374094000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002011000",
           "frame.time_delta_displayed": "0.002011000",
@@ -4071,7 +4068,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164710",
@@ -4098,7 +4096,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4109,9 +4106,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.377113000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.377113000 UTC",
-          "frame.time_epoch": "1669809658.377113000",
+          "frame.time": "2022-11-30T12:00:58.377113000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.377113000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.377113000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003019000",
           "frame.time_delta_displayed": "0.003019000",
@@ -4121,7 +4118,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164710",
@@ -4148,7 +4146,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4159,9 +4156,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.381054000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.381054000 UTC",
-          "frame.time_epoch": "1669809658.381054000",
+          "frame.time": "2022-11-30T12:00:58.381054000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.381054000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.381054000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003941000",
           "frame.time_delta_displayed": "0.003941000",
@@ -4171,7 +4168,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164710",
@@ -4198,7 +4196,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4209,9 +4206,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.383066000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.383066000 UTC",
-          "frame.time_epoch": "1669809658.383066000",
+          "frame.time": "2022-11-30T12:00:58.383066000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.383066000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.383066000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002012000",
           "frame.time_delta_displayed": "0.002012000",
@@ -4221,7 +4218,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164710",
@@ -4248,7 +4246,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4259,9 +4256,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.386122000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.386122000 UTC",
-          "frame.time_epoch": "1669809658.386122000",
+          "frame.time": "2022-11-30T12:00:58.386122000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.386122000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.386122000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003056000",
           "frame.time_delta_displayed": "0.003056000",
@@ -4271,7 +4268,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164710",
@@ -4298,7 +4296,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4309,9 +4306,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.389266000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.389266000 UTC",
-          "frame.time_epoch": "1669809658.389266000",
+          "frame.time": "2022-11-30T12:00:58.389266000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.389266000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.389266000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003144000",
           "frame.time_delta_displayed": "0.003144000",
@@ -4321,7 +4318,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164710",
@@ -4354,7 +4352,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4365,9 +4362,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.674431000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.674431000 UTC",
-          "frame.time_epoch": "1669809658.674431000",
+          "frame.time": "2022-11-30T12:00:58.674431000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.674431000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.674431000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.285165000",
           "frame.time_delta_displayed": "0.285165000",
@@ -4377,7 +4374,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164709",
@@ -4405,7 +4403,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4416,9 +4413,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.676705000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.676705000 UTC",
-          "frame.time_epoch": "1669809658.676705000",
+          "frame.time": "2022-11-30T12:00:58.676705000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.676705000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.676705000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002274000",
           "frame.time_delta_displayed": "0.002274000",
@@ -4428,7 +4425,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164709",
@@ -4455,7 +4453,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4466,9 +4463,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.679885000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.679885000 UTC",
-          "frame.time_epoch": "1669809658.679885000",
+          "frame.time": "2022-11-30T12:00:58.679885000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.679885000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.679885000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003180000",
           "frame.time_delta_displayed": "0.003180000",
@@ -4478,7 +4475,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164709",
@@ -4505,7 +4503,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4516,9 +4513,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.682862000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.682862000 UTC",
-          "frame.time_epoch": "1669809658.682862000",
+          "frame.time": "2022-11-30T12:00:58.682862000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.682862000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.682862000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002977000",
           "frame.time_delta_displayed": "0.002977000",
@@ -4528,7 +4525,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164709",
@@ -4555,7 +4553,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4566,9 +4563,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.686168000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.686168000 UTC",
-          "frame.time_epoch": "1669809658.686168000",
+          "frame.time": "2022-11-30T12:00:58.686168000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.686168000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.686168000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003306000",
           "frame.time_delta_displayed": "0.003306000",
@@ -4578,7 +4575,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164709",
@@ -4605,7 +4603,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4616,9 +4613,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.688723000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.688723000 UTC",
-          "frame.time_epoch": "1669809658.688723000",
+          "frame.time": "2022-11-30T12:00:58.688723000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.688723000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.688723000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002555000",
           "frame.time_delta_displayed": "0.002555000",
@@ -4628,7 +4625,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164709",
@@ -4655,7 +4653,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4666,9 +4663,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:58.692168000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:58.692168000 UTC",
-          "frame.time_epoch": "1669809658.692168000",
+          "frame.time": "2022-11-30T12:00:58.692168000Z",
+          "frame.time_utc": "2022-11-30T12:00:58.692168000Z",
+          "frame.time_epoch": "2022-11-30T12:00:58.692168000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003445000",
           "frame.time_delta_displayed": "0.003445000",
@@ -4678,7 +4675,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164709",
@@ -4711,7 +4709,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4722,9 +4719,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:59.385210000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:59.385210000 UTC",
-          "frame.time_epoch": "1669809659.385210000",
+          "frame.time": "2022-11-30T12:00:59.385210000Z",
+          "frame.time_utc": "2022-11-30T12:00:59.385210000Z",
+          "frame.time_epoch": "2022-11-30T12:00:59.385210000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.693042000",
           "frame.time_delta_displayed": "0.693042000",
@@ -4734,7 +4731,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164708",
@@ -4762,7 +4760,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4773,9 +4770,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:59.387730000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:59.387730000 UTC",
-          "frame.time_epoch": "1669809659.387730000",
+          "frame.time": "2022-11-30T12:00:59.387730000Z",
+          "frame.time_utc": "2022-11-30T12:00:59.387730000Z",
+          "frame.time_epoch": "2022-11-30T12:00:59.387730000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002520000",
           "frame.time_delta_displayed": "0.002520000",
@@ -4785,7 +4782,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164708",
@@ -4812,7 +4810,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4823,9 +4820,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:59.390824000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:59.390824000 UTC",
-          "frame.time_epoch": "1669809659.390824000",
+          "frame.time": "2022-11-30T12:00:59.390824000Z",
+          "frame.time_utc": "2022-11-30T12:00:59.390824000Z",
+          "frame.time_epoch": "2022-11-30T12:00:59.390824000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003094000",
           "frame.time_delta_displayed": "0.003094000",
@@ -4835,7 +4832,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164708",
@@ -4862,7 +4860,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4873,9 +4870,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:59.394670000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:59.394670000 UTC",
-          "frame.time_epoch": "1669809659.394670000",
+          "frame.time": "2022-11-30T12:00:59.394670000Z",
+          "frame.time_utc": "2022-11-30T12:00:59.394670000Z",
+          "frame.time_epoch": "2022-11-30T12:00:59.394670000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003846000",
           "frame.time_delta_displayed": "0.003846000",
@@ -4885,7 +4882,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164708",
@@ -4912,7 +4910,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4923,9 +4920,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:59.396814000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:59.396814000 UTC",
-          "frame.time_epoch": "1669809659.396814000",
+          "frame.time": "2022-11-30T12:00:59.396814000Z",
+          "frame.time_utc": "2022-11-30T12:00:59.396814000Z",
+          "frame.time_epoch": "2022-11-30T12:00:59.396814000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.002144000",
           "frame.time_delta_displayed": "0.002144000",
@@ -4935,7 +4932,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164708",
@@ -4962,7 +4960,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4973,9 +4970,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:59.399879000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:59.399879000 UTC",
-          "frame.time_epoch": "1669809659.399879000",
+          "frame.time": "2022-11-30T12:00:59.399879000Z",
+          "frame.time_utc": "2022-11-30T12:00:59.399879000Z",
+          "frame.time_epoch": "2022-11-30T12:00:59.399879000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003065000",
           "frame.time_delta_displayed": "0.003065000",
@@ -4985,7 +4982,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000"
+          "frame.protocols": "can:nmea-2000:nmea-2000",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164708",
@@ -5012,7 +5010,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5023,9 +5020,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:00:59.403387000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:00:59.403387000 UTC",
-          "frame.time_epoch": "1669809659.403387000",
+          "frame.time": "2022-11-30T12:00:59.403387000Z",
+          "frame.time_utc": "2022-11-30T12:00:59.403387000Z",
+          "frame.time_epoch": "2022-11-30T12:00:59.403387000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.003508000",
           "frame.time_delta_displayed": "0.003508000",
@@ -5035,7 +5032,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164708",
@@ -5068,7 +5066,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5079,9 +5076,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:02.324926000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:02.324926000 UTC",
-          "frame.time_epoch": "1669809662.324926000",
+          "frame.time": "2022-11-30T12:01:02.324926000Z",
+          "frame.time_utc": "2022-11-30T12:01:02.324926000Z",
+          "frame.time_epoch": "2022-11-30T12:01:02.324926000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "2.921539000",
           "frame.time_delta_displayed": "2.921539000",
@@ -5091,7 +5088,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164689",
@@ -5125,7 +5123,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5136,9 +5133,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:01:03.199999000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:01:03.199999000 UTC",
-          "frame.time_epoch": "1669809663.199999000",
+          "frame.time": "2022-11-30T12:01:03.199999000Z",
+          "frame.time_utc": "2022-11-30T12:01:03.199999000Z",
+          "frame.time_epoch": "2022-11-30T12:01:03.199999000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.875073000",
           "frame.time_delta_displayed": "0.875073000",
@@ -5148,7 +5145,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-126998",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "435164687",

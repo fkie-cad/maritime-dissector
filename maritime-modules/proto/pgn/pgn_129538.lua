@@ -22,16 +22,36 @@ function NMEA_2000_129538.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_129538, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(svElevationMask, buffer(str_offset + 0, 2), buffer(str_offset + 0, 2):le_int() * 0.0001)
-    subtree:add(pdopMask, buffer(str_offset + 2, 2), buffer(str_offset + 2, 2):le_int() * 0.01)
-    subtree:add(pdopSwitch, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_int() * 0.01)
-    subtree:add(snrMask, buffer(str_offset + 6, 2), buffer(str_offset + 6, 2):le_int() * 0.01)
-    subtree:add(gnssModeDesired, buffer(str_offset + 8, 1))
-    subtree:add(dgnssModeDesired, buffer(str_offset + 8, 1))
-    subtree:add(positionVelocityFilter, buffer(str_offset + 8, 1))
-    subtree:add(maxCorrectionAge, buffer(str_offset + 9, 2), buffer(str_offset + 9, 2):le_uint() * 0.01)
-    subtree:add(antennaAltitudeFor2dMode, buffer(str_offset + 11, 4), buffer(str_offset + 11, 4):le_int() * 0.01)
-    subtree:add(useAntennaAltitudeFor2dMode, buffer(str_offset + 15, 1))
+    if buffer:len() >= (str_offset + 2) then
+        subtree:add(svElevationMask, buffer(str_offset, 2), buffer(str_offset, 2):le_int() * 0.0001)
+    end
+    if buffer:len() >= (str_offset + 2 + 2) then
+        subtree:add(pdopMask, buffer(str_offset + 2, 2), buffer(str_offset + 2, 2):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 4 + 2) then
+        subtree:add(pdopSwitch, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 6 + 2) then
+        subtree:add(snrMask, buffer(str_offset + 6, 2), buffer(str_offset + 6, 2):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 8 + 1) then
+        subtree:add(gnssModeDesired, buffer(str_offset + 8, 1))
+    end
+    if buffer:len() >= (str_offset + 8 + 1) then
+        subtree:add(dgnssModeDesired, buffer(str_offset + 8, 1))
+    end
+    if buffer:len() >= (str_offset + 8 + 1) then
+        subtree:add(positionVelocityFilter, buffer(str_offset + 8, 1))
+    end
+    if buffer:len() >= (str_offset + 9 + 2) then
+        subtree:add(maxCorrectionAge, buffer(str_offset + 9, 2), buffer(str_offset + 9, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 11 + 4) then
+        subtree:add(antennaAltitudeFor2dMode, buffer(str_offset + 11, 4), buffer(str_offset + 11, 4):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 15 + 1) then
+        subtree:add(useAntennaAltitudeFor2dMode, buffer(str_offset + 15, 1))
+    end
 end
 
 return NMEA_2000_129538

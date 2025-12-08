@@ -1,11 +1,26 @@
 import subprocess
+import os
 import json
 
 from utils import duplicate_keys_to_array
 
+script_dir = os.path.dirname(os.path.realpath(__file__))
+
 
 def test_br24_img_data():
-    process = subprocess.run(['tshark', '-T', 'json', '-X', 'lua_script:../br24-dissector.lua', '-r', 'br24-img-data.pcap', '-2'], stdout=subprocess.PIPE)
+    process = subprocess.run(
+        [
+            "tshark",
+            "-T",
+            "json",
+            "-X",
+            f"lua_script:{script_dir}/../br24-dissector.lua",
+            "-r",
+            f"{script_dir}/br24-img-data.pcap",
+            "-2",
+        ],
+        stdout=subprocess.PIPE,
+    )
     pkt = json.loads(process.stdout, object_pairs_hook=duplicate_keys_to_array)[-1]
     assert "navicobr24-img" in pkt["_source"]["layers"]
 
@@ -23,13 +38,25 @@ def test_br24_img_data():
     assert navico_pkt_img_head["br24-img.scale"] == "424"
 
     navico_pkt_img_data = navico_pkt[1]["navicobr24-img"][0]["navicobr24-img"][1]
-    assert len(navico_pkt_img_data["br24-img.pixels"].split(":")) == int(navico_pkt[0]["br24-img.ss"])
+    assert len(navico_pkt_img_data["br24-img.pixels"].split(":")) == int(
+        navico_pkt[0]["br24-img.ss"]
+    )
 
 
 def test_br24_reg_data():
     process = subprocess.run(
-        ['tshark', '-T', 'json', '-X', 'lua_script:../br24-dissector.lua', '-r', 'br24-reg-data.pcap', '-2'],
-        stdout=subprocess.PIPE)
+        [
+            "tshark",
+            "-T",
+            "json",
+            "-X",
+            f"lua_script:{script_dir}/../br24-dissector.lua",
+            "-r",
+            f"{script_dir}/br24-reg-data.pcap",
+            "-2",
+        ],
+        stdout=subprocess.PIPE,
+    )
     pkts = json.loads(process.stdout, object_pairs_hook=duplicate_keys_to_array)
 
     for p in pkts:
@@ -42,8 +69,18 @@ def test_br24_reg_data():
 
 def test_br24_rep_data():
     process = subprocess.run(
-        ['tshark', '-T', 'json', '-X', 'lua_script:../br24-dissector.lua', '-r', 'br24-rep-data.pcap', '-2'],
-        stdout=subprocess.PIPE)
+        [
+            "tshark",
+            "-T",
+            "json",
+            "-X",
+            f"lua_script:{script_dir}/../br24-dissector.lua",
+            "-r",
+            f"{script_dir}/br24-rep-data.pcap",
+            "-2",
+        ],
+        stdout=subprocess.PIPE,
+    )
     pkts = json.loads(process.stdout, object_pairs_hook=duplicate_keys_to_array)
 
     for p in pkts:

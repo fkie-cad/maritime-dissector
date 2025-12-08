@@ -17,11 +17,25 @@ function NMEA_2000_129044.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_129044, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(localDatum, buffer(str_offset + 0, 4))
-    subtree:add(deltaLatitude, buffer(str_offset + 4, 4), buffer(str_offset + 4, 4):le_int() * 1e-07)
-    subtree:add(deltaLongitude, buffer(str_offset + 8, 4), buffer(str_offset + 8, 4):le_int() * 1e-07)
-    subtree:add(deltaAltitude, buffer(str_offset + 12, 4), buffer(str_offset + 12, 4):le_int() * 0.01)
-    subtree:add(referenceDatum, buffer(str_offset + 16, 4))
+    if buffer:len() >= (str_offset + 4) then
+        local _localDatum_raw = buffer(str_offset, 4):string()
+        local _localDatum_clean = _localDatum_raw:gsub("[%s@%z\xff]+$", "")
+        subtree:add(localDatum, buffer(str_offset, 4), _localDatum_clean)
+    end
+    if buffer:len() >= (str_offset + 4 + 4) then
+        subtree:add(deltaLatitude, buffer(str_offset + 4, 4), buffer(str_offset + 4, 4):le_int() * 1e-07)
+    end
+    if buffer:len() >= (str_offset + 8 + 4) then
+        subtree:add(deltaLongitude, buffer(str_offset + 8, 4), buffer(str_offset + 8, 4):le_int() * 1e-07)
+    end
+    if buffer:len() >= (str_offset + 12 + 4) then
+        subtree:add(deltaAltitude, buffer(str_offset + 12, 4), buffer(str_offset + 12, 4):le_int() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 16 + 4) then
+        local _referenceDatum_raw = buffer(str_offset + 16, 4):string()
+        local _referenceDatum_clean = _referenceDatum_raw:gsub("[%s@%z\xff]+$", "")
+        subtree:add(referenceDatum, buffer(str_offset + 16, 4), _referenceDatum_clean)
+    end
 end
 
 return NMEA_2000_129044

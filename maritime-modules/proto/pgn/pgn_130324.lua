@@ -5,7 +5,7 @@ if not _G['maritimedissector'] then return end
 
 NMEA_2000_130324 = Proto("nmea-2000-130324", "Moored Buoy Station Data (130324)")
 local mode = ProtoField.uint8("nmea-2000-130324.mode", "Mode", base.DEC, NULL, 0xf)
-local measurementDate = ProtoField.float("nmea-2000-130324.measurementDate", "Measurement Date (d)")
+local measurementDate = ProtoField.uint16("nmea-2000-130324.measurementDate", "Measurement Date (d)")
 local measurementTime = ProtoField.float("nmea-2000-130324.measurementTime", "Measurement Time (s)")
 local stationLatitude = ProtoField.float("nmea-2000-130324.stationLatitude", "Station Latitude (deg)")
 local stationLongitude = ProtoField.float("nmea-2000-130324.stationLongitude", "Station Longitude (deg)")
@@ -28,25 +28,59 @@ function NMEA_2000_130324.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_130324, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(mode, buffer(str_offset + 0, 1))
-    subtree:add(measurementDate, buffer(str_offset + 1, 2), buffer(str_offset + 1, 2):le_uint() * 1)
-    subtree:add(measurementTime, buffer(str_offset + 3, 4), buffer(str_offset + 3, 4):le_uint() * 0.0001)
-    subtree:add(stationLatitude, buffer(str_offset + 7, 4), buffer(str_offset + 7, 4):le_int() * 1e-07)
-    subtree:add(stationLongitude, buffer(str_offset + 11, 4), buffer(str_offset + 11, 4):le_int() * 1e-07)
-    subtree:add(windSpeed, buffer(str_offset + 15, 2), buffer(str_offset + 15, 2):le_uint() * 0.01)
-    subtree:add(windDirection, buffer(str_offset + 17, 2), buffer(str_offset + 17, 2):le_uint() * 0.0001)
-    subtree:add(windReference, buffer(str_offset + 19, 1))
-    subtree:add(windGusts, buffer(str_offset + 20, 2), buffer(str_offset + 20, 2):le_uint() * 0.01)
-    subtree:add(waveHeight, buffer(str_offset + 22, 2), buffer(str_offset + 22, 2):le_uint() * 0.01)
-    subtree:add(dominantWavePeriod, buffer(str_offset + 24, 2), buffer(str_offset + 24, 2):le_uint() * 0.01)
-    subtree:add(atmosphericPressure, buffer(str_offset + 26, 2), buffer(str_offset + 26, 2):le_uint() * 100)
-    subtree:add(pressureTendencyRate, buffer(str_offset + 28, 2), buffer(str_offset + 28, 2):le_int() * 10)
-    subtree:add(airTemperature, buffer(str_offset + 30, 2), buffer(str_offset + 30, 2):le_uint() * 0.01)
-    subtree:add(waterTemperature, buffer(str_offset + 32, 2), buffer(str_offset + 32, 2):le_uint() * 0.01)
-    length = buffer(str_offset + 34, 1):uint() - 2
-    -- type = buffer(str_offset + 34 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
-    subtree:add(stationId, buffer(str_offset + 34 + 2, length))
-    str_offset = str_offset + length + 2
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(mode, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 2) then
+        subtree:add_le(measurementDate, buffer(str_offset + 1, 2))
+    end
+    if buffer:len() >= (str_offset + 3 + 4) then
+        subtree:add(measurementTime, buffer(str_offset + 3, 4), buffer(str_offset + 3, 4):le_uint() * 0.0001)
+    end
+    if buffer:len() >= (str_offset + 7 + 4) then
+        subtree:add(stationLatitude, buffer(str_offset + 7, 4), buffer(str_offset + 7, 4):le_int() * 1e-07)
+    end
+    if buffer:len() >= (str_offset + 11 + 4) then
+        subtree:add(stationLongitude, buffer(str_offset + 11, 4), buffer(str_offset + 11, 4):le_int() * 1e-07)
+    end
+    if buffer:len() >= (str_offset + 15 + 2) then
+        subtree:add(windSpeed, buffer(str_offset + 15, 2), buffer(str_offset + 15, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 17 + 2) then
+        subtree:add(windDirection, buffer(str_offset + 17, 2), buffer(str_offset + 17, 2):le_uint() * 0.0001)
+    end
+    if buffer:len() >= (str_offset + 19 + 1) then
+        subtree:add(windReference, buffer(str_offset + 19, 1))
+    end
+    if buffer:len() >= (str_offset + 20 + 2) then
+        subtree:add(windGusts, buffer(str_offset + 20, 2), buffer(str_offset + 20, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 22 + 2) then
+        subtree:add(waveHeight, buffer(str_offset + 22, 2), buffer(str_offset + 22, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 24 + 2) then
+        subtree:add(dominantWavePeriod, buffer(str_offset + 24, 2), buffer(str_offset + 24, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 26 + 2) then
+        subtree:add(atmosphericPressure, buffer(str_offset + 26, 2), buffer(str_offset + 26, 2):le_uint() * 100)
+    end
+    if buffer:len() >= (str_offset + 28 + 2) then
+        subtree:add(pressureTendencyRate, buffer(str_offset + 28, 2), buffer(str_offset + 28, 2):le_int() * 10)
+    end
+    if buffer:len() >= (str_offset + 30 + 2) then
+        subtree:add(airTemperature, buffer(str_offset + 30, 2), buffer(str_offset + 30, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 32 + 2) then
+        subtree:add(waterTemperature, buffer(str_offset + 32, 2), buffer(str_offset + 32, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 34 + 1) then
+        length = buffer(str_offset + 34, 1):uint() - 2
+        if length and length >= 0 and buffer:len() >= (str_offset + 34 + 2 + length) then
+            -- type = buffer(str_offset + 34 + 1, 1):uint() --0 Unicode, 1 ASCII (ignored)
+            subtree:add(stationId, buffer(str_offset + 34 + 2, length))
+            str_offset = str_offset + 34 + length + 2
+        end
+    end
 end
 
 return NMEA_2000_130324

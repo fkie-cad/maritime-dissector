@@ -4,7 +4,7 @@ if not _G['maritimedissector'] then return end
 -- WARNING: This file is generated automatically by ./pgn.py --
 
 NMEA_2000_130311 = Proto("nmea-2000-130311", "Environmental Parameters (130311)")
-local sid = ProtoField.float("nmea-2000-130311.sid", "SID")
+local sid = ProtoField.uint8("nmea-2000-130311.sid", "SID")
 local temperatureSource = ProtoField.uint8("nmea-2000-130311.temperatureSource", "Temperature Source", base.DEC, NULL, 0x3f)
 local humiditySource = ProtoField.uint8("nmea-2000-130311.humiditySource", "Humidity Source", base.DEC, NULL, 0xc0)
 local temperature = ProtoField.float("nmea-2000-130311.temperature", "Temperature (K)")
@@ -18,12 +18,24 @@ function NMEA_2000_130311.dissector(buffer, pinfo, tree)
     local subtree = tree:add(NMEA_2000_130311, buffer(), subtree_title)
     local str_offset = 0
 
-    subtree:add(sid, buffer(str_offset + 0, 1), buffer(str_offset + 0, 1):le_uint() * 1)
-    subtree:add(temperatureSource, buffer(str_offset + 1, 1))
-    subtree:add(humiditySource, buffer(str_offset + 1, 1))
-    subtree:add(temperature, buffer(str_offset + 2, 2), buffer(str_offset + 2, 2):le_uint() * 0.01)
-    subtree:add(humidity, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_int() * 0.004)
-    subtree:add(atmosphericPressure, buffer(str_offset + 6, 2), buffer(str_offset + 6, 2):le_uint() * 100)
+    if buffer:len() >= (str_offset + 1) then
+        subtree:add(sid, buffer(str_offset, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(temperatureSource, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 1 + 1) then
+        subtree:add(humiditySource, buffer(str_offset + 1, 1))
+    end
+    if buffer:len() >= (str_offset + 2 + 2) then
+        subtree:add(temperature, buffer(str_offset + 2, 2), buffer(str_offset + 2, 2):le_uint() * 0.01)
+    end
+    if buffer:len() >= (str_offset + 4 + 2) then
+        subtree:add(humidity, buffer(str_offset + 4, 2), buffer(str_offset + 4, 2):le_int() * 0.004)
+    end
+    if buffer:len() >= (str_offset + 6 + 2) then
+        subtree:add(atmosphericPressure, buffer(str_offset + 6, 2), buffer(str_offset + 6, 2):le_uint() * 100)
+    end
 end
 
 return NMEA_2000_130311

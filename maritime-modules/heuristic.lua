@@ -7,6 +7,10 @@ local proto_nmea2000 = require "maritime-modules.proto.nmea2000"
 local proto_iec61162450_nmea = require "maritime-modules.proto.iec61162450nmea"
 local proto_iec61162450_nmea_multisentence = require "maritime-modules.proto.iec61162450nmea-multisentence"
 local proto_iec61162450_binary = require "maritime-modules.proto.iec61162450binary"
+local parser_nmea2000 = require "maritime-modules.parser.nmea2000"
+
+-- CAN field accessors (available when dissecting CAN frames)
+local can_id_f = Field.new("can.id")
 
 local function nmea_0183_heuristic_checker(buffer, pinfo, tree)
     local length = buffer:len()
@@ -29,7 +33,47 @@ local function nmea_0183_heuristic_checker(buffer, pinfo, tree)
     end
 end
 
-local function nmea_2000_heuristic_checker(buffer, pinfo, tree) --TODO implement heuristic--
+local function nmea_2000_heuristic_checker(buffer, pinfo, tree)
+    -- Heuristic guardrails for NMEA 2000 (J1939 on CAN 2.0B):
+    -- - must be a CAN frame with a 29-bit extended identifier
+    -- - payload length should be 1..8 bytes (classic CAN, not CAN FD)
+    -- - PGN derived from the 29-bit ID should fall within the common NMEA2000 ranges
+    --     [0xE800..0xEEFF] and [0xEF00] and [0xF000..0x1FFFF] (decimal 59392..131071)
+
+    -- require can.id from lower CAN dissector
+    local can_id_field = can_id_f and can_id_f()
+    local function reject(reason)
+        if pinfo and pinfo.cols and pinfo.cols.info then
+            pinfo.cols.info:set("NMEA2000 heuristic reject: " .. reason)
+        end
+        return false
+    end
+    if not can_id_field then
+        -- Some tshark versions don’t populate can.id at heuristic time.
+        proto_nmea2000.dissector(buffer, pinfo, tree)
+        return true
+    end
+
+    -- ensure extended (29-bit) identifier; try direct tonumber then fallback to tostring
+    local id = tonumber(can_id_field)
+    if not id then
+        proto_nmea2000.dissector(buffer, pinfo, tree)
+        return true
+    end
+    if id <= 0x7FF then return reject("11-bit id") end  -- standard frame -> not NMEA2000
+
+    -- classic CAN payload size check (NMEA2000 is CAN 2.0B, not CAN FD)
+    local len = buffer:len()
+    if len > 8 then return reject("len>8 (CAN FD)") end -- allow zero-length frames
+
+    -- derive PGN and verify it sits in the typical NMEA2000 allocation
+    local pgn = parser_nmea2000:extract_pgn(id)
+    if not pgn then return reject("PGN extract failed") end
+
+    -- Accept standard NMEA2000 PGN ranges (decimal): 59392 (0xE800) .. 131071 (0x1FFFF)
+    if pgn < 59392 or pgn > 131071 then return reject("PGN out of range: " .. tostring(pgn)) end
+
+    -- Passed all checks; hand over to actual dissector
     proto_nmea2000.dissector(buffer, pinfo, tree)
     return true
 end

@@ -35,6 +35,25 @@ end
 -- enable loading of modules
 _G['maritimedissector'] = {}
 
+-- ensure local modules can be required regardless of CWD
+do
+    local debug = require("debug")
+    local info = debug.getinfo(1, "S")
+    local script = info and info.source or ""
+    if script:sub(1,1) == "@" then
+        local base_dir = script:match("(.+[\\/])") or "./"
+        local base_dir = script:match("(.*/)") or "./"
+        -- Append search patterns for modules under the repository root (where this file lives)
+        local function add_path(p)
+            if not string.find(package.path, p, 1, true) then
+                package.path = package.path .. ";" .. p
+            end
+        end
+        add_path(base_dir .. "?.lua")
+        add_path(base_dir .. "?/init.lua")
+    end
+end
+
 -- load modules
 local proto_nmea0183 = require "maritime-modules.proto.nmea0183"
 local proto_nmea2000 = require "maritime-modules.proto.nmea2000"
@@ -42,12 +61,18 @@ local proto_iec61162450_nmea = require "maritime-modules.proto.iec61162450nmea"
 local proto_iec61162450_binary = require "maritime-modules.proto.iec61162450binary"
 local heuristic = require "maritime-modules.heuristic"
 
--- register heuristic checkers
-proto_nmea0183:register_heuristic("udp", heuristic.nmea_0183_heuristic_checker)
-proto_nmea2000:register_heuristic("can", heuristic.nmea_2000_heuristic_checker)
-proto_iec61162450_nmea:register_heuristic("udp", heuristic.iec_61162_450_nmea_heuristic_checker)
-proto_iec61162450_binary:register_heuristic("udp", heuristic.iec_61162_450_binary_heuristic_checker)
-proto_iec61162450_binary:register_heuristic("pgm", heuristic.iec_61162_450_binary_heuristic_checker)
+-- register heuristic checkers (idempotent guard to avoid double registration)
+if not _G.__maritimedissector_heuristics_registered then
+    local function safe_register(proto, table_name, fn)
+        pcall(function() proto:register_heuristic(table_name, fn) end)
+    end
+    safe_register(proto_nmea0183, "udp", heuristic.nmea_0183_heuristic_checker)
+    safe_register(proto_nmea2000, "can", heuristic.nmea_2000_heuristic_checker)
+    safe_register(proto_iec61162450_nmea, "udp", heuristic.iec_61162_450_nmea_heuristic_checker)
+    safe_register(proto_iec61162450_binary, "udp", heuristic.iec_61162_450_binary_heuristic_checker)
+    safe_register(proto_iec61162450_binary, "pgm", heuristic.iec_61162_450_binary_heuristic_checker)
+    _G.__maritimedissector_heuristics_registered = true
+end
 
 -- disable loading of modules
 _G['maritimedissector'] = nil

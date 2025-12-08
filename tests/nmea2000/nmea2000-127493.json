@@ -1,7 +1,6 @@
 [
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -12,19 +11,18 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:20.270337000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:20.270337000 UTC",
-          "frame.time_epoch": "1669809800.270337000",
+          "frame.time": "2022-11-30T12:03:20.270337000Z",
+          "frame.time_utc": "2022-11-30T12:03:20.270337000Z",
+          "frame.time_epoch": "2022-11-30T12:03:20.270337000Z",
           "frame.offset_shift": "0.000000000",
-          "frame.time_delta": "0.000000000",
-          "frame.time_delta_displayed": "0.000000000",
           "frame.time_relative": "0.000000000",
           "frame.number": "1",
           "frame.len": "16",
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -46,8 +44,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -56,7 +54,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -67,9 +64,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:20.372972000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:20.372972000 UTC",
-          "frame.time_epoch": "1669809800.372972000",
+          "frame.time": "2022-11-30T12:03:20.372972000Z",
+          "frame.time_utc": "2022-11-30T12:03:20.372972000Z",
+          "frame.time_epoch": "2022-11-30T12:03:20.372972000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.102635000",
           "frame.time_delta_displayed": "0.102635000",
@@ -79,7 +76,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -101,8 +99,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -111,7 +109,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -122,9 +119,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:20.472550000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:20.472550000 UTC",
-          "frame.time_epoch": "1669809800.472550000",
+          "frame.time": "2022-11-30T12:03:20.472550000Z",
+          "frame.time_utc": "2022-11-30T12:03:20.472550000Z",
+          "frame.time_epoch": "2022-11-30T12:03:20.472550000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.099578000",
           "frame.time_delta_displayed": "0.099578000",
@@ -134,7 +131,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -156,8 +154,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -166,7 +164,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -177,9 +174,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:20.573332000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:20.573332000 UTC",
-          "frame.time_epoch": "1669809800.573332000",
+          "frame.time": "2022-11-30T12:03:20.573332000Z",
+          "frame.time_utc": "2022-11-30T12:03:20.573332000Z",
+          "frame.time_epoch": "2022-11-30T12:03:20.573332000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100782000",
           "frame.time_delta_displayed": "0.100782000",
@@ -189,7 +186,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -211,8 +209,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -221,7 +219,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -232,9 +229,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:20.775328000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:20.775328000 UTC",
-          "frame.time_epoch": "1669809800.775328000",
+          "frame.time": "2022-11-30T12:03:20.775328000Z",
+          "frame.time_utc": "2022-11-30T12:03:20.775328000Z",
+          "frame.time_epoch": "2022-11-30T12:03:20.775328000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.201996000",
           "frame.time_delta_displayed": "0.201996000",
@@ -244,7 +241,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -266,8 +264,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -276,7 +274,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -287,9 +284,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:20.876586000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:20.876586000 UTC",
-          "frame.time_epoch": "1669809800.876586000",
+          "frame.time": "2022-11-30T12:03:20.876586000Z",
+          "frame.time_utc": "2022-11-30T12:03:20.876586000Z",
+          "frame.time_epoch": "2022-11-30T12:03:20.876586000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101258000",
           "frame.time_delta_displayed": "0.101258000",
@@ -299,7 +296,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -321,8 +319,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -331,7 +329,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -342,9 +339,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:20.977313000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:20.977313000 UTC",
-          "frame.time_epoch": "1669809800.977313000",
+          "frame.time": "2022-11-30T12:03:20.977313000Z",
+          "frame.time_utc": "2022-11-30T12:03:20.977313000Z",
+          "frame.time_epoch": "2022-11-30T12:03:20.977313000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100727000",
           "frame.time_delta_displayed": "0.100727000",
@@ -354,7 +351,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -376,8 +374,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -386,7 +384,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -397,9 +394,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.078421000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.078421000 UTC",
-          "frame.time_epoch": "1669809801.078421000",
+          "frame.time": "2022-11-30T12:03:21.078421000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.078421000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.078421000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101108000",
           "frame.time_delta_displayed": "0.101108000",
@@ -409,7 +406,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -431,8 +429,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -441,7 +439,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -452,9 +449,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.179483000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.179483000 UTC",
-          "frame.time_epoch": "1669809801.179483000",
+          "frame.time": "2022-11-30T12:03:21.179483000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.179483000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.179483000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101062000",
           "frame.time_delta_displayed": "0.101062000",
@@ -464,7 +461,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -486,8 +484,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -496,7 +494,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -507,9 +504,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.280704000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.280704000 UTC",
-          "frame.time_epoch": "1669809801.280704000",
+          "frame.time": "2022-11-30T12:03:21.280704000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.280704000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.280704000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101221000",
           "frame.time_delta_displayed": "0.101221000",
@@ -519,7 +516,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -541,8 +539,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -551,7 +549,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -562,9 +559,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.381540000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.381540000 UTC",
-          "frame.time_epoch": "1669809801.381540000",
+          "frame.time": "2022-11-30T12:03:21.381540000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.381540000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.381540000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100836000",
           "frame.time_delta_displayed": "0.100836000",
@@ -574,7 +571,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -596,8 +594,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -606,7 +604,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -617,9 +614,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.482642000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.482642000 UTC",
-          "frame.time_epoch": "1669809801.482642000",
+          "frame.time": "2022-11-30T12:03:21.482642000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.482642000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.482642000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101102000",
           "frame.time_delta_displayed": "0.101102000",
@@ -629,7 +626,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -651,8 +649,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -661,7 +659,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -672,9 +669,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.584161000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.584161000 UTC",
-          "frame.time_epoch": "1669809801.584161000",
+          "frame.time": "2022-11-30T12:03:21.584161000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.584161000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.584161000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101519000",
           "frame.time_delta_displayed": "0.101519000",
@@ -684,7 +681,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -706,8 +704,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -716,7 +714,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -727,9 +724,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.684552000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.684552000 UTC",
-          "frame.time_epoch": "1669809801.684552000",
+          "frame.time": "2022-11-30T12:03:21.684552000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.684552000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.684552000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100391000",
           "frame.time_delta_displayed": "0.100391000",
@@ -739,7 +736,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -761,8 +759,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -771,7 +769,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -782,9 +779,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.785610000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.785610000 UTC",
-          "frame.time_epoch": "1669809801.785610000",
+          "frame.time": "2022-11-30T12:03:21.785610000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.785610000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.785610000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101058000",
           "frame.time_delta_displayed": "0.101058000",
@@ -794,7 +791,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -816,8 +814,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -826,7 +824,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -837,9 +834,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.887665000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.887665000 UTC",
-          "frame.time_epoch": "1669809801.887665000",
+          "frame.time": "2022-11-30T12:03:21.887665000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.887665000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.887665000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.102055000",
           "frame.time_delta_displayed": "0.102055000",
@@ -849,7 +846,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -871,8 +869,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -881,7 +879,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -892,9 +889,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:21.987739000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:21.987739000 UTC",
-          "frame.time_epoch": "1669809801.987739000",
+          "frame.time": "2022-11-30T12:03:21.987739000Z",
+          "frame.time_utc": "2022-11-30T12:03:21.987739000Z",
+          "frame.time_epoch": "2022-11-30T12:03:21.987739000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100074000",
           "frame.time_delta_displayed": "0.100074000",
@@ -904,7 +901,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -926,8 +924,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -936,7 +934,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -947,9 +944,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.088793000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.088793000 UTC",
-          "frame.time_epoch": "1669809802.088793000",
+          "frame.time": "2022-11-30T12:03:22.088793000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.088793000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.088793000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101054000",
           "frame.time_delta_displayed": "0.101054000",
@@ -959,7 +956,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -981,8 +979,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -991,7 +989,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1002,9 +999,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.190712000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.190712000 UTC",
-          "frame.time_epoch": "1669809802.190712000",
+          "frame.time": "2022-11-30T12:03:22.190712000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.190712000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.190712000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101919000",
           "frame.time_delta_displayed": "0.101919000",
@@ -1014,7 +1011,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1036,8 +1034,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1046,7 +1044,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1057,9 +1054,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.290311000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.290311000 UTC",
-          "frame.time_epoch": "1669809802.290311000",
+          "frame.time": "2022-11-30T12:03:22.290311000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.290311000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.290311000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.099599000",
           "frame.time_delta_displayed": "0.099599000",
@@ -1069,7 +1066,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1091,8 +1089,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1101,7 +1099,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1112,9 +1109,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.391294000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.391294000 UTC",
-          "frame.time_epoch": "1669809802.391294000",
+          "frame.time": "2022-11-30T12:03:22.391294000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.391294000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.391294000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100983000",
           "frame.time_delta_displayed": "0.100983000",
@@ -1124,7 +1121,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1146,8 +1144,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1156,7 +1154,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1167,9 +1164,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.492341000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.492341000 UTC",
-          "frame.time_epoch": "1669809802.492341000",
+          "frame.time": "2022-11-30T12:03:22.492341000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.492341000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.492341000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101047000",
           "frame.time_delta_displayed": "0.101047000",
@@ -1179,7 +1176,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1201,8 +1199,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1211,7 +1209,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1222,9 +1219,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.593325000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.593325000 UTC",
-          "frame.time_epoch": "1669809802.593325000",
+          "frame.time": "2022-11-30T12:03:22.593325000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.593325000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.593325000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100984000",
           "frame.time_delta_displayed": "0.100984000",
@@ -1234,7 +1231,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1256,8 +1254,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1266,7 +1264,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1277,9 +1274,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.695463000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.695463000 UTC",
-          "frame.time_epoch": "1669809802.695463000",
+          "frame.time": "2022-11-30T12:03:22.695463000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.695463000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.695463000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.102138000",
           "frame.time_delta_displayed": "0.102138000",
@@ -1289,7 +1286,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1311,8 +1309,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1321,7 +1319,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1332,9 +1329,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.795296000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.795296000 UTC",
-          "frame.time_epoch": "1669809802.795296000",
+          "frame.time": "2022-11-30T12:03:22.795296000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.795296000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.795296000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.099833000",
           "frame.time_delta_displayed": "0.099833000",
@@ -1344,7 +1341,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1366,8 +1364,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1376,7 +1374,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1387,9 +1384,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.897638000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.897638000 UTC",
-          "frame.time_epoch": "1669809802.897638000",
+          "frame.time": "2022-11-30T12:03:22.897638000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.897638000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.897638000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.102342000",
           "frame.time_delta_displayed": "0.102342000",
@@ -1399,7 +1396,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1421,8 +1419,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1431,7 +1429,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1442,9 +1439,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:22.997277000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:22.997277000 UTC",
-          "frame.time_epoch": "1669809802.997277000",
+          "frame.time": "2022-11-30T12:03:22.997277000Z",
+          "frame.time_utc": "2022-11-30T12:03:22.997277000Z",
+          "frame.time_epoch": "2022-11-30T12:03:22.997277000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.099639000",
           "frame.time_delta_displayed": "0.099639000",
@@ -1454,7 +1451,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1476,8 +1474,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1486,7 +1484,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1497,9 +1494,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.098849000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.098849000 UTC",
-          "frame.time_epoch": "1669809803.098849000",
+          "frame.time": "2022-11-30T12:03:23.098849000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.098849000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.098849000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101572000",
           "frame.time_delta_displayed": "0.101572000",
@@ -1509,7 +1506,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1531,8 +1529,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1541,7 +1539,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1552,9 +1549,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.200389000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.200389000 UTC",
-          "frame.time_epoch": "1669809803.200389000",
+          "frame.time": "2022-11-30T12:03:23.200389000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.200389000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.200389000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101540000",
           "frame.time_delta_displayed": "0.101540000",
@@ -1564,7 +1561,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1586,8 +1584,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1596,7 +1594,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1607,9 +1604,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.300349000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.300349000 UTC",
-          "frame.time_epoch": "1669809803.300349000",
+          "frame.time": "2022-11-30T12:03:23.300349000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.300349000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.300349000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.099960000",
           "frame.time_delta_displayed": "0.099960000",
@@ -1619,7 +1616,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1641,8 +1639,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1651,7 +1649,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1662,9 +1659,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.401399000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.401399000 UTC",
-          "frame.time_epoch": "1669809803.401399000",
+          "frame.time": "2022-11-30T12:03:23.401399000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.401399000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.401399000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101050000",
           "frame.time_delta_displayed": "0.101050000",
@@ -1674,7 +1671,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1696,8 +1694,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1706,7 +1704,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1717,9 +1714,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.502576000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.502576000 UTC",
-          "frame.time_epoch": "1669809803.502576000",
+          "frame.time": "2022-11-30T12:03:23.502576000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.502576000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.502576000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101177000",
           "frame.time_delta_displayed": "0.101177000",
@@ -1729,7 +1726,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1751,8 +1749,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1761,7 +1759,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1772,9 +1769,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.604654000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.604654000 UTC",
-          "frame.time_epoch": "1669809803.604654000",
+          "frame.time": "2022-11-30T12:03:23.604654000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.604654000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.604654000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.102078000",
           "frame.time_delta_displayed": "0.102078000",
@@ -1784,7 +1781,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1806,8 +1804,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1816,7 +1814,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1827,9 +1824,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.705345000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.705345000 UTC",
-          "frame.time_epoch": "1669809803.705345000",
+          "frame.time": "2022-11-30T12:03:23.705345000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.705345000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.705345000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100691000",
           "frame.time_delta_displayed": "0.100691000",
@@ -1839,7 +1836,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1861,8 +1859,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1871,7 +1869,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1882,9 +1879,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.805782000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.805782000 UTC",
-          "frame.time_epoch": "1669809803.805782000",
+          "frame.time": "2022-11-30T12:03:23.805782000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.805782000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.805782000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100437000",
           "frame.time_delta_displayed": "0.100437000",
@@ -1894,7 +1891,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1916,8 +1914,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1926,7 +1924,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1937,9 +1934,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:23.906421000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:23.906421000 UTC",
-          "frame.time_epoch": "1669809803.906421000",
+          "frame.time": "2022-11-30T12:03:23.906421000Z",
+          "frame.time_utc": "2022-11-30T12:03:23.906421000Z",
+          "frame.time_epoch": "2022-11-30T12:03:23.906421000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100639000",
           "frame.time_delta_displayed": "0.100639000",
@@ -1949,7 +1946,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -1971,8 +1969,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -1981,7 +1979,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -1992,9 +1989,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.007379000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.007379000 UTC",
-          "frame.time_epoch": "1669809804.007379000",
+          "frame.time": "2022-11-30T12:03:24.007379000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.007379000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.007379000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100958000",
           "frame.time_delta_displayed": "0.100958000",
@@ -2004,7 +2001,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2026,8 +2024,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2036,7 +2034,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2047,9 +2044,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.108423000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.108423000 UTC",
-          "frame.time_epoch": "1669809804.108423000",
+          "frame.time": "2022-11-30T12:03:24.108423000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.108423000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.108423000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101044000",
           "frame.time_delta_displayed": "0.101044000",
@@ -2059,7 +2056,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2081,8 +2079,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2091,7 +2089,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2102,9 +2099,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.211881000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.211881000 UTC",
-          "frame.time_epoch": "1669809804.211881000",
+          "frame.time": "2022-11-30T12:03:24.211881000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.211881000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.211881000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.103458000",
           "frame.time_delta_displayed": "0.103458000",
@@ -2114,7 +2111,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2136,8 +2134,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2146,7 +2144,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2157,9 +2154,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.310563000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.310563000 UTC",
-          "frame.time_epoch": "1669809804.310563000",
+          "frame.time": "2022-11-30T12:03:24.310563000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.310563000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.310563000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.098682000",
           "frame.time_delta_displayed": "0.098682000",
@@ -2169,7 +2166,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2191,8 +2189,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2201,7 +2199,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2212,9 +2209,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.411623000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.411623000 UTC",
-          "frame.time_epoch": "1669809804.411623000",
+          "frame.time": "2022-11-30T12:03:24.411623000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.411623000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.411623000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101060000",
           "frame.time_delta_displayed": "0.101060000",
@@ -2224,7 +2221,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2246,8 +2244,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2256,7 +2254,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2267,9 +2264,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.512573000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.512573000 UTC",
-          "frame.time_epoch": "1669809804.512573000",
+          "frame.time": "2022-11-30T12:03:24.512573000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.512573000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.512573000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100950000",
           "frame.time_delta_displayed": "0.100950000",
@@ -2279,7 +2276,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2301,8 +2299,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2311,7 +2309,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2322,9 +2319,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.613484000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.613484000 UTC",
-          "frame.time_epoch": "1669809804.613484000",
+          "frame.time": "2022-11-30T12:03:24.613484000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.613484000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.613484000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100911000",
           "frame.time_delta_displayed": "0.100911000",
@@ -2334,7 +2331,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2356,8 +2354,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2366,7 +2364,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2377,9 +2374,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.714358000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.714358000 UTC",
-          "frame.time_epoch": "1669809804.714358000",
+          "frame.time": "2022-11-30T12:03:24.714358000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.714358000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.714358000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100874000",
           "frame.time_delta_displayed": "0.100874000",
@@ -2389,7 +2386,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2411,8 +2409,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2421,7 +2419,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2432,9 +2429,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.815395000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.815395000 UTC",
-          "frame.time_epoch": "1669809804.815395000",
+          "frame.time": "2022-11-30T12:03:24.815395000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.815395000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.815395000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101037000",
           "frame.time_delta_displayed": "0.101037000",
@@ -2444,7 +2441,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2466,8 +2464,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2476,7 +2474,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2487,9 +2484,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:24.918435000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:24.918435000 UTC",
-          "frame.time_epoch": "1669809804.918435000",
+          "frame.time": "2022-11-30T12:03:24.918435000Z",
+          "frame.time_utc": "2022-11-30T12:03:24.918435000Z",
+          "frame.time_epoch": "2022-11-30T12:03:24.918435000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.103040000",
           "frame.time_delta_displayed": "0.103040000",
@@ -2499,7 +2496,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2521,8 +2519,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2531,7 +2529,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2542,9 +2539,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.017298000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.017298000 UTC",
-          "frame.time_epoch": "1669809805.017298000",
+          "frame.time": "2022-11-30T12:03:25.017298000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.017298000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.017298000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.098863000",
           "frame.time_delta_displayed": "0.098863000",
@@ -2554,7 +2551,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2576,8 +2574,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2586,7 +2584,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2597,9 +2594,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.118342000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.118342000 UTC",
-          "frame.time_epoch": "1669809805.118342000",
+          "frame.time": "2022-11-30T12:03:25.118342000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.118342000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.118342000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101044000",
           "frame.time_delta_displayed": "0.101044000",
@@ -2609,7 +2606,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2631,8 +2629,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2641,7 +2639,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2652,9 +2649,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.219983000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.219983000 UTC",
-          "frame.time_epoch": "1669809805.219983000",
+          "frame.time": "2022-11-30T12:03:25.219983000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.219983000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.219983000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101641000",
           "frame.time_delta_displayed": "0.101641000",
@@ -2664,7 +2661,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2686,8 +2684,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2696,7 +2694,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2707,9 +2704,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.322306000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.322306000 UTC",
-          "frame.time_epoch": "1669809805.322306000",
+          "frame.time": "2022-11-30T12:03:25.322306000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.322306000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.322306000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.102323000",
           "frame.time_delta_displayed": "0.102323000",
@@ -2719,7 +2716,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2741,8 +2739,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2751,7 +2749,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2762,9 +2759,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.422069000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.422069000 UTC",
-          "frame.time_epoch": "1669809805.422069000",
+          "frame.time": "2022-11-30T12:03:25.422069000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.422069000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.422069000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.099763000",
           "frame.time_delta_displayed": "0.099763000",
@@ -2774,7 +2771,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2796,8 +2794,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2806,7 +2804,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2817,9 +2814,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.522392000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.522392000 UTC",
-          "frame.time_epoch": "1669809805.522392000",
+          "frame.time": "2022-11-30T12:03:25.522392000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.522392000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.522392000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100323000",
           "frame.time_delta_displayed": "0.100323000",
@@ -2829,7 +2826,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2851,8 +2849,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2861,7 +2859,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2872,9 +2869,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.623372000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.623372000 UTC",
-          "frame.time_epoch": "1669809805.623372000",
+          "frame.time": "2022-11-30T12:03:25.623372000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.623372000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.623372000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100980000",
           "frame.time_delta_displayed": "0.100980000",
@@ -2884,7 +2881,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2906,8 +2904,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2916,7 +2914,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2927,9 +2924,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.724339000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.724339000 UTC",
-          "frame.time_epoch": "1669809805.724339000",
+          "frame.time": "2022-11-30T12:03:25.724339000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.724339000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.724339000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100967000",
           "frame.time_delta_displayed": "0.100967000",
@@ -2939,7 +2936,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -2961,8 +2959,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -2971,7 +2969,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -2982,9 +2979,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.825503000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.825503000 UTC",
-          "frame.time_epoch": "1669809805.825503000",
+          "frame.time": "2022-11-30T12:03:25.825503000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.825503000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.825503000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101164000",
           "frame.time_delta_displayed": "0.101164000",
@@ -2994,7 +2991,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3016,8 +3014,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3026,7 +3024,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3037,9 +3034,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:25.926473000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:25.926473000 UTC",
-          "frame.time_epoch": "1669809805.926473000",
+          "frame.time": "2022-11-30T12:03:25.926473000Z",
+          "frame.time_utc": "2022-11-30T12:03:25.926473000Z",
+          "frame.time_epoch": "2022-11-30T12:03:25.926473000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100970000",
           "frame.time_delta_displayed": "0.100970000",
@@ -3049,7 +3046,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3071,8 +3069,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3081,7 +3079,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3092,9 +3089,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.028206000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.028206000 UTC",
-          "frame.time_epoch": "1669809806.028206000",
+          "frame.time": "2022-11-30T12:03:26.028206000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.028206000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.028206000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101733000",
           "frame.time_delta_displayed": "0.101733000",
@@ -3104,7 +3101,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3126,8 +3124,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3136,7 +3134,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3147,9 +3144,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.129230000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.129230000 UTC",
-          "frame.time_epoch": "1669809806.129230000",
+          "frame.time": "2022-11-30T12:03:26.129230000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.129230000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.129230000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101024000",
           "frame.time_delta_displayed": "0.101024000",
@@ -3159,7 +3156,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3181,8 +3179,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3191,7 +3189,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3202,9 +3199,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.230701000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.230701000 UTC",
-          "frame.time_epoch": "1669809806.230701000",
+          "frame.time": "2022-11-30T12:03:26.230701000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.230701000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.230701000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101471000",
           "frame.time_delta_displayed": "0.101471000",
@@ -3214,7 +3211,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3236,8 +3234,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3246,7 +3244,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3257,9 +3254,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.330441000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.330441000 UTC",
-          "frame.time_epoch": "1669809806.330441000",
+          "frame.time": "2022-11-30T12:03:26.330441000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.330441000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.330441000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.099740000",
           "frame.time_delta_displayed": "0.099740000",
@@ -3269,7 +3266,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3291,8 +3289,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3301,7 +3299,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3312,9 +3309,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.431549000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.431549000 UTC",
-          "frame.time_epoch": "1669809806.431549000",
+          "frame.time": "2022-11-30T12:03:26.431549000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.431549000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.431549000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101108000",
           "frame.time_delta_displayed": "0.101108000",
@@ -3324,7 +3321,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3346,8 +3344,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3356,7 +3354,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3367,9 +3364,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.532380000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.532380000 UTC",
-          "frame.time_epoch": "1669809806.532380000",
+          "frame.time": "2022-11-30T12:03:26.532380000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.532380000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.532380000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100831000",
           "frame.time_delta_displayed": "0.100831000",
@@ -3379,7 +3376,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3401,8 +3399,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3411,7 +3409,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3422,9 +3419,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.633348000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.633348000 UTC",
-          "frame.time_epoch": "1669809806.633348000",
+          "frame.time": "2022-11-30T12:03:26.633348000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.633348000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.633348000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100968000",
           "frame.time_delta_displayed": "0.100968000",
@@ -3434,7 +3431,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3456,8 +3454,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3466,7 +3464,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3477,9 +3474,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.734402000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.734402000 UTC",
-          "frame.time_epoch": "1669809806.734402000",
+          "frame.time": "2022-11-30T12:03:26.734402000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.734402000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.734402000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101054000",
           "frame.time_delta_displayed": "0.101054000",
@@ -3489,7 +3486,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3511,8 +3509,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3521,7 +3519,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3532,9 +3529,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.836346000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.836346000 UTC",
-          "frame.time_epoch": "1669809806.836346000",
+          "frame.time": "2022-11-30T12:03:26.836346000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.836346000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.836346000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101944000",
           "frame.time_delta_displayed": "0.101944000",
@@ -3544,7 +3541,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3566,8 +3564,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3576,7 +3574,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3587,9 +3584,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:26.936686000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:26.936686000 UTC",
-          "frame.time_epoch": "1669809806.936686000",
+          "frame.time": "2022-11-30T12:03:26.936686000Z",
+          "frame.time_utc": "2022-11-30T12:03:26.936686000Z",
+          "frame.time_epoch": "2022-11-30T12:03:26.936686000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100340000",
           "frame.time_delta_displayed": "0.100340000",
@@ -3599,7 +3596,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3621,8 +3619,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3631,7 +3629,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3642,9 +3639,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.037605000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.037605000 UTC",
-          "frame.time_epoch": "1669809807.037605000",
+          "frame.time": "2022-11-30T12:03:27.037605000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.037605000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.037605000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100919000",
           "frame.time_delta_displayed": "0.100919000",
@@ -3654,7 +3651,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3676,8 +3674,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3686,7 +3684,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3697,9 +3694,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.138425000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.138425000 UTC",
-          "frame.time_epoch": "1669809807.138425000",
+          "frame.time": "2022-11-30T12:03:27.138425000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.138425000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.138425000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100820000",
           "frame.time_delta_displayed": "0.100820000",
@@ -3709,7 +3706,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3731,8 +3729,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3741,7 +3739,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3752,9 +3749,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.240071000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.240071000 UTC",
-          "frame.time_epoch": "1669809807.240071000",
+          "frame.time": "2022-11-30T12:03:27.240071000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.240071000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.240071000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101646000",
           "frame.time_delta_displayed": "0.101646000",
@@ -3764,7 +3761,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3786,8 +3784,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3796,7 +3794,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3807,9 +3804,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.340396000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.340396000 UTC",
-          "frame.time_epoch": "1669809807.340396000",
+          "frame.time": "2022-11-30T12:03:27.340396000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.340396000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.340396000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100325000",
           "frame.time_delta_displayed": "0.100325000",
@@ -3819,7 +3816,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3841,8 +3839,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3851,7 +3849,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3862,9 +3859,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.441824000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.441824000 UTC",
-          "frame.time_epoch": "1669809807.441824000",
+          "frame.time": "2022-11-30T12:03:27.441824000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.441824000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.441824000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101428000",
           "frame.time_delta_displayed": "0.101428000",
@@ -3874,7 +3871,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3896,8 +3894,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3906,7 +3904,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3917,9 +3914,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.542881000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.542881000 UTC",
-          "frame.time_epoch": "1669809807.542881000",
+          "frame.time": "2022-11-30T12:03:27.542881000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.542881000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.542881000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101057000",
           "frame.time_delta_displayed": "0.101057000",
@@ -3929,7 +3926,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -3951,8 +3949,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -3961,7 +3959,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -3972,9 +3969,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.643383000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.643383000 UTC",
-          "frame.time_epoch": "1669809807.643383000",
+          "frame.time": "2022-11-30T12:03:27.643383000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.643383000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.643383000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100502000",
           "frame.time_delta_displayed": "0.100502000",
@@ -3984,7 +3981,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4006,8 +4004,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4016,7 +4014,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4027,9 +4024,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.744363000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.744363000 UTC",
-          "frame.time_epoch": "1669809807.744363000",
+          "frame.time": "2022-11-30T12:03:27.744363000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.744363000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.744363000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100980000",
           "frame.time_delta_displayed": "0.100980000",
@@ -4039,7 +4036,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4061,8 +4059,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4071,7 +4069,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4082,9 +4079,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.845631000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.845631000 UTC",
-          "frame.time_epoch": "1669809807.845631000",
+          "frame.time": "2022-11-30T12:03:27.845631000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.845631000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.845631000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101268000",
           "frame.time_delta_displayed": "0.101268000",
@@ -4094,7 +4091,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4116,8 +4114,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4126,7 +4124,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4137,9 +4134,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:27.947626000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:27.947626000 UTC",
-          "frame.time_epoch": "1669809807.947626000",
+          "frame.time": "2022-11-30T12:03:27.947626000Z",
+          "frame.time_utc": "2022-11-30T12:03:27.947626000Z",
+          "frame.time_epoch": "2022-11-30T12:03:27.947626000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101995000",
           "frame.time_delta_displayed": "0.101995000",
@@ -4149,7 +4146,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4171,8 +4169,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4181,7 +4179,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4192,9 +4189,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.047442000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.047442000 UTC",
-          "frame.time_epoch": "1669809808.047442000",
+          "frame.time": "2022-11-30T12:03:28.047442000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.047442000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.047442000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.099816000",
           "frame.time_delta_displayed": "0.099816000",
@@ -4204,7 +4201,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4226,8 +4224,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4236,7 +4234,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4247,9 +4244,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.149379000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.149379000 UTC",
-          "frame.time_epoch": "1669809808.149379000",
+          "frame.time": "2022-11-30T12:03:28.149379000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.149379000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.149379000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101937000",
           "frame.time_delta_displayed": "0.101937000",
@@ -4259,7 +4256,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4281,8 +4279,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4291,7 +4289,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4302,9 +4299,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.250245000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.250245000 UTC",
-          "frame.time_epoch": "1669809808.250245000",
+          "frame.time": "2022-11-30T12:03:28.250245000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.250245000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.250245000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100866000",
           "frame.time_delta_displayed": "0.100866000",
@@ -4314,7 +4311,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4336,8 +4334,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4346,7 +4344,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4357,9 +4354,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.350631000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.350631000 UTC",
-          "frame.time_epoch": "1669809808.350631000",
+          "frame.time": "2022-11-30T12:03:28.350631000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.350631000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.350631000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100386000",
           "frame.time_delta_displayed": "0.100386000",
@@ -4369,7 +4366,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4391,8 +4389,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4401,7 +4399,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4412,9 +4409,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.451401000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.451401000 UTC",
-          "frame.time_epoch": "1669809808.451401000",
+          "frame.time": "2022-11-30T12:03:28.451401000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.451401000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.451401000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100770000",
           "frame.time_delta_displayed": "0.100770000",
@@ -4424,7 +4421,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4446,8 +4444,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4456,7 +4454,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4467,9 +4464,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.552312000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.552312000 UTC",
-          "frame.time_epoch": "1669809808.552312000",
+          "frame.time": "2022-11-30T12:03:28.552312000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.552312000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.552312000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100911000",
           "frame.time_delta_displayed": "0.100911000",
@@ -4479,7 +4476,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4501,8 +4499,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4511,7 +4509,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4522,9 +4519,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.653480000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.653480000 UTC",
-          "frame.time_epoch": "1669809808.653480000",
+          "frame.time": "2022-11-30T12:03:28.653480000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.653480000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.653480000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101168000",
           "frame.time_delta_displayed": "0.101168000",
@@ -4534,7 +4531,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4556,8 +4554,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4566,7 +4564,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4577,9 +4574,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.754387000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.754387000 UTC",
-          "frame.time_epoch": "1669809808.754387000",
+          "frame.time": "2022-11-30T12:03:28.754387000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.754387000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.754387000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100907000",
           "frame.time_delta_displayed": "0.100907000",
@@ -4589,7 +4586,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4611,8 +4609,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4621,7 +4619,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4632,9 +4629,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.856005000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.856005000 UTC",
-          "frame.time_epoch": "1669809808.856005000",
+          "frame.time": "2022-11-30T12:03:28.856005000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.856005000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.856005000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101618000",
           "frame.time_delta_displayed": "0.101618000",
@@ -4644,7 +4641,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4666,8 +4664,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4676,7 +4674,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4687,9 +4684,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:28.956359000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:28.956359000 UTC",
-          "frame.time_epoch": "1669809808.956359000",
+          "frame.time": "2022-11-30T12:03:28.956359000Z",
+          "frame.time_utc": "2022-11-30T12:03:28.956359000Z",
+          "frame.time_epoch": "2022-11-30T12:03:28.956359000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100354000",
           "frame.time_delta_displayed": "0.100354000",
@@ -4699,7 +4696,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4721,8 +4719,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4731,7 +4729,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4742,9 +4739,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.057378000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.057378000 UTC",
-          "frame.time_epoch": "1669809809.057378000",
+          "frame.time": "2022-11-30T12:03:29.057378000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.057378000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.057378000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101019000",
           "frame.time_delta_displayed": "0.101019000",
@@ -4754,7 +4751,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4776,8 +4774,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4786,7 +4784,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4797,9 +4794,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.158385000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.158385000 UTC",
-          "frame.time_epoch": "1669809809.158385000",
+          "frame.time": "2022-11-30T12:03:29.158385000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.158385000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.158385000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101007000",
           "frame.time_delta_displayed": "0.101007000",
@@ -4809,7 +4806,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4831,8 +4829,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4841,7 +4839,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4852,9 +4849,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.259652000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.259652000 UTC",
-          "frame.time_epoch": "1669809809.259652000",
+          "frame.time": "2022-11-30T12:03:29.259652000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.259652000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.259652000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101267000",
           "frame.time_delta_displayed": "0.101267000",
@@ -4864,7 +4861,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4886,8 +4884,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4896,7 +4894,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4907,9 +4904,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.360900000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.360900000 UTC",
-          "frame.time_epoch": "1669809809.360900000",
+          "frame.time": "2022-11-30T12:03:29.360900000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.360900000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.360900000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101248000",
           "frame.time_delta_displayed": "0.101248000",
@@ -4919,7 +4916,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4941,8 +4939,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -4951,7 +4949,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -4962,9 +4959,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.461795000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.461795000 UTC",
-          "frame.time_epoch": "1669809809.461795000",
+          "frame.time": "2022-11-30T12:03:29.461795000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.461795000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.461795000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100895000",
           "frame.time_delta_displayed": "0.100895000",
@@ -4974,7 +4971,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -4996,8 +4994,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -5006,7 +5004,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5017,9 +5014,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.563074000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.563074000 UTC",
-          "frame.time_epoch": "1669809809.563074000",
+          "frame.time": "2022-11-30T12:03:29.563074000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.563074000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.563074000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.101279000",
           "frame.time_delta_displayed": "0.101279000",
@@ -5029,7 +5026,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -5051,8 +5049,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -5061,7 +5059,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5072,9 +5069,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.663515000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.663515000 UTC",
-          "frame.time_epoch": "1669809809.663515000",
+          "frame.time": "2022-11-30T12:03:29.663515000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.663515000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.663515000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100441000",
           "frame.time_delta_displayed": "0.100441000",
@@ -5084,7 +5081,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -5106,8 +5104,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -5116,7 +5114,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5127,9 +5124,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.764345000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.764345000 UTC",
-          "frame.time_epoch": "1669809809.764345000",
+          "frame.time": "2022-11-30T12:03:29.764345000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.764345000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.764345000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100830000",
           "frame.time_delta_displayed": "0.100830000",
@@ -5139,7 +5136,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -5161,8 +5159,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
@@ -5171,7 +5169,6 @@
   },
   {
     "_index": "packets-2022-11-30",
-    "_type": "doc",
     "_score": null,
     "_source": {
       "layers": {
@@ -5182,9 +5179,9 @@
             "frame.interface_name": "unknown"
           },
           "frame.encap_type": "125",
-          "frame.time": "Nov 30, 2022 13:03:29.865298000 CET",
-          "frame.time_utc": "Nov 30, 2022 12:03:29.865298000 UTC",
-          "frame.time_epoch": "1669809809.865298000",
+          "frame.time": "2022-11-30T12:03:29.865298000Z",
+          "frame.time_utc": "2022-11-30T12:03:29.865298000Z",
+          "frame.time_epoch": "2022-11-30T12:03:29.865298000Z",
           "frame.offset_shift": "0.000000000",
           "frame.time_delta": "0.100953000",
           "frame.time_delta_displayed": "0.100953000",
@@ -5194,7 +5191,8 @@
           "frame.cap_len": "16",
           "frame.marked": "0",
           "frame.ignored": "0",
-          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493"
+          "frame.protocols": "can:nmea-2000:nmea-2000:nmea-2000-127493",
+          "frame.encoding": "0"
         },
         "can": {
           "can.id": "166855936",
@@ -5216,8 +5214,8 @@
           "nmea-2000-127493": {
             "nmea-2000-127493.instance": "0",
             "nmea-2000-127493.transmissionGear": "3",
-            "nmea-2000-127493.oilPressure": "6.5534e+06",
-            "nmea-2000-127493.oilTemperature": "6553.4",
+            "nmea-2000-127493.oilPressure": "6553400",
+            "nmea-2000-127493.oilTemperature": "6553.3999",
             "nmea-2000-127493.discreteStatus1": "0"
           }
         }
