@@ -52,6 +52,7 @@ local known_sentences = {
     RSA="Rudder Sensor Angle",
     RSD="RADAR System Data",
     RTE="Routes",
+    RRT="Report route transfer",
     SFI="Scanning Frequency Information",
     STN="Multiple Data ID",
     TDS="Trawl Door Spread Distance",
