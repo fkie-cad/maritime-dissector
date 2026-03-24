@@ -104,7 +104,7 @@ end
 
 local function iec_61162_450_binary_heuristic_checker(buffer, pinfo, tree)
     local length = buffer:len()
-    if length < 53 then return false end
+    if length < 38 then return false end
 
     local tokens = {"RaUdP", "RpUdP", "RrUdP"}
     local is_token = false
