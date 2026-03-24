@@ -111,6 +111,14 @@ def test_iec_450_binary_type1(packets_iec_450_binary_type1):
         in packet2["_source"]["layers"]["iec-61162-450-binary"]
     )
     assert (
+        "iec-61162-450-binary.headerlength"
+        in packet1["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
+        "iec-61162-450-binary.headerlength"
+        in packet2["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
         "iec-61162-450-binary.srcid"
         in packet1["_source"]["layers"]["iec-61162-450-binary"]
     )
@@ -156,6 +164,22 @@ def test_iec_450_binary_type1(packets_iec_450_binary_type1):
     )
     assert (
         "iec-61162-450-binary.maxseqnum"
+        in packet2["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
+        "iec-61162-450-binary.device"
+        in packet1["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
+        "iec-61162-450-binary.device"
+        in packet2["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
+        "iec-61162-450-binary.channel"
+        in packet1["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
+        "iec-61162-450-binary.channel"
         in packet2["_source"]["layers"]["iec-61162-450-binary"]
     )
     assert (
@@ -212,13 +236,7 @@ def test_iec_450_binary_type1_bfd(packet_iec_450_binary_type1_1):
         ]
     )
     assert (
-        "binary-file-descriptor.device"
-        in packet_iec_450_binary_type1_1["_source"]["layers"]["iec-61162-450-binary"][
-            "binary-file-descriptor"
-        ]
-    )
-    assert (
-        "binary-file-descriptor.channel"
+        "binary-file-descriptor.ack_dest_port"
         in packet_iec_450_binary_type1_1["_source"]["layers"]["iec-61162-450-binary"][
             "binary-file-descriptor"
         ]
@@ -255,6 +273,10 @@ def test_iec_450_binary_type2(packet_iec_450_binary_type2):
         in packet_iec_450_binary_type2["_source"]["layers"]["iec-61162-450-binary"]
     )
     assert (
+        "iec-61162-450-binary.headerlength"
+        in packet_iec_450_binary_type2["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
         "iec-61162-450-binary.srcid"
         in packet_iec_450_binary_type2["_source"]["layers"]["iec-61162-450-binary"]
     )
@@ -276,6 +298,14 @@ def test_iec_450_binary_type2(packet_iec_450_binary_type2):
     )
     assert (
         "iec-61162-450-binary.maxseqnum"
+        in packet_iec_450_binary_type2["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
+        "iec-61162-450-binary.device"
+        in packet_iec_450_binary_type2["_source"]["layers"]["iec-61162-450-binary"]
+    )
+    assert (
+        "iec-61162-450-binary.channel"
         in packet_iec_450_binary_type2["_source"]["layers"]["iec-61162-450-binary"]
     )
     assert (
@@ -323,12 +353,27 @@ def test_iec_450_binary_token(packets_all):
 def test_iec_450_binary_version(packets_all):
     for packet in packets_all:
         assert (
-            "1"
+            "2"
             == packet["_source"]["layers"]["iec-61162-450-binary"][
                 "iec-61162-450-binary.version"
             ]
         )
 
+@pytest.mark.dependency(
+    depends=[
+        "test_iec_450_binary_type1",
+        "test_iec_450_binary_type1_bfd",
+        "test_iec_450_binary_type2",
+    ]
+)
+def test_iec_450_binary_header_length(packets_all):
+    for packet in packets_all:
+        assert (
+            "38"
+            == packet["_source"]["layers"]["iec-61162-450-binary"][
+                "iec-61162-450-binary.headerlength"
+            ]
+        )
 
 @pytest.mark.dependency(
     depends=[
@@ -415,7 +460,7 @@ def test_iec_450_binary_blockid(packets_all):
         ]
     )
     assert (
-        "514"
+        "15663617"
         == packet3["_source"]["layers"]["iec-61162-450-binary"][
             "iec-61162-450-binary.blockid"
         ]
@@ -479,6 +524,23 @@ def test_iec_450_binary_maxseqnum(packets_all):
         ]
     )
 
+def test_iec_450_binary_device(packets_all):
+    for packet in packets_all:
+        assert (
+            "1"
+            == packet["_source"]["layers"]["iec-61162-450-binary"][
+                "iec-61162-450-binary.device"
+            ]
+        )
+
+def test_iec_450_binary_channel(packets_all):
+    for packet in packets_all:
+        assert (
+            "1"
+            == packet["_source"]["layers"]["iec-61162-450-binary"][
+                "iec-61162-450-binary.channel"
+            ]
+        )
 
 @pytest.mark.dependency(
     depends=[
@@ -545,7 +607,7 @@ def test_iec_450_binary_type1_bfd_fd_length(packet_iec_450_binary_type1_1):
 )
 def test_iec_450_binary_type1_bfd_file_length(packet_iec_450_binary_type1_1):
     assert (
-        "1500"
+        "1492"
         == packet_iec_450_binary_type1_1["_source"]["layers"]["iec-61162-450-binary"][
             "binary-file-descriptor"
         ]["binary-file-descriptor.file_length"]
@@ -561,30 +623,6 @@ def test_iec_450_binary_type1_bfd_stat_of_acquisition(packet_iec_450_binary_type
         == packet_iec_450_binary_type1_1["_source"]["layers"]["iec-61162-450-binary"][
             "binary-file-descriptor"
         ]["binary-file-descriptor.stat_of_acquisition"]
-    )
-
-
-@pytest.mark.dependency(
-    depends=["test_iec_450_binary_type1", "test_iec_450_binary_type1_bfd"]
-)
-def test_iec_450_binary_type1_bfd_device(packet_iec_450_binary_type1_1):
-    assert (
-        "03"
-        == packet_iec_450_binary_type1_1["_source"]["layers"]["iec-61162-450-binary"][
-            "binary-file-descriptor"
-        ]["binary-file-descriptor.device"]
-    )
-
-
-@pytest.mark.dependency(
-    depends=["test_iec_450_binary_type1", "test_iec_450_binary_type1_bfd"]
-)
-def test_iec_450_binary_type1_bfd_channel(packet_iec_450_binary_type1_1):
-    assert (
-        "01"
-        == packet_iec_450_binary_type1_1["_source"]["layers"]["iec-61162-450-binary"][
-            "binary-file-descriptor"
-        ]["binary-file-descriptor.channel"]
     )
 
 
@@ -617,7 +655,7 @@ def test_iec_450_binary_type1_bfd_data_type(packet_iec_450_binary_type1_1):
 )
 def test_iec_450_binary_type1_bfd_stat_and_info(packet_iec_450_binary_type1_1):
     assert (
-        "TEST\r\n"
+        "TEST"
         == packet_iec_450_binary_type1_1["_source"]["layers"]["iec-61162-450-binary"][
             "binary-file-descriptor"
         ]["binary-file-descriptor.stat_and_info"]
