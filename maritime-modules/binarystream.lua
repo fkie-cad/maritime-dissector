@@ -7,16 +7,17 @@ IEC_61162_450_PKTS = {}
 local binarystream = {}
 
 function binarystream:get_binary_stream(buffer, pinfo)
-    local msgtype = buffer(20,2):uint()
+    local msgtype = buffer(22,2):uint()
     local first_pack = nil
     local prev_pack = nil
     local next_pack = nil
 
     if msgtype == 1 then
-        local sourceid = buffer(8,6):string()
-        local blockid = buffer(22,4):uint()
-        local seqnum = buffer(26, 4):uint()
-        local maxseqnum = buffer(30,4):uint()
+        local sourceid = buffer(10,6):string()
+        local blockid = buffer(24,4):uint()
+        local seqnum = buffer(28, 4):uint()
+        local maxseqnum = buffer(32,4):uint()
+
         if IEC_61162_450_PKTS[sourceid] == nil then
             IEC_61162_450_PKTS[sourceid] = {}
             IEC_61162_450_PKTS[sourceid][blockid] = {}
